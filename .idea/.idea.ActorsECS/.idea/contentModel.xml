@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\devia\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\devia\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_ActorsECS.-1936161604.00" t="ExcludeRecursive" />
+    <e p="D:\UnityGames\ActorsECS" t="IncludeRecursive">
+      <e p="ActorsECS.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="InputActions.cs" t="Include" />
+        <e p="QuickOutline" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="OutlineFill.shader" t="Include" />
+              <e p="OutlineMask.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Outline.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="LayerStarter.cs" t="Include" />
+          <e p="Modules" t="Include">
+            <e p="Character" t="Include">
+              <e p="ActorCharacter.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="ComponentInput.cs" t="Include" />
+                <e p="ComponentRotation.cs" t="Include" />
+              </e>
+              <e p="Processors" t="Include">
+                <e p="ProcessorAnimation.cs" t="Include" />
+                <e p="ProcessorGatheringInput.cs" t="Include" />
+                <e p="ProcessorMove.cs" t="Include" />
+                <e p="ProcessorRotation.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
