@@ -7,9 +7,9 @@ using UnityEngine;
 namespace Modules.Character.Components
  {
    [Serializable]
-   public struct ComponentRotation
+   public struct ComponentMovementDirection
    {
-     public Quaternion rotation;
+     public Vector2 direction;
    }
  
    #region HELPERS
@@ -19,18 +19,18 @@ namespace Modules.Character.Components
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
    static partial class Component
    {
-     public const string Rotation = "Modules.Character.Components.ComponentRotation";
+     public const string MovementDirection = "Modules.Character.Components.ComponentMovementDirection";
      [MethodImpl(MethodImplOptions.AggressiveInlining)]
-     public static ref ComponentRotation ComponentRotation(in this ent entity) =>
-       ref Storage<ComponentRotation>.components[entity.id];
+     public static ref ComponentMovementDirection ComponentMovementDirection(in this ent entity) =>
+       ref Storage<ComponentMovementDirection>.components[entity.id];
    }
  
    [Il2CppSetOption(Option.NullChecks, false)]
    [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
-   sealed class StorageComponentRotation : Storage<ComponentRotation>
+   sealed class StorageComponentMovementDirection : Storage<ComponentMovementDirection>
    {
-     public override ComponentRotation Create() => new ComponentRotation();
+     public override ComponentMovementDirection Create() => new ComponentMovementDirection();
      // Use for cleaning components that were removed at the current frame.
      public override void Dispose(indexes disposed)
      {

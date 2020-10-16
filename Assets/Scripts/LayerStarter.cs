@@ -1,5 +1,4 @@
-﻿using Game.Source;
-using Modules.Character.Processors;
+﻿using Modules.Character.Processors;
 using Pixeye.Actors;
 
 public class LayerStarter : Layer<LayerStarter>

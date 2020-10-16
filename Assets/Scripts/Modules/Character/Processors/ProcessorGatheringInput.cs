@@ -37,9 +37,9 @@ namespace Modules.Character.Processors
     {
       foreach (var character in _characters)
       {
-        ref var inputData = ref character.CharacterInputData();
+        ref var cinput = ref character.ComponentInput();
         
-        inputData.movement = _characterMovement;
+        cinput.movement = _characterMovement;
       }
     }
   }

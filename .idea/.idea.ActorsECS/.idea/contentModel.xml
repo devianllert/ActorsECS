@@ -8,6 +8,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Data" t="Include">
+          <e p="Collectables" t="Include">
+            <e p="Potion.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+          </e>
+        </e>
         <e p="InputActions.cs" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
@@ -28,6 +34,8 @@
               <e p="ActorCharacter.cs" t="Include" />
               <e p="Components" t="Include">
                 <e p="ComponentInput.cs" t="Include" />
+                <e p="ComponentMovement.cs" t="Include" />
+                <e p="ComponentMovementDirection.cs" t="Include" />
                 <e p="ComponentRotation.cs" t="Include" />
               </e>
               <e p="Processors" t="Include">
@@ -38,6 +46,7 @@
               </e>
             </e>
           </e>
+          <e p="Tag.cs" t="Include" />
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">
@@ -46,6 +55,10 @@
             </e>
             <e p="Readme.cs" t="Include" />
           </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="Tooltip.styles.uss" t="Include" />
+          <e p="Tooltip.uxml" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

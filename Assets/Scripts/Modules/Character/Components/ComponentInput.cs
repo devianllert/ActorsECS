@@ -19,9 +19,9 @@ namespace Modules.Character.Components
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
    static partial class Component
    {
-     public const string Input = "Game.Source.ComponentInput";
+     public const string Input = "Modules.Character.Components.ComponentInput";
      [MethodImpl(MethodImplOptions.AggressiveInlining)]
-     public static ref ComponentInput CharacterInputData(in this ent entity) =>
+     public static ref ComponentInput ComponentInput(in this ent entity) =>
        ref Storage<ComponentInput>.components[entity.id];
    }
  

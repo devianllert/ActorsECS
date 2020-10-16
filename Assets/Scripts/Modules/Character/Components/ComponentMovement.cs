@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
-using UnityEngine;
-
+using Pixeye.Actors;
+ 
 namespace Modules.Character.Components
  {
    [Serializable]
-   public struct ComponentRotation
+   public struct ComponentMovement
    {
-     public Quaternion rotation;
+     public float speed;
    }
  
    #region HELPERS
@@ -19,18 +18,18 @@ namespace Modules.Character.Components
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
    static partial class Component
    {
-     public const string Rotation = "Modules.Character.Components.ComponentRotation";
+     public const string Movement = "Modules.Character.Components.ComponentMovement";
      [MethodImpl(MethodImplOptions.AggressiveInlining)]
-     public static ref ComponentRotation ComponentRotation(in this ent entity) =>
-       ref Storage<ComponentRotation>.components[entity.id];
+     public static ref ComponentMovement ComponentMovement(in this ent entity) =>
+       ref Storage<ComponentMovement>.components[entity.id];
    }
  
    [Il2CppSetOption(Option.NullChecks, false)]
    [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
-   sealed class StorageComponentRotation : Storage<ComponentRotation>
+   sealed class StorageComponentMovement : Storage<ComponentMovement>
    {
-     public override ComponentRotation Create() => new ComponentRotation();
+     public override ComponentMovement Create() => new ComponentMovement();
      // Use for cleaning components that were removed at the current frame.
      public override void Dispose(indexes disposed)
      {
