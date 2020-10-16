@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogColor: {r: 0.7830189, g: 0.7793254, b: 0.7793254, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.05
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 402461715}
   - component: {fileID: 402461714}
   - component: {fileID: 402461713}
-  - component: {fileID: 402461712}
   m_Layer: 8
   m_Name: Capsule (1)
   m_TagString: Untagged
@@ -143,22 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &402461712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402461711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ab8e1d903dd9043b8e02d7da53ffaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: 0
-  prefabReferenceName: 
-  data:
-    LootData: {fileID: 11400000, guid: e4587d82f5f1a3941a240a865118bf64, type: 2}
 --- !u!136 &402461713
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -248,7 +231,6 @@ GameObject:
   - component: {fileID: 474605405}
   - component: {fileID: 474605404}
   - component: {fileID: 474605403}
-  - component: {fileID: 474605402}
   m_Layer: 8
   m_Name: Capsule (2)
   m_TagString: Untagged
@@ -256,22 +238,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &474605402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474605401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ab8e1d903dd9043b8e02d7da53ffaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: 0
-  prefabReferenceName: 
-  data:
-    LootData: {fileID: 11400000, guid: 57b37168ec5b7ef458f5e237f8ea5885, type: 2}
 --- !u!136 &474605403
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -566,7 +532,6 @@ GameObject:
   - component: {fileID: 852039652}
   - component: {fileID: 852039651}
   - component: {fileID: 852039650}
-  - component: {fileID: 852039649}
   m_Layer: 8
   m_Name: Capsule
   m_TagString: Untagged
@@ -574,22 +539,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &852039649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852039648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ab8e1d903dd9043b8e02d7da53ffaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity: 0
-  prefabReferenceName: 
-  data:
-    LootData: {fileID: 11400000, guid: e4587d82f5f1a3941a240a865118bf64, type: 2}
 --- !u!136 &852039650
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -674,6 +623,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 564352252048239452, guid: 808fd23df201ef344bcf0b130c70205d, type: 3}
+      propertyPath: componentMovement.speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8407280227560178947, guid: 808fd23df201ef344bcf0b130c70205d, type: 3}
       propertyPath: m_Name
       value: xbot

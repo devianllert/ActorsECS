@@ -56,10 +56,6 @@
             <e p="Readme.cs" t="Include" />
           </e>
         </e>
-        <e p="UI" t="Include">
-          <e p="Tooltip.styles.uss" t="Include" />
-          <e p="Tooltip.uxml" t="Include" />
-        </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
