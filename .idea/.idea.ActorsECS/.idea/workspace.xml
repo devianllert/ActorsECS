@@ -20,78 +20,805 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Potions.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Potions.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Weapons.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Weapons.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Left.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Left.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Right.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Right.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Running.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Running.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Slow Jog Backwards.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Slow Jog Backwards.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tag.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Tooltip.styles.uss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Tooltip.styles.uss.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Tooltip.uxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UI/Tooltip.uxml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UIElements.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Components.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.Cloud.Collaborate.Views.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/Unity.UI.Builder.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.PackageManager.UI.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.Rendering.LookDev.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.ShaderGraph.Drawing.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.UIElements.Debugger.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.UIElements.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEditor.VFX.UI.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UIElementsSchema/UnityEngine.UIElements.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation/Documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation/Documentation.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/01 Button.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/01 Button.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/02 Toggle.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/02 Toggle.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/03 Radio.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/03 Radio.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/04 Modal.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/04 Modal.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/05 Pulse.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/05 Pulse.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/06 Notification.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/06 Notification.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/07 Shake.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/07 Shake.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/08 Drag.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/08 Drag.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/09    Handle.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/09    Handle.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/10    Move To Top.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/10    Move To Top.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/11    Snap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/11    Snap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/12    Edge.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/12    Edge.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/13    Nesting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/13    Nesting.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/14 Resize.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/14 Resize.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/15 Switch.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/15 Switch.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/16 Tooltip.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/16 Tooltip.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/17    Modal.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/17    Modal.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/18 Hover.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/18 Hover.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/19 Hitbox.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/19 Hitbox.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/20 Joystick.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/20 Joystick.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/21    Relative.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/21    Relative.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/22 Orientation.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/22 Orientation.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/23 Selection Highlight.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/23 Selection Highlight.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/24 Swipe.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/24 Swipe.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/25 Safe Area.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/25 Safe Area.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/26 Swipe Screens.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/26 Swipe Screens.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertA.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertB.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Back.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Back.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Click.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Click.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Thickness5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Thickness5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round30.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50_Thickness5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50_Thickness5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5_Thickness2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5_Thickness2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Thud.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Thud.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/GUIDE.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/GUIDE.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/LeanGUI.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/LeanGUI.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainAnchoredPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainAnchoredPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainToParent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainToParent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanDrag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanDrag.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanGui.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanGui.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHitbox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHitbox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanJoystick.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanJoystick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanMoveToTop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanMoveToTop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanOrientation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanOrientation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanPulse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanPulse.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanResize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanResize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSafeArea.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSafeArea.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionHighlight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionHighlight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionPriority.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionPriority.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanShake.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanShake.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSizer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSizer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwipe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwipe.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwitch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwitch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanToggle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltipData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltipData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindowCloser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindowCloser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/READ ME.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/READ ME.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation/Documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation/Documentation.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/01 Animation Repeater.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/01 Animation Repeater.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/02 Animation From Button.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/02 Animation From Button.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/03 Join.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/03 Join.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/04 Branches.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/04 Branches.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/05 Multiple.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/05 Multiple.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/06 Ease.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/06 Ease.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/07 Speed.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/07 Speed.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/08 Time.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/08 Time.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/09 Alias.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/09 Alias.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/10 Prefab.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/10 Prefab.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts/RepeatFromCode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts/RepeatFromCode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade In.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade In.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade Out.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade Out.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Play Sound.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Play Sound.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1 Squash.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1 Squash.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy In.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy In.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy Out.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy Out.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationOnce.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationOnce.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationRepeater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationRepeater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/GUIDE.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/GUIDE.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/LeanTransition.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/LeanTransition.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource/LeanAudioSourceVolume.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource/LeanAudioSourceVolume.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject/LeanGameObjectSetActive.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject/LeanGameObjectSetActive.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanDelay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanDelay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanGet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanGet.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanInsert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanInsert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinDelay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinDelay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinInsert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinInsert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanPlaySound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanPlaySound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTimeScale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTimeScale.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightIntensity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightIntensity.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightRange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightRange.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialFloat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialFloat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialVector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialVector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer/LeanSpriteRendererColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer/LeanSpriteRendererColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformEulerAngles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformEulerAngles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalEulerAngles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalEulerAngles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionZ.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionZ.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalScale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalScale.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionZ.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionZ.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformTranslate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformTranslate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupAlpha.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupAlpha.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupBlocksRaycasts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupBlocksRaycasts.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupInteractable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupInteractable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanGraphicColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanGraphicColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanImageFillAmount.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanImageFillAmount.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMax.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMax.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotX.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotX.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSetAsLastSibling.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSetAsLastSibling.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSizeDelta.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSizeDelta.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanTransformLocalScaleXY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanTransformLocalScaleXY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanEase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanEase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanMethod.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanStateWithTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanStateWithTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTiming.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTiming.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTransition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTransition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/26 - Dropdown Placeholder Example.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/xbot/xbot.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Idle.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Idle.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Jog Strafe Left.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Jog Strafe Left.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Jog Strafe Right.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Jog Strafe Right.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Running.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Slow Jog Backwards.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot@Slow Jog Backwards.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Potions.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Potions.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/xbot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/xbot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QuickOutline/Samples/Materials/Plane.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tag.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,31 +834,55 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2DPlatformer/Assets/Scripts/Character/Player/PlayerInputHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterMovementSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterAnimationSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterGatheringInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/MonoCached.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/77/4fcac52c/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterRotationSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/Ent_Handle_Tags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/Ent_Handle_Components.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../actors.unity.snake/Assets/Runtime/Source/ProcessorGame.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/3d/cd3f8eb1/ITick.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/UIAlphaRaycast.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/EcsTags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/UsableItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/Helpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/LootSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/Container.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/Loot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibProcessors/ProcessorEcs.Handle.Operations.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterAnimationSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/91/323cab3e/ITag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/ItemTooltip.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/LootUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/InteractableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/HighlightableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/InputActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/3d/cd3f8eb1/ITick.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,26 +892,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/CharacterInputData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ACharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Collectables/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/Tooltip.styles.uss" />
         <option value="$PROJECT_DIR$/Assets/UI/Tooltip.uxml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootOverlap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootSearcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" />
       </list>
     </option>
   </component>
@@ -206,7 +963,12 @@
       <workItem from="1602677924656" duration="23382000" />
       <workItem from="1602760249833" duration="6009000" />
       <workItem from="1602769467724" duration="14809000" />
-      <workItem from="1602848545943" duration="11492000" />
+      <workItem from="1602848545943" duration="16851000" />
+      <workItem from="1602936930199" duration="13778000" />
+      <workItem from="1603034268480" duration="8094000" />
+      <workItem from="1603104987425" duration="4890000" />
+      <workItem from="1603222570930" duration="1402000" />
+      <workItem from="1603267897641" duration="18030000" />
     </task>
     <servers />
   </component>

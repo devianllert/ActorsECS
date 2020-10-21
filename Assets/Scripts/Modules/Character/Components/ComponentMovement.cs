@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using Unity.IL2CPP.CompilerServices;
 using Pixeye.Actors;
- 
-namespace Modules.Character.Components
+using Unity.IL2CPP.CompilerServices;
+
+namespace ActorsECS.Modules.Character.Components
  {
    [Serializable]
    public struct ComponentMovement

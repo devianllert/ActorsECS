@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Potions
   m_EditorClassIdentifier: 
   type: 0
+  restoreAmount: 15
+  cooldown: 2

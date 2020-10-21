@@ -1,7 +1,7 @@
-﻿using Modules.Character.Components;
+﻿using ActorsECS.Modules.Character.Components;
 using Pixeye.Actors;
 
-namespace Modules.Character
+namespace ActorsECS.Modules.Character
 {
   public class ActorCharacter : Actor
   {

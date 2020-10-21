@@ -1,13 +1,29 @@
-﻿using Modules.Character.Processors;
+﻿using ActorsECS.Modules.Character.Processors;
+using ActorsECS.Modules.Loot.Processors;
 using Pixeye.Actors;
 
-public class LayerStarter : Layer<LayerStarter>
+namespace ActorsECS
 {
-  protected override void Setup()
+  public class LayerStarter : Layer<LayerStarter>
   {
-    Add<ProcessorGatheringInput>();
-    Add<ProcessorMove>();
-    Add<ProcessorRotation>();
-    Add<ProcessorAnimation>();
+    protected override void Setup()
+    {
+      #region Character
+
+      Add<ProcessorGatheringInput>();
+      Add<ProcessorMove>();
+      Add<ProcessorRotation>();
+      Add<ProcessorAnimation>();
+      Add<ProcessorLootCollisions>();
+      Add<ProcessorPickup>();
+
+      #endregion
+
+      #region Loot
+
+      Add<ProcessorOutline>();
+
+      #endregion
+    }
   }
 }

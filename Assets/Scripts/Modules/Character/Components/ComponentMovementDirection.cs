@@ -4,7 +4,7 @@ using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 using UnityEngine;
 
-namespace Modules.Character.Components
+namespace ActorsECS.Modules.Character.Components
  {
    [Serializable]
    public struct ComponentMovementDirection

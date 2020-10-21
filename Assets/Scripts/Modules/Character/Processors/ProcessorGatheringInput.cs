@@ -1,9 +1,9 @@
-﻿using Modules.Character.Components;
+﻿using ActorsECS.Modules.Character.Components;
 using Pixeye.Actors;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Modules.Character.Processors
+namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorGatheringInput : Processor, ITick, InputActions.ICharacterControllerActions
   {
@@ -15,7 +15,8 @@ namespace Modules.Character.Processors
     private Vector2 _characterLooking;
     private float _characterFiring;
     private bool _characterJumped;
-    
+    private bool _characterInteracted;
+
     public ProcessorGatheringInput()
     {
       _inputActions = new InputActions();
@@ -31,7 +32,18 @@ namespace Modules.Character.Processors
     void InputActions.ICharacterControllerActions.OnMove(InputAction.CallbackContext context) => _characterMovement = context.ReadValue<Vector2>();
     void InputActions.ICharacterControllerActions.OnLook(InputAction.CallbackContext context) => _characterLooking = context.ReadValue<Vector2>();
     void InputActions.ICharacterControllerActions.OnFire(InputAction.CallbackContext context) => _characterFiring = context.ReadValue<float>();
-    void InputActions.ICharacterControllerActions.OnJump(InputAction.CallbackContext context) { if (context.started) _characterJumped = true; }
+
+    void InputActions.ICharacterControllerActions.OnJump(InputAction.CallbackContext context)
+    {
+      if (context.started) _characterJumped = true;
+      if (context.canceled) _characterJumped = false;
+    }
+
+    void InputActions.ICharacterControllerActions.OnInteract(InputAction.CallbackContext context)
+    {
+      if (context.started) _characterInteracted = true;
+      if (context.canceled) _characterInteracted = false;
+    }
 
     public void Tick(float delta)
     {
@@ -40,7 +52,10 @@ namespace Modules.Character.Processors
         ref var cinput = ref character.ComponentInput();
         
         cinput.movement = _characterMovement;
+        cinput.interacted = _characterInteracted;
       }
+
+      _characterInteracted = false;
     }
   }
 }

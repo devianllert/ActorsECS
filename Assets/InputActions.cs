@@ -49,6 +49,14 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Interact"",
+                    ""type"": ""Value"",
+                    ""id"": ""3f6f28b1-9f4d-4bb1-9cc7-37c36f4d610c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -203,6 +211,28 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""406b28ca-95cc-474a-b1e7-c81527e26de1"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Interact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e31691a0-cd60-4c63-a2bf-29689f3c602d"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -794,6 +824,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_CharacterController_Look = m_CharacterController.FindAction("Look", throwIfNotFound: true);
         m_CharacterController_Fire = m_CharacterController.FindAction("Fire", throwIfNotFound: true);
         m_CharacterController_Jump = m_CharacterController.FindAction("Jump", throwIfNotFound: true);
+        m_CharacterController_Interact = m_CharacterController.FindAction("Interact", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -864,6 +895,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_CharacterController_Look;
     private readonly InputAction m_CharacterController_Fire;
     private readonly InputAction m_CharacterController_Jump;
+    private readonly InputAction m_CharacterController_Interact;
     public struct CharacterControllerActions
     {
         private @InputActions m_Wrapper;
@@ -872,6 +904,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_CharacterController_Look;
         public InputAction @Fire => m_Wrapper.m_CharacterController_Fire;
         public InputAction @Jump => m_Wrapper.m_CharacterController_Jump;
+        public InputAction @Interact => m_Wrapper.m_CharacterController_Interact;
         public InputActionMap Get() { return m_Wrapper.m_CharacterController; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -893,6 +926,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnJump;
+                @Interact.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnInteract;
+                @Interact.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnInteract;
+                @Interact.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnInteract;
             }
             m_Wrapper.m_CharacterControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -909,6 +945,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Interact.started += instance.OnInteract;
+                @Interact.performed += instance.OnInteract;
+                @Interact.canceled += instance.OnInteract;
             }
         }
     }
@@ -1091,6 +1130,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnInteract(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

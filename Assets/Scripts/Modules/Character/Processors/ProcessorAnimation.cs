@@ -1,11 +1,10 @@
-﻿using Modules.Character.Components;
+﻿using ActorsECS.Modules.Character.Components;
 using Pixeye.Actors;
-using Unity.Mathematics;
 using UnityEngine;
 
-namespace Modules.Character.Processors
+namespace ActorsECS.Modules.Character.Processors
 {
-  sealed class ProcessorAnimation : Processor, ITick
+  internal sealed class ProcessorAnimation : Processor, ITick
   {
     private static readonly int Running = Animator.StringToHash("Running");
     private static readonly int Forward = Animator.StringToHash("Forward");

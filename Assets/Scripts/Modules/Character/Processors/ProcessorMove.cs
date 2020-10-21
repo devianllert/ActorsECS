@@ -1,9 +1,9 @@
-﻿using Modules.Character.Components;
+﻿using ActorsECS.Modules.Character.Components;
 using Pixeye.Actors;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace Modules.Character.Processors
+namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorMove : Processor, ITickFixed
   {
@@ -22,7 +22,7 @@ namespace Modules.Character.Processors
 
         math.lerp(movement, 1, 0.5f);
         
-        var speed = cmovementDirection.direction.x > 0 ? cmovement.speed : cmovement.speed * 0.8f;
+        var speed = cmovementDirection.direction.x > 0 ? cmovement.speed : cmovement.speed * 0.6f;
         
         var newPosition = rigidbody.transform.position + movement * speed * delta;
         

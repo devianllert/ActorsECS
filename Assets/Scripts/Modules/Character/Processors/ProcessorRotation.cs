@@ -1,10 +1,10 @@
-﻿using Modules.Character.Components;
+﻿using ActorsECS.Modules.Character.Components;
 using Pixeye.Actors;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Modules.Character.Processors
+namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorRotation : Processor, ITick
   {
