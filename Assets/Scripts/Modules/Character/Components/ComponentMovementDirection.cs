@@ -19,7 +19,7 @@ namespace ActorsECS.Modules.Character.Components
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
    static partial class Component
    {
-     public const string MovementDirection = "Modules.Character.Components.ComponentMovementDirection";
+     public const string MovementDirection = "ActorsECS.Modules.Character.Components.ComponentMovementDirection";
      [MethodImpl(MethodImplOptions.AggressiveInlining)]
      public static ref ComponentMovementDirection ComponentMovementDirection(in this ent entity) =>
        ref Storage<ComponentMovementDirection>.components[entity.id];

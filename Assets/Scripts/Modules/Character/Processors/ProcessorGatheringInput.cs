@@ -53,6 +53,7 @@ namespace ActorsECS.Modules.Character.Processors
         
         cinput.movement = _characterMovement;
         cinput.interacted = _characterInteracted;
+        cinput.fired = _characterFiring;
       }
 
       _characterInteracted = false;

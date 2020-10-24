@@ -1,5 +1,9 @@
-﻿using ActorsECS.Modules.Character.Processors;
+﻿using ActorsECS.Modules.Character;
+using ActorsECS.Modules.Character.Processors;
 using ActorsECS.Modules.Loot.Processors;
+using ActorsECS.Modules.Shooting;
+using ActorsECS.Modules.Shooting.Components;
+using ActorsECS.Modules.Shooting.Processors;
 using Pixeye.Actors;
 
 namespace ActorsECS
@@ -19,6 +23,14 @@ namespace ActorsECS
 
       #endregion
 
+      #region Shooting
+      
+      Add<Buffer<SegmentBullet>>();
+      Add<ProcessorShooting>();
+      Add<ProcessorBullets>();
+      
+      #endregion
+      
       #region Loot
 
       Add<ProcessorOutline>();
