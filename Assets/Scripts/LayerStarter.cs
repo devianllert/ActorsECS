@@ -1,5 +1,6 @@
 ﻿using ActorsECS.Modules.Character;
 using ActorsECS.Modules.Character.Processors;
+using ActorsECS.Modules.Enemy.Processors;
 using ActorsECS.Modules.Loot.Processors;
 using ActorsECS.Modules.Shooting;
 using ActorsECS.Modules.Shooting.Components;
@@ -34,6 +35,12 @@ namespace ActorsECS
       #region Loot
 
       Add<ProcessorOutline>();
+
+      #endregion
+
+      #region Enemy
+
+      Add<ProcessorEnemyAI>();
 
       #endregion
     }

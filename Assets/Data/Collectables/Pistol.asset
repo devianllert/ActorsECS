@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   type: 0
+  bullet: 0
   rate: 300
   range: 10
   damage: 5

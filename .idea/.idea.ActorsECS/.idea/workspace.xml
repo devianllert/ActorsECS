@@ -20,484 +20,348 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bullet_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bullet_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Characters.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Characters.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Female_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Female_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bld_Door_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bld_Door_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_Flat_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_Flat_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeDead_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeDead_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeStump_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeStump_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonApocalypse_Bld_House_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonApocalypse_Bld_House_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonCity_Veh_Car_Small_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonCity_Veh_Car_Small_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Block_1x1_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Block_1x1_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Column_2x3_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Column_2x3_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Bld_Door_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Bld_Door_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Grass_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Grass_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_05.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_05.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonCity_Veh_Car_Small_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonCity_Veh_Car_Small_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Arrow_Small_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Arrow_Small_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Shield_04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Shield_04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot Kyle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot Kyle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Weapons.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Weapons.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Documentation/LeanGuide.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/RoundedCube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Heart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/LeanCommon.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation/Documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Documentation/Documentation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/01 Button.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/01 Button.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/02 Toggle.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/02 Toggle.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/03 Radio.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/03 Radio.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/04 Modal.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/04 Modal.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/05 Pulse.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/05 Pulse.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/06 Notification.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/06 Notification.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/07 Shake.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/07 Shake.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/08 Drag.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/08 Drag.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/09    Handle.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/09    Handle.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/10    Move To Top.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/10    Move To Top.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/11    Snap.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/11    Snap.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/12    Edge.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/12    Edge.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/13    Nesting.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/13    Nesting.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/14 Resize.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/14 Resize.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/15 Switch.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/15 Switch.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/16 Tooltip.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/16 Tooltip.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/17    Modal.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/17    Modal.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/18 Hover.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/18 Hover.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/19 Hitbox.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/19 Hitbox.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/20 Joystick.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/20 Joystick.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/21    Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/21    Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/22 Orientation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/22 Orientation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/23 Selection Highlight.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/23 Selection Highlight.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/24 Swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/24 Swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/25 Safe Area.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/25 Safe Area.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/26 Swipe Screens.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/26 Swipe Screens.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertA.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/AlertB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Back.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Back.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Click.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Click.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Blur6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Thickness5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round10_Thickness5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round30.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50_Thickness5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round50_Thickness5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5_Thickness2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Round5_Thickness2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Thud.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Examples/Media/Thud.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/GUIDE.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/GUIDE.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/LeanGUI.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/LeanGUI.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainAnchoredPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainAnchoredPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainToParent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanConstrainToParent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanDrag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanDrag.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanGui.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanGui.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHitbox.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHitbox.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanHover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanJoystick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanJoystick.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanMoveToTop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanMoveToTop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanOrientation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanOrientation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanPulse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanPulse.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanResize.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanResize.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSafeArea.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSafeArea.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionHighlight.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionHighlight.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionPriority.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSelectionPriority.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanShake.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanShake.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSnap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSnap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwipe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwipe.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwitch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanSwitch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanToggle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanToggle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltip.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltip.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltipData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanTooltipData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindowCloser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/GUI/Scripts/LeanWindowCloser.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation/Documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Documentation/Documentation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/01 Animation Repeater.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/01 Animation Repeater.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/02 Animation From Button.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/02 Animation From Button.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/03 Join.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/03 Join.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/04 Branches.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/04 Branches.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/05 Multiple.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/05 Multiple.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/06 Ease.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/06 Ease.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/07 Speed.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/07 Speed.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/08 Time.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/08 Time.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/09 Alias.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/09 Alias.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/10 Prefab.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/10 Prefab.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts/RepeatFromCode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Examples/Scripts/RepeatFromCode.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade In.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade In.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade Out.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Fade Out.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Play Sound.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Play Sound.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1 Squash.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1 Squash.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale InOut 1.1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy In.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy In.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy Out.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Prefabs/Scale.xy Out.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationOnce.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationOnce.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationRepeater.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Extras/Scripts/LeanAnimationRepeater.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/GUIDE.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/GUIDE.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/LeanTransition.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/LeanTransition.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource/LeanAudioSourceVolume.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/AudioSource/LeanAudioSourceVolume.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject/LeanGameObjectSetActive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/GameObject/LeanGameObjectSetActive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanDelay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanDelay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanGet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanGet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanInsert.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanInsert.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinDelay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinDelay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinInsert.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanJoinInsert.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanPlaySound.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanPlaySound.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanQueue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanQueue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTimeScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/LeanTimeScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightIntensity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightIntensity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightRange.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Light/LeanLightRange.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialFloat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialFloat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialVector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Material/LeanMaterialVector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer/LeanSpriteRendererColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/SpriteRenderer/LeanSpriteRendererColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformEulerAngles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformEulerAngles.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalEulerAngles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalEulerAngles.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionY.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionY.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionZ.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalPositionZ.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalRotation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalRotation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformLocalScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionY.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionY.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionZ.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformPositionZ.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformRotation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformTranslate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/Transform/LeanTransformTranslate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupAlpha.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupAlpha.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupBlocksRaycasts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupBlocksRaycasts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupInteractable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanCanvasGroupInteractable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanGraphicColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanGraphicColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanImageFillAmount.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanImageFillAmount.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMax.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchorMin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionY.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformAnchoredPositionY.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMax.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformOffsetMin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotY.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformPivotY.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSetAsLastSibling.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSetAsLastSibling.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSizeDelta.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanRectTransformSizeDelta.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanTransformLocalScaleXY.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Methods/UI/LeanTransformLocalScaleXY.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanEase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanEase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanStateWithTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanStateWithTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTiming.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTiming.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTransition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lean/Transition/Scripts/LeanTransition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skybox_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skybox_Mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -529,6 +393,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/MonoCached.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/77/4fcac52c/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterRotationSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/Ent_Handle_Tags.cs" root0="SKIP_HIGHLIGHTING" />
@@ -537,11 +402,13 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/Ent_Handle_Components.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../actors.unity.snake/Assets/Runtime/Source/ProcessorGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/UIAlphaRaycast.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/EcsTags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/UsableItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/Helpers.cs" root0="SKIP_HIGHLIGHTING" />
@@ -550,6 +417,7 @@
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/Item.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/Loot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/ba/10cf799d/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Utils/ActorsBasicUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibProcessors/ProcessorEcs.Handle.Operations.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterAnimationSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -557,6 +425,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/91/323cab3e/ITag.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/ItemTooltip.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Core/Layer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/LootUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -566,6 +435,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/InteractableObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/HighlightableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputActions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -598,23 +468,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/SegmentAmmo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
       </list>
     </option>
   </component>
@@ -668,7 +542,7 @@
       <workItem from="1603267897641" duration="24379000" />
       <workItem from="1603394021015" duration="2709000" />
       <workItem from="1603465967300" duration="13762000" />
-      <workItem from="1603549344101" duration="6208000" />
+      <workItem from="1603549344101" duration="16130000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>
