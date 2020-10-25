@@ -49,8 +49,9 @@ namespace ActorsECS.Modules.Shooting.Processors
       bullet.source = Obj.Create(Pool.Entities, "Prefabs/Bullet", bullet.position);
       bullet.distance = 0f;
       bullet.direction = rotation;
-      // bullet.direction.y += Random.Range(-0.05f, 0.05f);
+      bullet.direction.y += Random.Range(-0.05f, 0.05f);
       bullet.range = weapon.range;
+      bullet.damage = weapon.damage;
     }
     
     private void CreateLaser(Weapon weapon, Transform transform, Quaternion rotation)

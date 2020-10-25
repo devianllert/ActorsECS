@@ -20,347 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Clouds_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_Mat_01_Glass.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Misc/PolygonStarter_SimpleSky_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_04.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/PolygonStarter_Mat_04.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Characters.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Characters.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Block_1x1_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Column_2x3_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_DoorFrame_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Floor_1x1_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Ramp_25_1x1_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x1_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_Stairs_1x3_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallDoor_2x3_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Buildings_WallWindow_2x3_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_PolygonApocalypse_Bld_House_01_Collision.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cone_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Cylander_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/Collision/SM_Primitive_Sphere_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Cowboy_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Female_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Female_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bean_Town_Female_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bld_Door_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Bld_Door_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_CloudRing_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_Flat_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Ground_Flat_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Grass_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Grass_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Mountains_Soft_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeDead_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeDead_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeStump_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_TreeStump_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Generic_Tree_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonApocalypse_Bld_House_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonApocalypse_Bld_House_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonCity_Veh_Car_Small_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonCity_Veh_Car_Small_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Block_1x1_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Block_1x1_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Column_2x3_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Column_2x3_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_DoorFrame_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_1x1_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Floor_5x5_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Arrow_Small_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Coin_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Icon_Letter_Question_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cone_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Cylander_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Sphere_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Primitive_Tube_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Cone_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Crate_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Ladder_1x2_01P.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Sword_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_PolygonPrototype_Prop_Target_03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Prop_Plane_Ring_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_SimpleSky_Dome_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Veh_Plane_Stunt_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Shield_04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_WaterPistol_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Models/SM_Wep_Watergun_02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Female_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Town_Female_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Female_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Character_Male_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Bld_Door_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Bld_Door_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Ground_Flat_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Grass_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Grass_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Mountains_Soft_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_TreeStump_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonApocalypse_Bld_House_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonCity_Veh_Car_Small_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonCity_Veh_Car_Small_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_5x5_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_45_1x1_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Arrow_Small_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Arrow_Small_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Coin_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Icon_Letter_Question_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cylander_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Sphere_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Tube_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Sword_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Target_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_SimpleSky_Dome_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Shield_04.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Shield_04.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Scenes/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/PolygonStarter_Texture_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Polygon_Plane_Texture_04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Textures/Simple_Sky_Texture_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot Kyle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Robot Kyle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/LootPickupUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/LootPickupUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLightingSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLightingSettings.lighting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,6 +72,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/MonoCached.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Helpers/HelperFramework.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/77/4fcac52c/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterRotationSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -487,6 +167,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
       </list>
@@ -542,7 +223,9 @@
       <workItem from="1603267897641" duration="24379000" />
       <workItem from="1603394021015" duration="2709000" />
       <workItem from="1603465967300" duration="13762000" />
-      <workItem from="1603549344101" duration="16130000" />
+      <workItem from="1603549344101" duration="16269000" />
+      <workItem from="1603636733263" duration="2470000" />
+      <workItem from="1603646626278" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>
