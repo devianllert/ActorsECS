@@ -20,10 +20,10 @@ namespace ActorsECS.Modules.Character.Processors
 
       var cameraForward = transform.forward;
       var cameraRight = transform.right;
-            
+      
       var screenRay = Camera.ScreenPointToRay(looking);
 
-      Physics.Raycast(screenRay.origin, screenRay.GetPoint(200), out var hit);
+      Physics.Raycast(screenRay, out var dist);
       
       foreach (var character in _characters)
       {
@@ -32,7 +32,7 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cmovementDirection = ref character.ComponentMovementDirection();
         var rigidbody = character.GetMono<Rigidbody>();
         
-        var closestHitPosition = hit.point - rigidbody.transform.position;
+        var closestHitPosition = dist.point - rigidbody.transform.position;
         closestHitPosition.y = 0;
 
         var newRotation = Quaternion.LookRotation(closestHitPosition, Vector3.up);

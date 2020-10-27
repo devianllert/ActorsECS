@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Polygon_Plane_Texture_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Loot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/LootPickupUI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/LootPickupUI.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Materials/Plane/PolygonStarter_Mat_Plane_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLightingSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleSceneLightingSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +115,6 @@
         <option value="$PROJECT_DIR$/Assets/UI/Tooltip.uxml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootOverlap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootSearcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
@@ -170,6 +150,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
       </list>
     </option>
   </component>
@@ -226,6 +207,8 @@
       <workItem from="1603549344101" duration="16269000" />
       <workItem from="1603636733263" duration="2470000" />
       <workItem from="1603646626278" duration="3828000" />
+      <workItem from="1603733219113" duration="5508000" />
+      <workItem from="1603817356450" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>
