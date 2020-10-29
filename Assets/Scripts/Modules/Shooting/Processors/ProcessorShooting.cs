@@ -49,7 +49,6 @@ namespace ActorsECS.Modules.Shooting.Processors
       bullet.source = Obj.Create(Pool.Entities, "Prefabs/Bullet", bullet.position);
       bullet.distance = 0f;
       bullet.direction = rotation;
-      bullet.direction.y += Random.Range(-0.05f, 0.05f);
       bullet.range = weapon.range;
       bullet.damage = weapon.damage;
     }
@@ -60,7 +59,6 @@ namespace ActorsECS.Modules.Shooting.Processors
       laser.position = transform.position + Vector3.up + transform.forward;
       laser.source = Obj.Create(Pool.Entities, "Prefabs/Laser", laser.position);
       laser.direction = rotation;
-      laser.direction.y += Random.Range(-0.05f, 0.05f);
       laser.range = weapon.range;
     }
   }

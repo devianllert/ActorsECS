@@ -9,14 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da51ebe4dce47bfa6f91e24e18c18aa, type: 3}
-  m_Name: Pistol
+  m_Script: {fileID: 11500000, guid: 20d4e78785f4488886fbcbfd88c99ef2, type: 3}
+  m_Name: VFXDatabase
   m_EditorClassIdentifier: 
-  type: 0
-  bullet: 0
-  rate: 900000
-  range: 20
-  damage: 5
-  ammo: 16
-  speed: 25
-  recoil: 1.5
+  Entries:
+  - Name: BulletHit
+    Prefab: {fileID: 9062764942578863865, guid: 0b456221a868042468123d2df954a951, type: 3}
+    PoolSize: 20

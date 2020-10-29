@@ -1,7 +1,11 @@
-﻿using ActorsECS.Modules.Enemy.Components;
+﻿using System.Collections;
+using ActorsECS.Modules.Enemy.Components;
 using ActorsECS.Modules.Shooting.Components;
+using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
+using UnityEngine.VFX;
+using VFXManager = ActorsECS.VFX.VFXManager;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
@@ -24,20 +28,22 @@ namespace ActorsECS.Modules.Shooting.Processors
         if (Physics.Raycast(bullet.source.position, positionIncrement.normalized, out var hit,
           positionIncrement.magnitude, LayerMask.GetMask("Enemy", "Environment")))
         {
-          if (hit.transform.gameObject.TryGetComponent<Actor>(out var actor))
+          var actor = hit.transform.gameObject.GetComponent<Actor>();
+          
+          if (actor)
           {
             ref var cenemy = ref actor.entity.ComponentEnemy();
             
             cenemy.health -= bullet.damage;
             
-            Debug.Log(cenemy.health);
-            
             DestroyBullet(bullet, pointer);
             
-            return;
+            continue;
           }
           
           DestroyBullet(bullet, pointer);
+          
+          continue;
         }
 
         bullet.source.position += positionIncrement;
@@ -45,16 +51,18 @@ namespace ActorsECS.Modules.Shooting.Processors
         if (bullet.distance >= bullet.range)
         {
           DestroyBullet(bullet, pointer);
-
-          return;
         }
       }
     }
 
     public void DestroyBullet(SegmentBullet bullet, int pointer)
     {
+      var vfx = VFXManager.PlayVFX(VFXType.BulletHit, bullet.source.position);
+
       _bullets.RemoveAt(pointer);
       bullet.source.gameObject.Release(Pool.Entities);
+
+      Layer.WaitFor(0.5f, () => vfx.Effect.gameObject.SetActive(false));
     }
   }
 }

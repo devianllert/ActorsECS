@@ -20,8 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
+      <change afterPath="$PROJECT_DIR$/Assets/Data/VFXDatabase.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/VFXDatabase.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/BulletHit.vfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/BulletHit.vfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/BulletTrail.vfx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/BulletTrail.vfx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/BulletHit.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/BulletHit.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/VFXTypes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Collectables/Pistol.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +60,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../2DPlatformer/Assets/Scripts/Character/Player/PlayerInputHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterMovementSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,13 +70,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterGatheringInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Characters/Player/CharacterControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A69DC1DB-85A4-41C5-9C35-D8730B5F7877/a9/925163c1/VisualEffect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/MonoCached.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibMono/Actor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Helpers/HelperFramework.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/VFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F8918D0C-C5FC-41A1-BABA-01B207A4C016/77/4fcac52c/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterRotationSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -64,12 +91,14 @@
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../actors.unity.snake/Assets/Runtime/Source/ProcessorGame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/VFXTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/UIAlphaRaycast.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibEcs/EcsTags.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/VFXDatabase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/UsableItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Utility/Helpers.cs" root0="SKIP_HIGHLIGHTING" />
@@ -77,8 +106,10 @@
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/Container.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Items/Item.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Utils/Buffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/GameplayObject/Loot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/ba/10cf799d/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2DKit/Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/TriggerVFX.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Utils/ActorsBasicUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/LibProcessors/ProcessorEcs.Handle.Operations.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../FPShooter/Assets/Scripts/Modules/Character/Systems/CharacterAnimationSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -86,11 +117,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/91/323cab3e/ITag.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/ItemTooltip.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2DKit/Assets/2DGamekit/Scripts/Character/MonoBehaviours/VFXController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@05f6b11dc9/Runtime/Core/Layer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/VFXTypes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/UI/LootUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs.meta" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +133,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Editor/SaveScriptState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Beginner Code/Assets/Creator Kit - Beginner Code/Scripts/Editor/VFXDBEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/920B271E-8CBB-487D-BD1B-0709471F0E78/3d/cd3f8eb1/ITick.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -148,9 +185,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
       </list>
     </option>
   </component>
@@ -208,7 +249,11 @@
       <workItem from="1603636733263" duration="2470000" />
       <workItem from="1603646626278" duration="3828000" />
       <workItem from="1603733219113" duration="5508000" />
-      <workItem from="1603817356450" duration="2933000" />
+      <workItem from="1603817356450" duration="6979000" />
+      <workItem from="1603877051951" duration="1540000" />
+      <workItem from="1603880414921" duration="7876000" />
+      <workItem from="1603906064144" duration="3309000" />
+      <workItem from="1603914644235" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>
@@ -245,9 +290,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="121" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603297338068" />
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1602685890805">
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1603894517793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602685890805" />
+    <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603894517793" />
   </component>
 </project>
