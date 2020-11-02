@@ -61,7 +61,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       
       bullet.position = transform.position + Vector3.up + transform.forward;
       bullet.speed = weapon.speed;
-      bullet.source = Obj.Create(Pool.Entities, $"Prefabs/{weapon.bulletPrefabName}", bullet.position);
+      bullet.source = Obj.Create(Pool.Entities, $"Prefabs/Projectiles/{weapon.bulletPrefabName}", bullet.position);
       bullet.distance = 0f;
       bullet.direction = rotation;
       bullet.range = weapon.range;
@@ -73,7 +73,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       ref var laser = ref Layer.GetBuffer<SegmentLaser>().Add();
       
       laser.position = transform.position + Vector3.up + transform.forward;
-      laser.source = Obj.Create(Pool.Entities, "Prefabs/Laser", laser.position);
+      laser.source = Obj.Create(Pool.Entities, "Prefabs/Projectiles/Laser", laser.position);
       laser.direction = rotation;
       laser.range = weapon.range;
     }

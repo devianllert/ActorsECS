@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" />
       </list>
     </option>
   </component>
@@ -273,7 +273,7 @@
       <workItem from="1604156619201" duration="2752000" />
       <workItem from="1604165578089" duration="1254000" />
       <workItem from="1604227445790" duration="11479000" />
-      <workItem from="1604286970243" duration="16416000" />
+      <workItem from="1604286970243" duration="17262000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>
