@@ -11,18 +11,18 @@ namespace ActorsECS.Modules.Character.Processors
     private static readonly int Strafe = Animator.StringToHash("Strafe");
 
     private readonly Group<ComponentInput> _characters = default;
-    
+
     public void Tick(float delta)
     {
       foreach (var character in _characters)
       {
-        ref var cmovementDirection = ref character.ComponentMovementDirection();
-        var canimator = character.GetMono<Animator>();
+        ref var cMovementDirection = ref character.ComponentMovementDirection();
+        var cAnimator = character.GetMono<Animator>();
 
-        canimator.SetBool(Running, !cmovementDirection.direction.Equals(Vector2.zero));
-        
-        canimator.SetFloat(Forward, cmovementDirection.direction.y);
-        canimator.SetFloat(Strafe, cmovementDirection.direction.x);
+        cAnimator.SetBool(Running, !cMovementDirection.direction.Equals(Vector2.zero));
+
+        cAnimator.SetFloat(Forward, cMovementDirection.direction.y);
+        cAnimator.SetFloat(Strafe, cMovementDirection.direction.x);
       }
     }
   }

@@ -3,6 +3,5 @@
   public enum VFXType
   {
     BulletHit,
-    StepPuff,
   }
 }

@@ -15,4 +15,4 @@ MonoBehaviour:
   Entries:
   - Name: BulletHit
     Prefab: {fileID: 9062764942578863865, guid: 0b456221a868042468123d2df954a951, type: 3}
-    PoolSize: 20
+    PoolSize: 16

@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da51ebe4dce47bfa6f91e24e18c18aa, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  type: 0
-  bullet: 0
-  rate: 900000
+  bulletType: 0
+  rateOfFire: 800
   range: 20
   damage: 5
-  ammo: 16
+  ammo: 12
   speed: 25
-  recoil: 1.5
+  reloadTime: 1.5
+  bulletPrefabName: Bullet
+  HitVFX: 0

@@ -7,7 +7,7 @@ namespace ActorsECS.Data
   {
     Health
   }
-  
+
   [CreateAssetMenu(fileName = "Potions", menuName = "Data/Potions", order = 0)]
   public class Potion : ScriptableObject, IUsable
   {

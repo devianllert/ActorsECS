@@ -8,9 +8,8 @@ namespace ActorsECS.Modules.Character.Processors
   internal sealed class ProcessorPickup : Processor, ITick
   {
     private readonly Group<ComponentInput> _characters = default;
-    
-    [GroupBy(Tag.Lootable)]
-    private readonly Group<ComponentLootData> _loots = default;
+
+    [GroupBy(Tag.Lootable)] private readonly Group<ComponentLootData> _loots = default;
 
     public void Tick(float delta)
     {
@@ -18,18 +17,17 @@ namespace ActorsECS.Modules.Character.Processors
       {
         ref var cinput = ref character.ComponentInput();
 
-        if (cinput.interacted)
+        if (!cinput.Interact) continue;
+        
+        foreach (var loot in _loots)
         {
-          foreach (var loot in _loots)
-          {
-            loot.Release();
+          var lootData = loot.ComponentLootData();
+          
+          Debug.Log($"Picked up {lootData.name}");
 
-            var lootData = loot.ComponentLootData();
-            
-            Debug.Log($"Picked up {lootData.name}");
-            
-            break;
-          }
+          loot.Release();
+
+          break;
         }
       }
     }

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ActorsECS.VFX 
+namespace ActorsECS.VFX
 {
   /// <summary>
   /// Allows you to define a list of VFX prefabs each with a name.
