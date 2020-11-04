@@ -5,7 +5,8 @@ namespace ActorsECS.Modules.Character
 {
   public class ActorCharacter : Actor
   {
-    [FoldoutGroup("Components", true)] public ComponentInput componentInput;
+    [FoldoutGroup("Components", true)]
+    public ComponentInput componentInput;
     public ComponentRotation componentRotation;
     public ComponentMovement componentMovement;
     public ComponentMovementDirection componentMovementDirection;

@@ -10,6 +10,9 @@ namespace ActorsECS.Modules.Shooting.Processors
     private readonly ReloadUI _reloadUI;
     
     private readonly Group<ComponentInput> _characters = default;
+    
+    [GroupBy(Tag.Reload)]
+    private readonly Group<ComponentWeapon> _reloadingCharacters = default;
 
     public ProcessorReload()
     {
@@ -20,27 +23,31 @@ namespace ActorsECS.Modules.Shooting.Processors
     {
       foreach (var character in _characters)
       {
-        ref var cWeapon = ref character.ComponentWeapon();
         ref var cInput = ref character.ComponentInput();
 
-        if (!cWeapon.isReloading && cInput.Reload)
-        {
-          cWeapon.isReloading = true;
-
-          Layer.Run(StartReload(character, cWeapon.equippedWeapon.reloadTime));
-        }
+        if (cInput.Reload) character.Set(Tag.Reload);
       }
     }
 
-    private IEnumerator StartReload(ent character, float time)
+    public override void HandleEcsEvents()
     {
-      _reloadUI.StartReload(time);
+      foreach (var character in _reloadingCharacters.added)
+      {
+        Layer.Run(StartReload(character));
+      }
+    }
+
+    private IEnumerator StartReload(ent character)
+    {
+      _reloadUI.StartReload(character.ComponentWeapon().equippedWeapon.reloadTime);
       
-      yield return Layer.Wait(time);
+      yield return Layer.Wait(character.ComponentWeapon().equippedWeapon.reloadTime);
 
       character.ComponentWeapon().isReloading = false;
 
       character.ComponentWeapon().currentAmmo = character.ComponentWeapon().equippedWeapon.ammo;
+      
+      character.Remove(Tag.Reload);
     }
   }
 }

@@ -12,6 +12,7 @@ namespace ActorsECS.Modules.Shooting.Processors
     private readonly CurrentAmmoUI _currentAmmoUI;
     private readonly TotalAmmoUI _totalAmmoUI;
 
+    [ExcludeBy(Tag.Reload)]
     private readonly Group<ComponentInput> _characters = default;
 
     public ProcessorShooting()
@@ -33,7 +34,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
         cWeapon.fireTime -= delta;
 
-        if (cInput.Shoot > 0 && cWeapon.fireTime <= 0 && cWeapon.currentAmmo != 0 && !cWeapon.isReloading)
+        if (cInput.Shoot > 0 && cWeapon.fireTime <= 0 && cWeapon.currentAmmo != 0)
         {
           cWeapon.fireTime = 60 / cWeapon.equippedWeapon.rateOfFire;
 

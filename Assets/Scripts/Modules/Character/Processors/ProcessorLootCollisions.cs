@@ -42,7 +42,7 @@ namespace ActorsECS.Modules.Character.Processors
         if (_lootEntity.id != -1 && _lootEntity.Has(Tag.Lootable)) _lootEntity.RemoveAll(Tag.Lootable);
 
         _lootEntity = newEntity;
-      }
+      }  
     }
     
     private (Vector3, Vector3) GetCapsuleBounds(CapsuleCollider collider, Transform transform)
