@@ -1334,8 +1334,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701914593}
-  m_LocalRotation: {x: 0.48476854, y: 0.00000003365155, z: -0.000000018651289, w: 0.8746425}
-  m_LocalPosition: {x: -0.40003246, y: 10.214415, z: -5.8182926}
+  m_LocalRotation: {x: 0.47185794, y: -0, z: -0, w: 0.88167465}
+  m_LocalPosition: {x: -0.40003246, y: 6.2144146, z: -3.8182926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2017738640}
@@ -1724,8 +1724,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920367795}
-  m_LocalRotation: {x: 0.48476854, y: 0.00000003365155, z: -0.000000018651289, w: 0.8746425}
-  m_LocalPosition: {x: -0.40003246, y: 10.214415, z: -5.8182926}
+  m_LocalRotation: {x: 0.47185794, y: -0, z: -0, w: 0.88167465}
+  m_LocalPosition: {x: -0.40003246, y: 6.2144146, z: -3.8182926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1291044681}
@@ -2787,7 +2787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 16, z: -10}
+  m_FollowOffset: {x: 0, y: 12, z: -8}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -3173,7 +3173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 564352252048239452, guid: 808fd23df201ef344bcf0b130c70205d, type: 3}
       propertyPath: componentRoll.cooldown
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1008799003337748673, guid: 808fd23df201ef344bcf0b130c70205d, type: 3}
       propertyPath: m_Layer
