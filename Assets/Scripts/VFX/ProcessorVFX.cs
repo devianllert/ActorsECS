@@ -1,7 +1,6 @@
 ﻿using Pixeye.Actors;
 
-
-namespace Game.Source
+namespace ActorsECS.VFX
 {
   sealed class ProcessorVFX : Processor, ITick
   {

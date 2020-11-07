@@ -1,4 +1,5 @@
-﻿using ActorsECS.Modules.Enemy.Components;
+﻿using ActorsECS.Modules.Common;
+using ActorsECS.Modules.Enemy.Components;
 using Pixeye.Actors;
 
 namespace ActorsECS.Modules.Enemy.Processors
@@ -11,9 +12,9 @@ namespace ActorsECS.Modules.Enemy.Processors
     {
       foreach (var enemy in _enemies)
       {
-        ref var cEnemy = ref enemy.ComponentEnemy();
+        ref var cHealth = ref enemy.ComponentHealth();
 
-        if (!(cEnemy.health <= 0)) continue;
+        if (!(cHealth.health <= 0)) continue;
         
         enemy.Release();
       }

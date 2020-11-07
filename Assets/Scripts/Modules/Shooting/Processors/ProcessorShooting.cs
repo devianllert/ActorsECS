@@ -12,7 +12,7 @@ namespace ActorsECS.Modules.Shooting.Processors
     private readonly CurrentAmmoUI _currentAmmoUI;
     private readonly TotalAmmoUI _totalAmmoUI;
 
-    [ExcludeBy(Tag.Reload)]
+    [ExcludeBy(Tag.Reload, Tag.Roll)]
     private readonly Group<ComponentInput> _characters = default;
 
     public ProcessorShooting()

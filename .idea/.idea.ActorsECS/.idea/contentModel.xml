@@ -40,6 +40,7 @@
                 <e p="ComponentInput.cs" t="Include" />
                 <e p="ComponentMovement.cs" t="Include" />
                 <e p="ComponentMovementDirection.cs" t="Include" />
+                <e p="ComponentRoll.cs" t="Include" />
                 <e p="ComponentRotation.cs" t="Include" />
                 <e p="ComponentWeapon.cs" t="Include" />
               </e>
@@ -49,13 +50,20 @@
                 <e p="ProcessorLootCollisions.cs" t="Include" />
                 <e p="ProcessorMove.cs" t="Include" />
                 <e p="ProcessorPickup.cs" t="Include" />
+                <e p="ProcessorRoll.cs" t="Include" />
                 <e p="ProcessorRotation.cs" t="Include" />
               </e>
+            </e>
+            <e p="Common" t="Include">
+              <e p="ComponentHealth.cs" t="Include" />
             </e>
             <e p="Enemy" t="Include">
               <e p="ActorEnemy.cs" t="Include" />
               <e p="Components" t="Include">
+                <e p="ComponentAttack.cs" t="Include" />
+                <e p="ComponentChase.cs" t="Include" />
                 <e p="ComponentEnemy.cs" t="Include" />
+                <e p="ComponentPatrol.cs" t="Include" />
               </e>
               <e p="Processors" t="Include">
                 <e p="ProcessorEnemyAI.cs" t="Include" />

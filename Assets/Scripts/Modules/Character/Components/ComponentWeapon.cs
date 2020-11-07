@@ -10,7 +10,6 @@ namespace ActorsECS.Modules.Character.Components
   public struct ComponentWeapon
   {
     public Weapon equippedWeapon;
-    public bool isReloading;
     public float fireTime;
     public int currentAmmo;
   }

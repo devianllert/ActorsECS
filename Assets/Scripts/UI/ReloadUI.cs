@@ -1,51 +1,53 @@
-﻿using System;
-using Pixeye.Actors;
+﻿using Pixeye.Actors;
 using UnityEngine.UI;
 
-public class ReloadUI : MonoCached
+namespace ActorsECS.UI
 {
-  private Image _filledImage;
-
-  private float elapsedTime;
-  private float reloadTime;
-
-  private bool isReloading;
-
-  protected override void OnEnable()
+  public class ReloadUI : MonoCached
   {
-    _filledImage = GetComponentInChildren<Image>();
-    _filledImage.gameObject.SetActive(false);
-  }
-  
-  public void StartReload(float time)
-  {
-    isReloading = true;
-    
-    _filledImage.gameObject.SetActive(true);
-    _filledImage.fillAmount = 0;
-    elapsedTime = 0;
-    reloadTime = time;
-  }
+    private Image _filledImage;
 
-  private void UpdateReloadState()
-  {
-    if (!isReloading) return;
+    private float elapsedTime;
+    private float reloadTime;
 
-    if (_filledImage.fillAmount >= 1)
+    private bool isReloading;
+
+    protected override void OnEnable()
     {
-      isReloading = false;
-      
+      _filledImage = GetComponentInChildren<Image>();
       _filledImage.gameObject.SetActive(false);
     }
+  
+    public void StartReload(float time)
+    {
+      isReloading = true;
     
-    elapsedTime += Time.deltaTime;
-    float reloadElapsed = elapsedTime / reloadTime;
+      _filledImage.gameObject.SetActive(true);
+      _filledImage.fillAmount = 0;
+      elapsedTime = 0;
+      reloadTime = time;
+    }
 
-    _filledImage.fillAmount = reloadElapsed;
-  }
+    private void UpdateReloadState()
+    {
+      if (!isReloading) return;
 
-  private void Update()
-  {
-    UpdateReloadState();
+      if (_filledImage.fillAmount >= 1)
+      {
+        isReloading = false;
+      
+        _filledImage.gameObject.SetActive(false);
+      }
+    
+      elapsedTime += Time.deltaTime;
+      float reloadElapsed = elapsedTime / reloadTime;
+
+      _filledImage.fillAmount = reloadElapsed;
+    }
+
+    private void Update()
+    {
+      UpdateReloadState();
+    }
   }
 }

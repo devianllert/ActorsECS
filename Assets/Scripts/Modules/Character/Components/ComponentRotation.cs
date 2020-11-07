@@ -10,6 +10,7 @@ namespace ActorsECS.Modules.Character.Components
   public struct ComponentRotation
   {
     public Quaternion rotation;
+    public Vector3 faceDirection;
   }
 
   #region HELPERS

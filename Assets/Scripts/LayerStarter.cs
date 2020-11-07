@@ -21,6 +21,12 @@ namespace ActorsECS
       Add<ProcessorPickup>();
 
       #endregion
+      
+      #region Abilities
+
+      Add<ProcessorRoll>();
+
+      #endregion
 
       #region Shooting
 

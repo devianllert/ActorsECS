@@ -1,4 +1,5 @@
 ﻿using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Common;
 using Pixeye.Actors;
 
 namespace ActorsECS.Modules.Character
@@ -7,14 +8,15 @@ namespace ActorsECS.Modules.Character
   {
     [FoldoutGroup("Components", true)]
     public ComponentInput componentInput;
+    public ComponentHealth componentHealth;
     public ComponentRotation componentRotation;
     public ComponentMovement componentMovement;
     public ComponentMovementDirection componentMovementDirection;
     public ComponentWeapon componentWeapon;
+    public ComponentRoll componentRoll;
 
     protected override void Setup()
     {
-      componentWeapon.isReloading = false;
       componentWeapon.currentAmmo = componentWeapon.equippedWeapon.ammo;
       componentMovement.speed = 5f;
 
@@ -23,6 +25,8 @@ namespace ActorsECS.Modules.Character
       entity.Set(componentRotation);
       entity.Set(componentMovementDirection);
       entity.Set(componentWeapon);
+      entity.Set(componentHealth);
+      entity.Set(componentRoll);
     }
   }
 }

@@ -8,6 +8,7 @@ namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorRotation : Processor, ITick
   {
+    [ExcludeBy(Tag.Roll)]
     private readonly Group<ComponentInput> _characters = default;
 
     private static Camera Camera => Camera.main;
@@ -46,9 +47,10 @@ namespace ActorsECS.Modules.Character.Processors
 
         cMovementDirection.direction = new Vector2(forw, stra);
 
-        cRotation.rotation = newRotation;
-
         rigidbody.MoveRotation(newRotation);
+        
+        cRotation.rotation = newRotation;
+        cRotation.faceDirection = rigidbody.transform.forward;
       }
     }
   }

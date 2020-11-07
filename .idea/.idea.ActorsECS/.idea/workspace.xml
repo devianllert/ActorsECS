@@ -20,108 +20,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Clouds.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Clouds.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Material.003.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Material.003.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/No Name.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/No Name.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day5.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day6.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day7.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Day7.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Morning4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Night4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Materials/Sunset5.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Shaders/Stylized Sky.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Stylized Sky/Shaders/Stylized Sky.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/dark trunk.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/dark trunk.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/darken leafs.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/darken leafs.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/earth.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/earth.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/green tree.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/green tree.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/pine tree green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/pine tree green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/trunk.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/trunk.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Demo.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Demo.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Healthbar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Healthbar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Healthbar6Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/Healthbar6Image.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar4.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar4.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar5.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar5.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar6.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/HealthbarPrefabs/Healthbar6.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/documentation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SimpleHealthBar/documentation.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Backwards.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Backwards.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Fire.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Fire.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Hit.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Hit.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Left Strafe.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Left Strafe.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Right Strafe.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Right Strafe.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Walking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Animations/Walking.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Materials/Robot_Color.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Materials/Robot_Color.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Model/Robot Kyle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Textures/Robot_Color.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Textures/Robot_Color.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Textures/Robot_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Robot Kyle/Textures/Robot_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Turrel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Turrel/Mounted Gun.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Turrel/Mounted Gun.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Roll.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/xbot/Roll.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRoll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRoll.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentChase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentChase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentPatrol.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentPatrol.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skybox_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skybox_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/PlayerController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/xbot/PlayerController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Materials/Robot_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Model/Robot Kyle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Robot Kyle/Textures/Robot_Normal.tga.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter_Profiles/Post-process Volume Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tag.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tag.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-LowQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-LowQuality.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ReloadUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ReloadUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VFX/ProcessorVFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/ProcessorVFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,19 +174,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/UI/Tooltip.styles.uss" />
-        <option value="$PROJECT_DIR$/Assets/UI/Tooltip.uxml" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootOverlap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootSearcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Collectables/Potion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/IUsable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Potion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Processors/ProcessorOutline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovementDirection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/SegmentAmmo.cs" />
@@ -209,16 +183,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXTypes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/AmmoUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/CurrentAmmoUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/TotalAmmoUI.cs" />
@@ -226,19 +195,36 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ReloadUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentFloatingText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentChase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Components/ComponentHead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Components/ComponentTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/ActorTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Processors/ProcessorTurret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" />
       </list>
     </option>
   </component>
@@ -315,7 +301,11 @@
       <workItem from="1604227445790" duration="11479000" />
       <workItem from="1604286970243" duration="17262000" />
       <workItem from="1604397363367" duration="6576000" />
-      <workItem from="1604488223046" duration="4966000" />
+      <workItem from="1604488223046" duration="8693000" />
+      <workItem from="1604519596014" duration="1779000" />
+      <workItem from="1604576981624" duration="9640000" />
+      <workItem from="1604658600381" duration="17729000" />
+      <workItem from="1604749851410" duration="6763000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>

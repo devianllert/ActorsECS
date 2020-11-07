@@ -1,4 +1,5 @@
-﻿using ActorsECS.Modules.Enemy.Components;
+﻿using ActorsECS.Modules.Common;
+using ActorsECS.Modules.Enemy.Components;
 using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.VFX;
 using Pixeye.Actors;
@@ -30,9 +31,9 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           if (actor)
           {
-            ref var cEnemy = ref actor.entity.ComponentEnemy();
+            ref var cHealth = ref actor.entity.ComponentHealth();
 
-            cEnemy.health -= bullet.damage;
+            cHealth.health -= bullet.damage;
 
             DestroyBullet(bullet, pointer);
 

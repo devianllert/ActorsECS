@@ -8,7 +8,7 @@ namespace ActorsECS.Modules.Enemy.Components
   [Serializable]
   public struct ComponentEnemy
   {
-    public float health;
+    public string name;
   }
 
   #region HELPERS
@@ -18,7 +18,7 @@ namespace ActorsECS.Modules.Enemy.Components
   [Il2CppSetOption(Option.DivideByZeroChecks, false)]
   internal static partial class Component
   {
-    public const string Enemy = "Game.Source.ComponentEnemy";
+    public const string Enemy = "ActorsECS.Modules.Enemy.Components.ComponentEnemy";
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static ref ComponentEnemy ComponentEnemy(in this ent entity)

@@ -21,8 +21,8 @@ namespace ActorsECS.Modules.Character.Processors
 
         cAnimator.SetBool(Running, !cMovementDirection.direction.Equals(Vector2.zero));
 
-        cAnimator.SetFloat(Forward, cMovementDirection.direction.y);
-        cAnimator.SetFloat(Strafe, cMovementDirection.direction.x);
+        cAnimator.SetFloat(Forward, cMovementDirection.direction.x);
+        cAnimator.SetFloat(Strafe, cMovementDirection.direction.y);
       }
     }
   }

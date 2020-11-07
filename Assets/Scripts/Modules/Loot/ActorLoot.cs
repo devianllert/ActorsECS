@@ -5,7 +5,8 @@ namespace ActorsECS.Modules.Loot
 {
   public class ActorLoot : Actor
   {
-    [FoldoutGroup("Components", true)] public ComponentLootData componentLootData;
+    [FoldoutGroup("Components", true)]
+    public ComponentLootData componentLootData;
 
     protected override void Setup()
     {

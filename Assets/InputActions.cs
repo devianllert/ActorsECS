@@ -65,6 +65,14 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Roll"",
+                    ""type"": ""Value"",
+                    ""id"": ""5ab42ab1-3e5e-417f-a9cd-c052ab9f3bfc"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -250,7 +258,7 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Reload"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -261,8 +269,19 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""Reload"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38ec2b96-f858-4b07-a5cb-3f1dd8e21661"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Roll"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -856,6 +875,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_CharacterController_Jump = m_CharacterController.FindAction("Jump", throwIfNotFound: true);
         m_CharacterController_Interact = m_CharacterController.FindAction("Interact", throwIfNotFound: true);
         m_CharacterController_Reload = m_CharacterController.FindAction("Reload", throwIfNotFound: true);
+        m_CharacterController_Roll = m_CharacterController.FindAction("Roll", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -928,6 +948,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_CharacterController_Jump;
     private readonly InputAction m_CharacterController_Interact;
     private readonly InputAction m_CharacterController_Reload;
+    private readonly InputAction m_CharacterController_Roll;
     public struct CharacterControllerActions
     {
         private @InputActions m_Wrapper;
@@ -938,6 +959,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         public InputAction @Jump => m_Wrapper.m_CharacterController_Jump;
         public InputAction @Interact => m_Wrapper.m_CharacterController_Interact;
         public InputAction @Reload => m_Wrapper.m_CharacterController_Reload;
+        public InputAction @Roll => m_Wrapper.m_CharacterController_Roll;
         public InputActionMap Get() { return m_Wrapper.m_CharacterController; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -965,6 +987,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Reload.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnReload;
                 @Reload.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnReload;
                 @Reload.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnReload;
+                @Roll.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
+                @Roll.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
+                @Roll.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
             }
             m_Wrapper.m_CharacterControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -987,6 +1012,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Reload.started += instance.OnReload;
                 @Reload.performed += instance.OnReload;
                 @Reload.canceled += instance.OnReload;
+                @Roll.started += instance.OnRoll;
+                @Roll.performed += instance.OnRoll;
+                @Roll.canceled += instance.OnRoll;
             }
         }
     }
@@ -1171,6 +1199,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
         void OnReload(InputAction.CallbackContext context);
+        void OnRoll(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

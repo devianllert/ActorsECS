@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using ActorsECS.Modules.Character.Components;
+using ActorsECS.UI;
 using Pixeye.Actors;
 using UnityEngine;
 
@@ -42,8 +43,6 @@ namespace ActorsECS.Modules.Shooting.Processors
       _reloadUI.StartReload(character.ComponentWeapon().equippedWeapon.reloadTime);
       
       yield return Layer.Wait(character.ComponentWeapon().equippedWeapon.reloadTime);
-
-      character.ComponentWeapon().isReloading = false;
 
       character.ComponentWeapon().currentAmmo = character.ComponentWeapon().equippedWeapon.ammo;
       

@@ -13,6 +13,7 @@ namespace ActorsECS.Modules.Character.Components
     public bool Interact;
     public float Shoot;
     public bool Reload;
+    public bool Roll;
   }
 
   #region HELPERS
