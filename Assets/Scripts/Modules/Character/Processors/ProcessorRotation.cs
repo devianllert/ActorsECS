@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 namespace ActorsECS.Modules.Character.Processors
 {
-  internal sealed class ProcessorRotation : Processor, ITick
+  internal sealed class ProcessorRotation : Processor, ITickFixed
   {
     [ExcludeBy(Tag.Roll)]
     private readonly Group<ComponentInput> _characters = default;
@@ -14,7 +14,7 @@ namespace ActorsECS.Modules.Character.Processors
     private static Camera Camera => Camera.main;
     private static Mouse Mouse => Mouse.current;
 
-    public void Tick(float delta)
+    public void TickFixed(float delta)
     {
       var looking = Mouse.position.ReadValue();
       var transform = Camera.transform;
@@ -24,7 +24,9 @@ namespace ActorsECS.Modules.Character.Processors
 
       var screenRay = Camera.ScreenPointToRay(looking);
 
-      Physics.Raycast(screenRay, out var dist);
+      var plane = new Plane(Vector3.up, 0);
+      
+      plane.Raycast(screenRay, out var dist);
 
       foreach (var character in _characters)
       {
@@ -33,9 +35,8 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cMovementDirection = ref character.ComponentMovementDirection();
         var rigidbody = character.GetMono<Rigidbody>();
 
-        var closestHitPosition = dist.point - rigidbody.transform.position;
+        var closestHitPosition = screenRay.GetPoint(dist) - rigidbody.transform.position;
         closestHitPosition.y = 0;
-
         var newRotation = quaternion.LookRotation(closestHitPosition, Vector3.up);
 
         var desiredDirection = cameraForward * cInput.Movement.y + cameraRight * cInput.Movement.x;

@@ -28,9 +28,16 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Data" t="Include">
-            <e p="IUsable.cs" t="Include" />
-            <e p="Potion.cs" t="Include" />
-            <e p="Weapon.cs" t="Include" />
+            <e p="Defense.cs" t="Include" />
+            <e p="Effects" t="Include">
+              <e p="ChillWeaponEffect.cs" t="Include" />
+            </e>
+            <e p="ElementalEffect.cs" t="Include" />
+            <e p="EquipmentItem.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="LootableItem.cs" t="Include" />
+            <e p="StatSystem.cs" t="Include" />
+            <e p="WeaponItem.cs" t="Include" />
           </e>
           <e p="LayerStarter.cs" t="Include" />
           <e p="Modules" t="Include">
@@ -52,10 +59,11 @@
                 <e p="ProcessorPickup.cs" t="Include" />
                 <e p="ProcessorRoll.cs" t="Include" />
                 <e p="ProcessorRotation.cs" t="Include" />
+                <e p="ProcessorStats.cs" t="Include" />
               </e>
             </e>
             <e p="Common" t="Include">
-              <e p="ComponentHealth.cs" t="Include" />
+              <e p="ComponentStats.cs" t="Include" />
             </e>
             <e p="Enemy" t="Include">
               <e p="ActorEnemy.cs" t="Include" />

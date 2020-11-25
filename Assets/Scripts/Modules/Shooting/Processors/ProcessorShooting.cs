@@ -11,24 +11,33 @@ namespace ActorsECS.Modules.Shooting.Processors
   {
     private readonly CurrentAmmoUI _currentAmmoUI;
     private readonly TotalAmmoUI _totalAmmoUI;
+    private readonly GameObject _ammoUI;
 
     [ExcludeBy(Tag.Reload, Tag.Roll)]
-    private readonly Group<ComponentInput> _characters = default;
+    private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
+    
+    private readonly Group<ComponentInput, ComponentWeapon> _weapon = default;
 
     public ProcessorShooting()
     {
       _currentAmmoUI = Object.FindObjectOfType<CurrentAmmoUI>();
       _totalAmmoUI = Object.FindObjectOfType<TotalAmmoUI>();
+
+      _ammoUI = _currentAmmoUI.transform.parent.gameObject;
     }
     
     public void Tick(float delta)
     {
+      _ammoUI.SetActive(_weapon.length > 0);
+
       foreach (var character in _characters)
       {
         ref var cInput = ref character.ComponentInput();
         ref var cWeapon = ref character.ComponentWeapon();
         ref var cRotation = ref character.ComponentRotation();
         var transform = character.GetMono<Transform>();
+
+        if (!cWeapon.equippedWeapon) return;
 
         var bulletType = (int) cWeapon.equippedWeapon.bulletType;
 
@@ -56,7 +65,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       }
     }
 
-    private void CreateBullet(Weapon weapon, Transform transform, Quaternion rotation)
+    private void CreateBullet(WeaponItem weapon, Transform transform, Quaternion rotation)
     {
       ref var bullet = ref Layer.GetBuffer<SegmentBullet>().Add();
       
@@ -69,7 +78,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       bullet.damage = weapon.damage;
     }
 
-    private void CreateLaser(Weapon weapon, Transform transform, Quaternion rotation)
+    private void CreateLaser(WeaponItem weapon, Transform transform, Quaternion rotation)
     {
       ref var laser = ref Layer.GetBuffer<SegmentLaser>().Add();
       

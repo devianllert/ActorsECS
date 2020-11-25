@@ -1,5 +1,5 @@
-﻿using ActorsECS.Modules.Common;
-using ActorsECS.Modules.Enemy.Components;
+﻿using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.VFX;
 using Pixeye.Actors;
@@ -10,6 +10,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 {
   internal sealed class ProcessorBullets : Processor, ITick
   {
+    private Group<ComponentWeapon> _characters = default;
     private Buffer<SegmentBullet> _bullets => Layer.GetBuffer<SegmentBullet>();
 
     public void Tick(float delta)
@@ -31,9 +32,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           if (actor)
           {
-            ref var cHealth = ref actor.entity.ComponentHealth();
-
-            cHealth.health -= bullet.damage;
+            _characters[0].ComponentWeapon().equippedWeapon.Attack(_characters[0], actor.entity);
 
             DestroyBullet(bullet, pointer);
 

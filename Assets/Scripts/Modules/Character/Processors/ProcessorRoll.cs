@@ -20,13 +20,15 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cRoll = ref character.ComponentRoll();
         var cAnimator = character.GetMono<Animator>();
         var cRigidbody = character.GetMono<Rigidbody>();
-
-        cRigidbody.freezeRotation = true;
+        
+        cRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
         
         cAnimator.SetBool(Roll, true);
 
         cRoll.elapsedCooldown = cRoll.cooldown;
         cRoll.elapsedDuration = cRoll.duration;
+
+        SetIgnoreCollisionsWithEnemies(true);
       }
       
       foreach (var character in _rolledCharacters.removed)
@@ -34,9 +36,11 @@ namespace ActorsECS.Modules.Character.Processors
         var cAnimator = character.GetMono<Animator>();
         var cRigidbody = character.GetMono<Rigidbody>();
 
-        cRigidbody.freezeRotation = false;
-
+        cRigidbody.constraints -= RigidbodyConstraints.FreezeRotationY;
+        
         cAnimator.SetBool(Roll, false);
+        
+        SetIgnoreCollisionsWithEnemies(false);
       }
     }
 
@@ -48,10 +52,12 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cRotation = ref rolledCharacter.ComponentRotation();
         var cRigidbody = rolledCharacter.GetMono<Rigidbody>();
 
-        var rollVelocity = cRoll.elapsedDuration <= 0.3
-          ? cRotation.faceDirection * cRoll.speed / 2
-          : cRotation.faceDirection * cRoll.speed;
-
+        var rollSpeed = cRoll.distance / cRoll.duration;
+        
+        var rollVelocity = cRoll.elapsedDuration <= 0.35
+          ? cRotation.faceDirection * 3
+          : cRotation.faceDirection * rollSpeed;
+        
         cRoll.elapsedDuration -= delta;
 
         cRigidbody.velocity = new Vector3(rollVelocity.x, cRigidbody.velocity.y, rollVelocity.z);
@@ -82,6 +88,14 @@ namespace ActorsECS.Modules.Character.Processors
           cRoll.elapsedCooldown -= delta;
         }
       }
+    }
+
+    private void SetIgnoreCollisionsWithEnemies(bool ignore)
+    {
+      var playerMask = LayerMask.NameToLayer("Player");
+      var enemiesMask = LayerMask.NameToLayer("Enemy");
+      
+      Physics.IgnoreLayerCollision(playerMask,enemiesMask, ignore);
     }
   }
 }

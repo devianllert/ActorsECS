@@ -1,4 +1,5 @@
 ﻿using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Loot.Components;
 using Pixeye.Actors;
 using UnityEngine;
 
@@ -21,7 +22,7 @@ namespace ActorsECS.Modules.Character.Processors
 
         var (top, bottom) = GetCapsuleBounds(col, transform);
 
-        var hits = Physics.OverlapCapsuleNonAlloc(top, bottom, col.radius + 2f, _lootColliders,
+        var hits = Physics.OverlapCapsuleNonAlloc(top, bottom, 2.5f, _lootColliders,
           LayerMask.GetMask("Collectable"));
 
         if (hits == 0)
@@ -40,7 +41,7 @@ namespace ActorsECS.Modules.Character.Processors
         if (!newEntity.Has(Tag.Lootable)) newEntity.Set(Tag.Lootable);
 
         if (_lootEntity.id != -1 && _lootEntity.Has(Tag.Lootable)) _lootEntity.RemoveAll(Tag.Lootable);
-
+        
         _lootEntity = newEntity;
       }  
     }

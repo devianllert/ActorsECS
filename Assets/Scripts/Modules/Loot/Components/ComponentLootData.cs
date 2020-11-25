@@ -10,7 +10,7 @@ namespace ActorsECS.Modules.Loot.Components
   public struct ComponentLootData
   {
     public string name;
-    public Potion potionData;
+    public Item item;
   }
 
   #region HELPERS

@@ -11,6 +11,12 @@ namespace ActorsECS.Modules.Loot
     protected override void Setup()
     {
       entity.Set(componentLootData);
+
+      if (entity.transform.childCount > 0)
+      {
+        var outline = entity.transform.GetChild(0).gameObject.AddComponent<Outline>();
+        outline.enabled = false;
+      }
     }
   }
 }

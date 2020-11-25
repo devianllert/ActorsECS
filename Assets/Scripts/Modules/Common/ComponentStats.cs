@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
+using ActorsECS.Data;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
 namespace ActorsECS.Modules.Common
  {
    [Serializable]
-   public struct ComponentHealth
+   public struct ComponentStats
    {
-     public float health;
+     public StatSystem StatSystem;
    }
  
    #region HELPERS
@@ -18,18 +19,18 @@ namespace ActorsECS.Modules.Common
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
    static partial class Component
    {
-     public const string Health = "ActorsECS.Modules.Common.ComponentHealth";
+     public const string Stats = "Game.Source.ComponentStats";
      [MethodImpl(MethodImplOptions.AggressiveInlining)]
-     public static ref ComponentHealth ComponentHealth(in this ent entity) =>
-       ref Storage<ComponentHealth>.components[entity.id];
+     public static ref ComponentStats ComponentStats(in this ent entity) =>
+       ref Storage<ComponentStats>.components[entity.id];
    }
-
+ 
    [Il2CppSetOption(Option.NullChecks, false)]
    [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
    [Il2CppSetOption(Option.DivideByZeroChecks, false)]
-   sealed class StorageComponentHealth : Storage<ComponentHealth>
+   sealed class StorageComponentStats : Storage<ComponentStats>
    {
-     public override ComponentHealth Create() => new ComponentHealth();
+     public override ComponentStats Create() => new ComponentStats();
      // Use for cleaning components that were removed at the current frame.
      public override void Dispose(indexes disposed)
      {
@@ -42,4 +43,3 @@ namespace ActorsECS.Modules.Common
  
    #endregion
  }
- 

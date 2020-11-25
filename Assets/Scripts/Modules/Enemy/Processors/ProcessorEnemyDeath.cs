@@ -12,9 +12,9 @@ namespace ActorsECS.Modules.Enemy.Processors
     {
       foreach (var enemy in _enemies)
       {
-        ref var cHealth = ref enemy.ComponentHealth();
+        ref var cHealth = ref enemy.ComponentStats().StatSystem;
 
-        if (!(cHealth.health <= 0)) continue;
+        if (!(cHealth.CurrentHealth <= 0)) continue;
         
         enemy.Release();
       }

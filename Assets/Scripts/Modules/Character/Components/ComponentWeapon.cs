@@ -9,7 +9,7 @@ namespace ActorsECS.Modules.Character.Components
   [Serializable]
   public struct ComponentWeapon
   {
-    public Weapon equippedWeapon;
+    public WeaponItem equippedWeapon;
     public float fireTime;
     public int currentAmmo;
   }

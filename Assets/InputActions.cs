@@ -73,6 +73,14 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Value"",
+                    ""id"": ""ce501b7a-1bab-4865-ada9-ee6ecc9bfb9f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -282,6 +290,17 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Roll"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8be80948-342c-4d6d-81dd-694946620c0c"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -876,6 +895,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_CharacterController_Interact = m_CharacterController.FindAction("Interact", throwIfNotFound: true);
         m_CharacterController_Reload = m_CharacterController.FindAction("Reload", throwIfNotFound: true);
         m_CharacterController_Roll = m_CharacterController.FindAction("Roll", throwIfNotFound: true);
+        m_CharacterController_Pause = m_CharacterController.FindAction("Pause", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -949,6 +969,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_CharacterController_Interact;
     private readonly InputAction m_CharacterController_Reload;
     private readonly InputAction m_CharacterController_Roll;
+    private readonly InputAction m_CharacterController_Pause;
     public struct CharacterControllerActions
     {
         private @InputActions m_Wrapper;
@@ -960,6 +981,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         public InputAction @Interact => m_Wrapper.m_CharacterController_Interact;
         public InputAction @Reload => m_Wrapper.m_CharacterController_Reload;
         public InputAction @Roll => m_Wrapper.m_CharacterController_Roll;
+        public InputAction @Pause => m_Wrapper.m_CharacterController_Pause;
         public InputActionMap Get() { return m_Wrapper.m_CharacterController; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -990,6 +1012,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Roll.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
                 @Roll.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
                 @Roll.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnRoll;
+                @Pause.started -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_CharacterControllerActionsCallbackInterface.OnPause;
             }
             m_Wrapper.m_CharacterControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1015,6 +1040,9 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @Roll.started += instance.OnRoll;
                 @Roll.performed += instance.OnRoll;
                 @Roll.canceled += instance.OnRoll;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
             }
         }
     }
@@ -1200,6 +1228,7 @@ public class @InputActions : IInputActionCollection, IDisposable
         void OnInteract(InputAction.CallbackContext context);
         void OnReload(InputAction.CallbackContext context);
         void OnRoll(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

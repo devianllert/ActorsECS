@@ -18,6 +18,7 @@ namespace ActorsECS.Modules.Character.Processors
     private bool _reload;
     private bool _interact;
     private bool _roll;
+    private bool _pause;
 
     public ProcessorGatheringInput()
     {
@@ -69,7 +70,12 @@ namespace ActorsECS.Modules.Character.Processors
       if (context.started) _roll = true;
       if (context.canceled) _roll = false;
     }
-
+    
+    void InputActions.ICharacterControllerActions.OnPause(InputAction.CallbackContext context)
+    {
+      if (context.started) _pause = true;
+      if (context.canceled) _pause = false;
+    }
 
     public void Tick(float delta)
     {
@@ -82,11 +88,13 @@ namespace ActorsECS.Modules.Character.Processors
         cInput.Shoot = _shoot;
         cInput.Reload = _reload;
         cInput.Roll = _roll;
+        cInput.Pause = _pause;
       }
 
       _reload = false;
       _interact = false;
       _roll = false;
+      _pause = false;
     }
   }
 }

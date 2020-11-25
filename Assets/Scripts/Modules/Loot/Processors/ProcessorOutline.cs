@@ -9,38 +9,34 @@ namespace ActorsECS.Modules.Loot.Processors
   {
     private LootUI lootUi;
 
-    [GroupBy(Tag.Lootable)] private readonly Group<ComponentLootData> _loots = default;
+    [GroupBy(Tag.Lootable)]
+    private readonly Group<ComponentLootData> _loots = default;
+    [ExcludeBy(Tag.Lootable)]
+    private readonly Group<ComponentLootData> _allLoots = default;
 
     public ProcessorOutline()
     {
       lootUi = Object.FindObjectOfType<LootUI>();
     }
 
-    public override void HandleEcsEvents()
-    {
-      foreach (var loot in _loots.added) Debug.Log("Added");
-
-      foreach (var loot in _loots.removed)
-      {
-        Debug.Log("Removed");
-
-        var outline = loot.GetMono<Outline>();
-
-        outline.enabled = false;
-      }
-    }
-
     public void Tick(float dt)
     {
       foreach (var loot in _loots)
       {
-        var outline = loot.GetMono<Outline>();
+        var outline = loot.GetMono<Outline>(0);
 
         outline.enabled = true;
 
-        lootUi.ShowTooltip(outline.gameObject.transform.position);
+        lootUi.ShowTooltip(outline.transform.position);
       }
 
+      foreach (var loot in _allLoots)
+      {
+        var outline = loot.GetMono<Outline>(0);
+
+        outline.enabled = false;
+      }
+      
       if (_loots.length == 0 && lootUi.IsEnabled) lootUi.HideTooltip();
     }
   }

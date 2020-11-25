@@ -10,7 +10,7 @@ namespace ActorsECS.Modules.Shooting.Processors
   {
     private readonly ReloadUI _reloadUI;
     
-    private readonly Group<ComponentInput> _characters = default;
+    private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
     
     [GroupBy(Tag.Reload)]
     private readonly Group<ComponentWeapon> _reloadingCharacters = default;

@@ -19,6 +19,7 @@ namespace ActorsECS
       Add<ProcessorAnimation>();
       Add<ProcessorLootCollisions>();
       Add<ProcessorPickup>();
+      Add<ProcessorStats>();
 
       #endregion
       
@@ -47,6 +48,10 @@ namespace ActorsECS
 
       Add<ProcessorEnemyAI>();
       Add<ProcessorEnemyDeath>();
+
+      #endregion
+
+      #region Common
 
       #endregion
     }

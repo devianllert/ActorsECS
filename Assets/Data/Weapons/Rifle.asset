@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
-  m_Name: Pistol
+  m_Name: Rifle
   m_EditorClassIdentifier: 
   ItemName: 
   ItemSprite: {fileID: 0}
@@ -19,14 +19,13 @@ MonoBehaviour:
   Slot: 0
   EquippedEffects: []
   bulletType: 0
-  weaponPrefab: {fileID: 1121525155587680, guid: c6865c562fd3f2841a92dc0cbbd6b4b4, type: 3}
-  rateOfFire: 400
-  range: 15
-  damage: 20
-  ammo: 8
+  weaponPrefab: {fileID: 1311246062939086, guid: 787a31f2409a3f64c987faeb2a72ab86, type: 3}
+  rateOfFire: 1200
+  range: 20
+  damage: 34
+  ammo: 24
   speed: 20
-  reloadTime: 1.5
+  reloadTime: 2.5
   bulletPrefabName: Bullet
   HitVFX: 0
-  AttackEffects:
-  - {fileID: 11400000, guid: e28d29dbd2ff362488a55c06d7d22f5e, type: 2}
+  AttackEffects: []

@@ -7,13 +7,16 @@ namespace ActorsECS.Modules.Enemy
   public class ActorEnemy : Actor
   {
     [FoldoutGroup("Components", true)]
-    public ComponentHealth componentHealth;
     public ComponentEnemy componentEnemy;
+    public ComponentStats componentStats;
 
     protected override void Setup()
     {
+      componentStats.StatSystem.stats.health = 100;
+      componentStats.StatSystem.Init(entity);
+
       entity.Set(componentEnemy);
-      entity.Set(componentHealth);
+      entity.Set(componentStats);
     }
   }
 }

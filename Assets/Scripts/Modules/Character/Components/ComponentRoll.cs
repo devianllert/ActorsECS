@@ -9,7 +9,7 @@ namespace ActorsECS.Modules.Character.Components
    public struct ComponentRoll
    {
      public float duration;
-     public float speed;
+     public float distance;
      public float cooldown;
      public float elapsedCooldown;
      public float elapsedDuration;

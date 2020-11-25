@@ -1,7 +1,6 @@
 ﻿using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Loot.Components;
 using Pixeye.Actors;
-using UnityEngine;
 
 namespace ActorsECS.Modules.Character.Processors
 {
@@ -9,7 +8,8 @@ namespace ActorsECS.Modules.Character.Processors
   {
     private readonly Group<ComponentInput> _characters = default;
 
-    [GroupBy(Tag.Lootable)] private readonly Group<ComponentLootData> _loots = default;
+    [GroupBy(Tag.Lootable)]
+    private readonly Group<ComponentLootData> _loots = default;
 
     public void Tick(float delta)
     {
@@ -17,18 +17,15 @@ namespace ActorsECS.Modules.Character.Processors
       {
         ref var cinput = ref character.ComponentInput();
 
-        if (!cinput.Interact) continue;
+        if (!cinput.Interact || !_loots[0].exist) continue;
+
+        var loot = _loots[0];
+
+        ref var lootData = ref loot.ComponentLootData();
+
+        lootData.item.Pickup(character, loot);
         
-        foreach (var loot in _loots)
-        {
-          var lootData = loot.ComponentLootData();
-          
-          Debug.Log($"Picked up {lootData.name}");
-
-          loot.Release();
-
-          break;
-        }
+        loot.Release();
       }
     }
   }

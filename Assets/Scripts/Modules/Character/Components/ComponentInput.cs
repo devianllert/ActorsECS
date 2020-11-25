@@ -14,6 +14,7 @@ namespace ActorsECS.Modules.Character.Components
     public float Shoot;
     public bool Reload;
     public bool Roll;
+    public bool Pause;
   }
 
   #region HELPERS
