@@ -87,6 +87,8 @@
                 <e p="ProcessorOutline.cs" t="Include" />
               </e>
             </e>
+            <e p="ProcessorDamageText.cs" t="Include" />
+            <e p="SegmentDamageText.cs" t="Include" />
             <e p="Shooting" t="Include">
               <e p="Components" t="Include">
                 <e p="SegmentBullet.cs" t="Include" />

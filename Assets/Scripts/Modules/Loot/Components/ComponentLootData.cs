@@ -9,7 +9,6 @@ namespace ActorsECS.Modules.Loot.Components
   [Serializable]
   public struct ComponentLootData
   {
-    public string name;
     public Item item;
   }
 

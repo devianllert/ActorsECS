@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using ActorsECS.Modules;
 using Pixeye.Actors;
+using TMPro;
 using UnityEngine;
+using Random = Pixeye.Actors.Random;
+using Time = UnityEngine.Time;
 
 namespace ActorsECS.Data
 {
@@ -333,9 +337,17 @@ namespace ActorsECS.Data
           /// <param name="attackData"></param>
           public void Damage(WeaponItem.AttackData attackData)
           {
+              var target = attackData.Target;
               var totalDamage = attackData.GetFullDamage();
           
               ChangeHealth(-totalDamage);
+
+              ref var text = ref target.layer.GetBuffer<SegmentDamageText>().Add();
+
+              var randomRange = Random.Range(-0.5f, 0.5f);
+              text.source = target.layer.Obj.Create(Pool.Entities, "Prefabs/DamageText", new Vector3(randomRange, 0 ,0) + target.transform.position + Vector3.up * 2);
+              text.source.GetComponentInChildren<TextMeshPro>().text = totalDamage.ToString();
+              text.startTime = Time.time;
               // DamageUI.Instance.NewDamage(totalDamage, m_Owner.transform.position);
           }
       }

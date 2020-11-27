@@ -10,7 +10,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 {
   internal sealed class ProcessorBullets : Processor, ITick
   {
-    private Group<ComponentWeapon> _characters = default;
+    private Group<ComponentInput, ComponentWeapon> _characters = default;
     private Buffer<SegmentBullet> _bullets => Layer.GetBuffer<SegmentBullet>();
 
     public void Tick(float delta)
@@ -32,7 +32,9 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           if (actor)
           {
-            _characters[0].ComponentWeapon().equippedWeapon.Attack(_characters[0], actor.entity);
+            ref var cWeapon = ref _characters[0].ComponentWeapon();
+            Debug.Log(cWeapon.equippedWeapon.damage);
+            cWeapon.equippedWeapon.Attack(_characters[0], actor.entity);
 
             DestroyBullet(bullet, pointer);
 
@@ -54,8 +56,8 @@ namespace ActorsECS.Modules.Shooting.Processors
     {
       var vfx = VFXManager.PlayVFX(VFXType.BulletHit, bullet.source.position);
 
-      _bullets.RemoveAt(pointer);
       bullet.source.gameObject.Release(Pool.Entities);
+      _bullets.RemoveAt(pointer);
 
       Layer.WaitFor(0.5f, () => vfx.Effect.gameObject.SetActive(false));
     }

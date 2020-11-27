@@ -1,4 +1,5 @@
-﻿using ActorsECS.Modules.Character.Processors;
+﻿using ActorsECS.Modules;
+using ActorsECS.Modules.Character.Processors;
 using ActorsECS.Modules.Enemy.Processors;
 using ActorsECS.Modules.Loot.Processors;
 using ActorsECS.Modules.Shooting.Components;
@@ -52,6 +53,9 @@ namespace ActorsECS
       #endregion
 
       #region Common
+
+      Add<Buffer<SegmentDamageText>>();
+      Add<ProcessorDamageText>();
 
       #endregion
     }

@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
   m_Name: Rifle
   m_EditorClassIdentifier: 
-  ItemName: 
-  ItemSprite: {fileID: 0}
-  Description: 
-  WorldObjectPrefab: {fileID: 0}
-  Slot: 0
-  EquippedEffects: []
+  itemName: 
+  itemSprite: {fileID: 0}
+  description: 
+  worldObjectPrefab: {fileID: 0}
+  slot: 0
+  equippedEffects: []
   bulletType: 0
   weaponPrefab: {fileID: 1311246062939086, guid: 787a31f2409a3f64c987faeb2a72ab86, type: 3}
-  rateOfFire: 1200
+  rateOfFire: 600
   range: 20
   damage: 34
   ammo: 24
@@ -28,4 +28,4 @@ MonoBehaviour:
   reloadTime: 2.5
   bulletPrefabName: Bullet
   HitVFX: 0
-  AttackEffects: []
+  attackEffects: []

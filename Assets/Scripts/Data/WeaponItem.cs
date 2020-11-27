@@ -36,36 +36,45 @@ namespace ActorsECS.Data
 
     public override void Pickup(ent character, ent loot)
     {
+      ref var cWeapon = ref character.Get<ComponentWeapon>();
+      ref var lootItem = ref loot.ComponentLootData().item;
+      ref var cLootWeapon = ref loot.Get<ComponentWeapon>();
+      
+      if (cWeapon.equippedWeapon) DropWeapon(character);
+
+      ref var equippedWeapon = ref cWeapon.equippedWeapon;
+      
+      var lootedWeapon = (WeaponItem) lootItem;
+      
+      cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.ammo;
+      equippedWeapon = lootedWeapon;
+    }
+
+    public void DropWeapon(ent character)
+    {
       var Layer = character.layer;
 
-      ref var cWeapon = ref character.Get<ComponentWeapon>();
-      ref var lootData = ref loot.ComponentLootData();
-      ref var cLootWeapon = ref loot.Get<ComponentWeapon>();
+      ref var cWeapon = ref character.ComponentWeapon();
+      var weapon = cWeapon.equippedWeapon;
+      var weaponAmmo = cWeapon.currentAmmo;
 
-      var prevWeapon = cWeapon.equippedWeapon;
-      var prevWeaponAmmo = cWeapon.currentAmmo;
-
-      var lootedWeapon = (WeaponItem) lootData.item;
-      
-      cWeapon.equippedWeapon = lootedWeapon;
-      cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.ammo;
-
-      if (!prevWeapon) return;
+      cWeapon.equippedWeapon = null;
+      cWeapon.currentAmmo = 0;
 
       var forward = character.transform.forward;
       
       var prevLoot = Layer.Actor.Create("Prefabs/Loot", character.transform.position + forward);
 
-      Layer.Obj.Create(prevWeapon.weaponPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
+      Layer.Obj.Create(weapon.weaponPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
       
       ref var newLoot = ref prevLoot.entity.Get<ComponentLootData>();
       ref var cPrevWeapon = ref prevLoot.entity.Get<ComponentWeapon>();
       
-      cPrevWeapon.currentAmmo = prevWeaponAmmo;
-      cPrevWeapon.equippedWeapon = prevWeapon;
       
-      newLoot.item = prevWeapon;
-      newLoot.name = "Weapon";
+      cPrevWeapon.currentAmmo = weaponAmmo;
+      cPrevWeapon.equippedWeapon = weapon;
+      
+      newLoot.item = weapon;
       
       prevLoot.GetComponent<Rigidbody>().AddForce((forward + Vector3.up) * 2f, ForceMode.Impulse);
     }

@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
   m_Name: Pistol
   m_EditorClassIdentifier: 
-  ItemName: 
-  ItemSprite: {fileID: 0}
-  Description: 
-  WorldObjectPrefab: {fileID: 0}
-  Slot: 0
-  EquippedEffects: []
+  itemName: 
+  itemSprite: {fileID: 0}
+  description: 
+  worldObjectPrefab: {fileID: 0}
+  slot: 0
+  equippedEffects: []
   bulletType: 0
   weaponPrefab: {fileID: 1121525155587680, guid: c6865c562fd3f2841a92dc0cbbd6b4b4, type: 3}
-  rateOfFire: 400
+  rateOfFire: 200
   range: 15
   damage: 20
   ammo: 8
@@ -28,5 +28,4 @@ MonoBehaviour:
   reloadTime: 1.5
   bulletPrefabName: Bullet
   HitVFX: 0
-  AttackEffects:
-  - {fileID: 11400000, guid: e28d29dbd2ff362488a55c06d7d22f5e, type: 2}
+  attackEffects: []

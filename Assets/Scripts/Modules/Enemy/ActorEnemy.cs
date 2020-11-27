@@ -12,7 +12,6 @@ namespace ActorsECS.Modules.Enemy
 
     protected override void Setup()
     {
-      componentStats.StatSystem.stats.health = 100;
       componentStats.StatSystem.Init(entity);
 
       entity.Set(componentEnemy);
