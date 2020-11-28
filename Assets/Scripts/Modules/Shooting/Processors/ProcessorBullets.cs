@@ -33,7 +33,6 @@ namespace ActorsECS.Modules.Shooting.Processors
           if (actor)
           {
             ref var cWeapon = ref _characters[0].ComponentWeapon();
-            Debug.Log(cWeapon.equippedWeapon.damage);
             cWeapon.equippedWeapon.Attack(_characters[0], actor.entity);
 
             DestroyBullet(bullet, pointer);

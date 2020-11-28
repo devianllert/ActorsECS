@@ -20,7 +20,7 @@ namespace ActorsECS.Modules.Character.Processors
 
         var movement = new Vector3(cInput.Movement.x, 0, cInput.Movement.y);
 
-        var speed = cMovementDirection.direction.x >= -0.1f ? cMovement.speed : cMovement.speed * 0.6f;
+        var speed = cMovementDirection.direction.x >= -0.1f ? cMovement.speed : cMovement.speed * 0.8f;
 
         var newPosition = rigidbody.transform.position + movement * speed * delta;
 

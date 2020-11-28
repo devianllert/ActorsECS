@@ -4,6 +4,7 @@ using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.UI;
 using Pixeye.Actors;
 using UnityEngine;
+using Random = Pixeye.Actors.Random;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {

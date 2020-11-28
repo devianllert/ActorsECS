@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02977c54c9d043af9cd58d062f4b1e54, type: 3}
   m_Name: Chill Effect
   m_EditorClassIdentifier: 
-  Description: 
-  PercentageChance: 20
+  description: 
+  PercentageChance: 100
   Damage: 5
   Time: 0

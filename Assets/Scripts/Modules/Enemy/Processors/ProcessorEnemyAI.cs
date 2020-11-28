@@ -18,13 +18,13 @@ namespace ActorsECS.Modules.Enemy.Processors
       {
         foreach (var character in _characters)
         {
-          var characterTransform = character.GetMono<Transform>();
-          var enemyTransform = enemy.GetMono<Transform>();
-
-          var position = characterTransform.position;
-          enemyTransform.LookAt(math.distance(enemyTransform.position, position) <= 10f
-            ? position
-            : Vector3.forward);
+          // var characterTransform = character.GetMono<Transform>();
+          // var enemyTransform = enemy.GetMono<Transform>();
+          //
+          // var position = characterTransform.position;
+          // enemyTransform.LookAt(math.distance(enemyTransform.position, position) <= 10f
+          //   ? position
+          //   : Vector3.forward);
         }
       }
     }

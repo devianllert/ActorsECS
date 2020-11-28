@@ -70,7 +70,6 @@ namespace ActorsECS.Data
       ref var newLoot = ref prevLoot.entity.Get<ComponentLootData>();
       ref var cPrevWeapon = ref prevLoot.entity.Get<ComponentWeapon>();
       
-      
       cPrevWeapon.currentAmmo = weaponAmmo;
       cPrevWeapon.equippedWeapon = weapon;
       
@@ -87,7 +86,7 @@ namespace ActorsECS.Data
       private readonly ent _target;
       private readonly ent _source;
 
-      readonly int[] _damages = new int[System.Enum.GetValues(typeof(StatSystem.DamageType)).Length];
+      public readonly int[] _damages = new int[System.Enum.GetValues(typeof(StatSystem.DamageType)).Length];
       
       /// <summary>
       /// Build a new AttackData. All AttackData need a target, but source is optional. If source is null, the

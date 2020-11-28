@@ -21,6 +21,8 @@ namespace ActorsECS.Data
     }
 
     public virtual void Pickup(ent character, ent loot) {}
+    
+    public virtual void Drop(ent character) {}
   }
 
 #if UNITY_EDITOR

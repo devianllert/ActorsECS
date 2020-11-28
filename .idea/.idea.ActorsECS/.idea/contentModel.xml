@@ -101,6 +101,7 @@
               </e>
             </e>
           </e>
+          <e p="SFXManager.cs" t="Include" />
           <e p="Tag.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="CurrentAmmoUI.cs" t="Include" />

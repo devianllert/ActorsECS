@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
   m_Name: Rifle
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Rifle
   itemSprite: {fileID: 0}
   description: 
   worldObjectPrefab: {fileID: 0}
@@ -22,10 +22,10 @@ MonoBehaviour:
   weaponPrefab: {fileID: 1311246062939086, guid: 787a31f2409a3f64c987faeb2a72ab86, type: 3}
   rateOfFire: 600
   range: 20
-  damage: 34
+  damage: 10
   ammo: 24
   speed: 20
   reloadTime: 2.5
-  bulletPrefabName: Bullet
+  bulletPrefabName: BulletRed
   HitVFX: 0
   attackEffects: []

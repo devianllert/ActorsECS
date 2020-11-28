@@ -30,6 +30,15 @@ namespace ActorsECS.Data
               Chaos
               //ADD YOUR CUSTOM TYPE AFTER
           }
+
+          public Color[] DamageTypeColor =
+          {
+              Color.white,
+              Color.red,
+              Color.blue,
+              Color.cyan,
+              Color.green
+          };
       
           /// <summary>
           /// Store the stats, which are composed of 4 values : health, strength, agility and defense.
@@ -337,18 +346,33 @@ namespace ActorsECS.Data
           /// <param name="attackData"></param>
           public void Damage(WeaponItem.AttackData attackData)
           {
-              var target = attackData.Target;
               var totalDamage = attackData.GetFullDamage();
           
               ChangeHealth(-totalDamage);
 
-              ref var text = ref target.layer.GetBuffer<SegmentDamageText>().Add();
-
-              var randomRange = Random.Range(-0.5f, 0.5f);
-              text.source = target.layer.Obj.Create(Pool.Entities, "Prefabs/DamageText", new Vector3(randomRange, 0 ,0) + target.transform.position + Vector3.up * 2);
-              text.source.GetComponentInChildren<TextMeshPro>().text = totalDamage.ToString();
-              text.startTime = Time.time;
+              RenderDamages(attackData);
               // DamageUI.Instance.NewDamage(totalDamage, m_Owner.transform.position);
+          }
+
+          private void RenderDamages(WeaponItem.AttackData attackData)
+          {
+              var target = attackData.Target;
+
+              // TODO: add normal positioning
+              foreach (var damageType in (DamageType[]) Enum.GetValues(typeof(DamageType)))
+              {
+                  var damage = attackData.GetDamage(damageType);
+                  
+                  if (damage == 0) continue;
+                  
+                  ref var text = ref target.layer.GetBuffer<SegmentDamageText>().Add();
+
+                  var randomRange = Random.Range(-0.5f, 0.5f);
+                  text.source = target.layer.Obj.Create(Pool.Entities, "Prefabs/DamageText", new Vector3(randomRange, 0 ,0) + target.transform.position + Vector3.up * 2);
+                  text.source.GetComponentInChildren<TextMeshPro>().text = damage.ToString();
+                  text.source.GetComponentInChildren<TextMeshPro>().color = DamageTypeColor[(int) damageType];
+                  text.startTime = Time.time;
+              }
           }
       }
 }
