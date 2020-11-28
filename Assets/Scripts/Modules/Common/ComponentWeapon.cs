@@ -4,7 +4,7 @@ using ActorsECS.Data;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
-namespace ActorsECS.Modules.Character.Components
+namespace ActorsECS.Modules.Common
 {
   [Serializable]
   public struct ComponentWeapon
@@ -21,7 +21,7 @@ namespace ActorsECS.Modules.Character.Components
   [Il2CppSetOption(Option.DivideByZeroChecks, false)]
   internal static partial class Component
   {
-    public const string Weapon = "ActorsECS.Modules.Character.Components.ComponentWeapon";
+    public const string Weapon = "ActorsECS.Modules.Common.ComponentWeapon";
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static ref ComponentWeapon ComponentWeapon(in this ent entity)

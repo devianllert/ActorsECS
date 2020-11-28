@@ -17,7 +17,6 @@ namespace ActorsECS.Data
 
     [Space]
     [Header("Weapon Data")]
-    public GameObject weaponPrefab;
     public float rateOfFire;
     public float range;
     public float damage;
@@ -26,8 +25,8 @@ namespace ActorsECS.Data
     public float reloadTime;
 
     [Space]
-    [Header("Bullet Data")]
-    public string bulletPrefabName;
+    [Header("Projectile Data")]
+    public GameObject projectilePrefab;
     public VFXType HitVFX;
 
     [Space]
@@ -39,15 +38,19 @@ namespace ActorsECS.Data
       ref var cWeapon = ref character.Get<ComponentWeapon>();
       ref var lootItem = ref loot.ComponentLootData().item;
       ref var cLootWeapon = ref loot.Get<ComponentWeapon>();
+      var weaponController = character.GetMono<CharacterWeaponController>();
+      
+      weaponController.SetupWeaponModel((WeaponItem) lootItem);
       
       if (cWeapon.equippedWeapon) DropWeapon(character);
-
+      
       ref var equippedWeapon = ref cWeapon.equippedWeapon;
       
       var lootedWeapon = (WeaponItem) lootItem;
       
       cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.ammo;
       equippedWeapon = lootedWeapon;
+      
     }
 
     public void DropWeapon(ent character)
@@ -65,7 +68,7 @@ namespace ActorsECS.Data
       
       var prevLoot = Layer.Actor.Create("Prefabs/Loot", character.transform.position + forward);
 
-      Layer.Obj.Create(weapon.weaponPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
+      Layer.Obj.Create(weapon.worldObjectPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
       
       ref var newLoot = ref prevLoot.entity.Get<ComponentLootData>();
       ref var cPrevWeapon = ref prevLoot.entity.Get<ComponentWeapon>();

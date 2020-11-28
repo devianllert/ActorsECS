@@ -20,308 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/BulletRed_Mat.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/BulletRed_Mat.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/IdleJump/m@StandingJump_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/RunningJump/m@RunForwardsJump_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/SprintingJump/m@SprintForwardsJump_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpLeftFoot/m@StrafeForwardJumpLeftFoot_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/ForwardJumpRightFoot/m@StrafeForwardJumpRightFoot_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/IdleJump/m@StrafeJump_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame03.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame03.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame04.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Jump/Strafe/RightJump/m@StrafeRightJump_Frame04.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Landing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Landing/m@FallLand.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Landing/m@FallLand.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Landing/m@FallLandRoll.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/Landing/m@FallLandRoll.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/m@Falling.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Aerial/m@Falling.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@IdleLeftTurn180.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@IdleLeftTurn180.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftRunForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftRunForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftSprintForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftSprintForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftWalkForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RapidTurningLeftWalkForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RunForwardTurnLeft180.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@RunForwardTurnLeft180.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftRunForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftRunForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftSprintForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftSprintForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftWalkForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@TurningLeftWalkForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@WalkForwardTurnLeft180.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/Turning/m@WalkForwardTurnLeft180.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@Idle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@Idle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@RunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@RunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@SprintForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@SprintForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@WalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Exploration/m@WalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeForwardsRapidTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeForwardsRapidTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftRunForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftRunForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@RapidStrafeRightRapidTurnLeftWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeForwardsRapidTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeForwardsRapidTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRapidTurningLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRapidTurningLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnLeft/m@StrafeRightRapidTurnLeftWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeForwardsRapidTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeForwardsRapidTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightRunForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightRunForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@RapidStrafeRightRapidTurnRightWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeForwardsRapidTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeForwardsRapidTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRapidTurningRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRapidTurningRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/RapidTurnRight/m@StrafeRightRapidTurnRightWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeForwardsTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeForwardsTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@RapidStrafeRightTurnLeftWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeForwardsTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeForwardsTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeRightTurnLeftWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeTurningLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnLeft/m@StrafeTurningLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeBackwardsTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeBackwardsTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeForwardsTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeForwardsTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightWalkForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@RapidStrafeRightTurnRightWalkForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeBackwardsTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeBackwardsTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeForwardsTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeForwardsTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeRightTurnRightWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeTurningRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/Turning/TurnRight/m@StrafeTurningRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightRunForward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightRunForward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightWalkFowards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@RapidStrafeRightWalkFowards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeIdle.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeIdle.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightRunBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightRunBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightRunForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightRunForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightWalkBackwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightWalkBackwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeRightWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeWalkForwards.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Animations/Strafe/m@StrafeWalkForwards.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Rig.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Rig/defaultmale_rig.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/Male/Rig/defaultmale_rig.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/PlayerModel.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/PlayerModel.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/PlayerModelController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Player/PlayerModelController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Character.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Character.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/BulletRed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/BulletRed.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Effects/Chill Effect.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/Effects/Chill Effect.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/LaserGun.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/LaserGun.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Pistol.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Pistol.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/RefLeftHandGrip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/RefLeftHandGrip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/RefRightHandGrip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/RefRightHandGrip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Rifle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Rifle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentAim.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentAim.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Chill Effect.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Chill Effect.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Chill Effect.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Chill Effect.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Weapons/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Weapons/Pistol.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/Weapons/Rifle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Weapons/Rifle.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Jog Strafe Right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/PlayerController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/PlayerController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Roll.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Roll.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Running.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Running.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Slow Jog Backwards.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/Slow Jog Backwards.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/xbot/xbot.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/BulletSphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Projectiles/BulletSphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/SM_Wep_Watergun_02 (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/SM_Wep_Watergun_02 (1).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/StatSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/StatSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/WeaponItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/WeaponItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +87,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -353,7 +95,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/InputActions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/VFXDatabase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -364,6 +106,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VFX/Editor/VFXDBEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.pixeye.ecs@33af006c18/Runtime/Core/ImplObj.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -375,15 +118,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Components/ComponentHead.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Components/ComponentTurret.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/ActorTurret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Turret/Processors/ProcessorTurret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRoll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/ProcessorPause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" />
@@ -401,7 +139,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/ElementalEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Defense.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" />
@@ -409,7 +146,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/ActorLoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Effects/ChillWeaponEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/SegmentDamageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" />
@@ -417,15 +153,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/LootableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/ProcessorDamageText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/WeaponItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/StatSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentAim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LayerStarter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/WeaponItem.cs" />
       </list>
     </option>
   </component>
@@ -520,7 +263,7 @@
       <workItem from="1606307634963" duration="8951000" />
       <workItem from="1606396416436" duration="13403000" />
       <workItem from="1606463824589" duration="26169000" />
-      <workItem from="1606567669118" duration="5258000" />
+      <workItem from="1606567669118" duration="22365000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>

@@ -32,6 +32,7 @@ namespace ActorsECS.Modules.Character.Processors
       {
         ref var cInput = ref character.ComponentInput();
         ref var cRotation = ref character.ComponentRotation();
+        ref var cAim = ref character.ComponentAim();
         ref var cMovementDirection = ref character.ComponentMovementDirection();
         var rigidbody = character.GetMono<Rigidbody>();
 
@@ -49,7 +50,8 @@ namespace ActorsECS.Modules.Character.Processors
         cMovementDirection.direction = new Vector2(forw, stra);
 
         rigidbody.MoveRotation(newRotation);
-        
+
+        cAim.point = closestHitPosition;
         cRotation.rotation = newRotation;
         cRotation.faceDirection = rigidbody.transform.forward;
       }

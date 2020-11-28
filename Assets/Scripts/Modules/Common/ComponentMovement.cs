@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
-namespace ActorsECS.Modules.Character.Components
+namespace ActorsECS.Modules.Common
 {
   [Serializable]
   public struct ComponentMovement
@@ -18,7 +18,7 @@ namespace ActorsECS.Modules.Character.Components
   [Il2CppSetOption(Option.DivideByZeroChecks, false)]
   internal static partial class Component
   {
-    public const string Movement = "ActorsECS.Modules.Character.Components.ComponentMovement";
+    public const string Movement = "ActorsECS.Modules.Common.ComponentMovement";
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static ref ComponentMovement ComponentMovement(in this ent entity)

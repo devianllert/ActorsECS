@@ -15,17 +15,16 @@ MonoBehaviour:
   itemName: Pistol
   itemSprite: {fileID: 0}
   description: 
-  worldObjectPrefab: {fileID: 0}
+  worldObjectPrefab: {fileID: 1121525155587680, guid: c6865c562fd3f2841a92dc0cbbd6b4b4, type: 3}
   slot: 0
   equippedEffects: []
   bulletType: 0
-  weaponPrefab: {fileID: 1121525155587680, guid: c6865c562fd3f2841a92dc0cbbd6b4b4, type: 3}
   rateOfFire: 200
   range: 15
   damage: 5
   ammo: 8
   speed: 20
   reloadTime: 1.5
-  bulletPrefabName: Bullet
+  projectilePrefab: {fileID: 6010139431648226660, guid: f33629610712c8f41895f4da989ee718, type: 3}
   HitVFX: 0
   attackEffects: []

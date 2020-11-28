@@ -15,17 +15,16 @@ MonoBehaviour:
   itemName: Rifle
   itemSprite: {fileID: 0}
   description: 
-  worldObjectPrefab: {fileID: 0}
+  worldObjectPrefab: {fileID: 82333611384371101, guid: 17841d522a9d83b42b06d280eb4d506b, type: 3}
   slot: 0
   equippedEffects: []
   bulletType: 0
-  weaponPrefab: {fileID: 1311246062939086, guid: 787a31f2409a3f64c987faeb2a72ab86, type: 3}
   rateOfFire: 600
   range: 20
   damage: 10
   ammo: 24
-  speed: 20
+  speed: 25
   reloadTime: 2.5
-  bulletPrefabName: BulletRed
+  projectilePrefab: {fileID: 6010139431648226660, guid: f0f5b513872b13842896acae3ae7c386, type: 3}
   HitVFX: 0
   attackEffects: []

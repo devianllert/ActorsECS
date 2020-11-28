@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Common;
 using ActorsECS.UI;
 using Pixeye.Actors;
 using UnityEngine;
@@ -26,7 +27,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       {
         ref var cInput = ref character.ComponentInput();
 
-        if (cInput.Reload) character.Set(Tag.Reload);
+        if (cInput.Reload && !character.Has(Tag.Reload)) character.Set(Tag.Reload);
       }
     }
 

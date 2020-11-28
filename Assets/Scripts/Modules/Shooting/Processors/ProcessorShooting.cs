@@ -1,10 +1,10 @@
 ﻿using ActorsECS.Data;
 using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.UI;
 using Pixeye.Actors;
 using UnityEngine;
-using Random = Pixeye.Actors.Random;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
@@ -72,11 +72,10 @@ namespace ActorsECS.Modules.Shooting.Processors
       
       bullet.position = transform.position + Vector3.up + transform.forward;
       bullet.speed = weapon.speed;
-      bullet.source = Obj.Create(Pool.Entities, $"Prefabs/Projectiles/{weapon.bulletPrefabName}", bullet.position);
+      bullet.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, bullet.position);
       bullet.distance = 0f;
       bullet.direction = rotation;
       bullet.range = weapon.range;
-      bullet.damage = weapon.damage;
     }
 
     private void CreateLaser(WeaponItem weapon, Transform transform, Quaternion rotation)
@@ -84,7 +83,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       ref var laser = ref Layer.GetBuffer<SegmentLaser>().Add();
       
       laser.position = transform.position + Vector3.up + transform.forward;
-      laser.source = Obj.Create(Pool.Entities, "Prefabs/Projectiles/Laser", laser.position);
+      laser.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, laser.position);
       laser.direction = rotation;
       laser.range = weapon.range;
     }
