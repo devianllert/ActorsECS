@@ -31,7 +31,7 @@ namespace ActorsECS.Data
               //ADD YOUR CUSTOM TYPE AFTER
           }
 
-          public Color[] DamageTypeColor =
+          private Color[] DamageTypeColor =
           {
               Color.white,
               Color.red,

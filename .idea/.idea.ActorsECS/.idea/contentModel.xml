@@ -35,7 +35,6 @@
             <e p="ElementalEffect.cs" t="Include" />
             <e p="EquipmentItem.cs" t="Include" />
             <e p="Item.cs" t="Include" />
-            <e p="LootableItem.cs" t="Include" />
             <e p="StatSystem.cs" t="Include" />
             <e p="WeaponItem.cs" t="Include" />
           </e>

@@ -1,28 +1,48 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Loot.Components;
 using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
+using Random = Pixeye.Actors.Random;
 
 namespace ActorsECS.Data
 {
-  [CreateAssetMenu(fileName = "FILENAME", menuName = "MENUNAME", order = 0)]
+  [CreateAssetMenu(fileName = "Weapon", menuName = "Data/Create/Weapon", order = 0)]
   public class WeaponItem : EquipmentItem
   {
     [Header("Bullet Type")]
     public int bulletType = 0;
 
-    [Space]
-    [Header("Weapon Data")]
-    public float rateOfFire;
-    public float range;
-    public float damage;
-    public int ammo;
-    public float speed;
-    public float reloadTime;
+        
+    [System.Serializable]
+    public struct Stat
+    {
+      public float rateOfFire;
+      public float range;
+      public float speed;
+      public int minimumDamage;
+      public int maximumDamage;
+      public int ammo;
+      public float reloadTime;
+    }
+    
+    [Header("Stats")]
+    public Stat stats = new Stat
+    {
+      speed = 1.0f,
+      maximumDamage = 1,
+      minimumDamage = 1,
+      range = 1,
+      ammo = 1,
+      reloadTime = 1,
+      rateOfFire = 1,
+    };
+    
+    [Header("Sounds")]
+    public AudioClip[] hitSounds;
+    public AudioClip[] shootSounds;
 
     [Space]
     [Header("Projectile Data")]
@@ -48,7 +68,7 @@ namespace ActorsECS.Data
       
       var lootedWeapon = (WeaponItem) lootItem;
       
-      cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.ammo;
+      cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.stats.ammo;
       equippedWeapon = lootedWeapon;
       
     }
@@ -79,6 +99,22 @@ namespace ActorsECS.Data
       newLoot.item = weapon;
       
       prevLoot.GetComponent<Rigidbody>().AddForce((forward + Vector3.up) * 2f, ForceMode.Impulse);
+    }
+    
+    public override string GetDescription()
+    {
+      string desc = base.GetDescription();
+
+      int minimumDPS = Mathf.RoundToInt(stats.minimumDamage / stats.speed);
+      int maximumDPS = Mathf.RoundToInt(stats.maximumDamage / stats.speed);
+
+      desc += "\n";
+      desc += $"Damage: {stats.minimumDamage} - {stats.maximumDamage}\n";
+      desc += $"DPS: {minimumDPS} - {maximumDPS}\n";
+      desc += $"Attack Speed : {stats.speed}s\n";
+      desc += $"Range : {stats.range}m\n";
+
+      return desc;
     }
     
     public class AttackData
@@ -155,7 +191,9 @@ namespace ActorsECS.Data
     {
       var attackData = new AttackData(target, attacker);
 
-      attackData.AddDamage(StatSystem.DamageType.Physical, (int)damage);
+      var damage = Random.Range(stats.minimumDamage, stats.maximumDamage + 1);
+      
+      attackData.AddDamage(StatSystem.DamageType.Physical, damage);
       
       foreach(var wae in attackEffects)
         wae.OnAttack(target, attacker, ref attackData);

@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 namespace ActorsECS.Data.Effects
 {
-  [CreateAssetMenu(fileName = "Chill Effect", menuName = "Effects/Chill Effect", order = 0)]
+  [CreateAssetMenu(fileName = "Chill Effect", menuName = "Data/Create/Effects/Chill Effect", order = 0)]
   public class ChillWeaponEffect : WeaponItem.WeaponAttackEffect
   {
     public float PercentageChance;

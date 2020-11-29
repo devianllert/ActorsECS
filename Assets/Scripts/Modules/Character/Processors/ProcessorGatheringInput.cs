@@ -1,5 +1,7 @@
 ﻿using ActorsECS.Modules.Character.Components;
+using Cinemachine.Utility;
 using Pixeye.Actors;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -83,7 +85,9 @@ namespace ActorsECS.Modules.Character.Processors
       {
         ref var cInput = ref character.ComponentInput();
 
-        cInput.Movement = _movement;
+        cInput.Movement.x = Accelerate(_movement.x, cInput.Movement.x, delta, 0.1f, 0.05f);
+        cInput.Movement.y = Accelerate(_movement.y, cInput.Movement.y, delta, 0.1f, 0.05f);
+        
         cInput.Interact = _interact;
         cInput.Shoot = _shoot;
         cInput.Reload = _reload;
@@ -95,6 +99,44 @@ namespace ActorsECS.Modules.Character.Processors
       _interact = false;
       _roll = false;
       _pause = false;
+    }
+
+    private float Accelerate(float actualInput, float acceleratedInput , float deltaTime, float acceleration, float deceleration)
+    {
+      // If the acceleration and deceleration values are negligible,
+      // or a negative number, then no calculations need be done.
+      if (acceleration < math.EPSILON && deceleration < math.EPSILON)
+      {
+        return actualInput;
+      }
+            
+      if (Mathf.Abs(actualInput) < math.EPSILON
+          || (Mathf.Sign(acceleratedInput) == Mathf.Sign(actualInput)
+              && Mathf.Abs(actualInput) <  Mathf.Abs(acceleratedInput)))
+      {
+        // Need to decelerate
+        var a = Mathf.Abs(actualInput - acceleratedInput) / Mathf.Max(math.EPSILON, deceleration);
+        var delta = Mathf.Min(a * deltaTime, Mathf.Abs(acceleratedInput));
+        acceleratedInput -= Mathf.Sign(acceleratedInput) * delta;
+    
+        if (Mathf.Abs(acceleratedInput) < math.EPSILON)
+        {
+          acceleratedInput = 0.0f;
+        }
+      }
+      else
+      {
+        // Need to accelerate
+        var a = Mathf.Abs(actualInput - acceleratedInput) / Mathf.Max(math.EPSILON, acceleration);
+        acceleratedInput += Mathf.Sign(actualInput) * a * deltaTime;
+        if (Mathf.Sign(acceleratedInput) == Mathf.Sign(actualInput)
+            && Mathf.Abs(acceleratedInput) > Mathf.Abs(actualInput))
+        {
+          acceleratedInput = actualInput;
+        }
+      }
+          
+      return acceleratedInput;
     }
   }
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace ActorsECS.Data
 {
-  [CreateAssetMenu(fileName = "EquipmentItem", menuName = "Data/Equipment", order = 0)]
+  [CreateAssetMenu(fileName = "EquipmentItem", menuName = "Data/Create/Equipment", order = 0)]
   public class EquipmentItem : Item
   {
     public enum EquipmentSlot

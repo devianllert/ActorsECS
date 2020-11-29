@@ -46,7 +46,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
         if (cInput.Shoot > 0 && cWeapon.fireTime <= 0 && cWeapon.currentAmmo != 0)
         {
-          cWeapon.fireTime = 60 / cWeapon.equippedWeapon.rateOfFire;
+          cWeapon.fireTime = 60 / cWeapon.equippedWeapon.stats.rateOfFire;
 
           switch (bulletType)
           {
@@ -62,7 +62,7 @@ namespace ActorsECS.Modules.Shooting.Processors
         }
         
         _currentAmmoUI.UpdateCurrentAmmo(cWeapon.currentAmmo);
-        _totalAmmoUI.UpdateTotalAmmo(cWeapon.equippedWeapon.ammo);
+        _totalAmmoUI.UpdateTotalAmmo(cWeapon.equippedWeapon.stats.ammo);
       }
     }
 
@@ -71,11 +71,11 @@ namespace ActorsECS.Modules.Shooting.Processors
       ref var bullet = ref Layer.GetBuffer<SegmentBullet>().Add();
       
       bullet.position = transform.position + Vector3.up + transform.forward;
-      bullet.speed = weapon.speed;
+      bullet.speed = weapon.stats.speed;
       bullet.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, bullet.position);
       bullet.distance = 0f;
       bullet.direction = rotation;
-      bullet.range = weapon.range;
+      bullet.range = weapon.stats.range;
     }
 
     private void CreateLaser(WeaponItem weapon, Transform transform, Quaternion rotation)
@@ -85,7 +85,7 @@ namespace ActorsECS.Modules.Shooting.Processors
       laser.position = transform.position + Vector3.up + transform.forward;
       laser.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, laser.position);
       laser.direction = rotation;
-      laser.range = weapon.range;
+      laser.range = weapon.stats.range;
     }
   }
 }

@@ -19,12 +19,16 @@ MonoBehaviour:
   slot: 0
   equippedEffects: []
   bulletType: 0
-  rateOfFire: 600
-  range: 20
-  damage: 10
-  ammo: 24
-  speed: 25
-  reloadTime: 2.5
+  stats:
+    rateOfFire: 400
+    range: 15
+    speed: 25
+    minimumDamage: 12
+    maximumDamage: 17
+    ammo: 24
+    reloadTime: 1.5
+  hitSounds: []
+  shootSounds: []
   projectilePrefab: {fileID: 6010139431648226660, guid: f0f5b513872b13842896acae3ae7c386, type: 3}
   HitVFX: 0
   attackEffects: []
