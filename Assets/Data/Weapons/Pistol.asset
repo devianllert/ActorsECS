@@ -27,6 +27,7 @@ MonoBehaviour:
     maximumDamage: 7
     ammo: 8
     reloadTime: 1
+  handGripAnimation: {fileID: 7400000, guid: e5a5cbe40a543c1499fb683d273dcecd, type: 2}
   hitSounds: []
   shootSounds: []
   projectilePrefab: {fileID: 6010139431648226660, guid: f33629610712c8f41895f4da989ee718, type: 3}

@@ -3348,12 +3348,6 @@ MonoBehaviour:
     elapsedDuration: 0
   componentStats:
     StatSystem:
-      DamageTypeColor:
-      - {r: 1, g: 1, b: 1, a: 1}
-      - {r: 1, g: 0, b: 0, a: 1}
-      - {r: 0, g: 0, b: 1, a: 1}
-      - {r: 0, g: 1, b: 1, a: 1}
-      - {r: 0, g: 1, b: 0, a: 1}
       baseStats:
         health: 100
         strength: 0
@@ -3891,6 +3885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handsIK: {fileID: 8530527945303304275}
   weaponHolder: {fileID: 2071660758}
+  rightHandGrip: {fileID: 8530527944543961124}
+  leftHandGrip: {fileID: 8530527946513556915}
 --- !u!4 &1031632034293063868
 Transform:
   m_ObjectHideFlags: 0
@@ -5564,7 +5560,7 @@ Animator:
   m_GameObject: {fileID: 919132149212512347}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e82403eaa5115494199b2b27046fb462, type: 3}
-  m_Controller: {fileID: 9100000, guid: d1a15ef9d7d48094388ec93849e5dcfc, type: 2}
+  m_Controller: {fileID: 22100000, guid: bdeea559f47408f4aba0dfd6c7b53706, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 1
   m_ApplyRootMotion: 0

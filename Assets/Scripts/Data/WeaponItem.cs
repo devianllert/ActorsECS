@@ -26,6 +26,9 @@ namespace ActorsECS.Data
       rateOfFire = 1
     };
 
+    [Header("Animations")]
+    public AnimationClip handGripAnimation;
+    
     [Header("Sounds")] public AudioClip[] hitSounds;
     public AudioClip[] shootSounds;
 
@@ -34,6 +37,8 @@ namespace ActorsECS.Data
 
     [Space] [Header("Hit Effects")] public List<WeaponAttackEffect> attackEffects;
 
+    
+    
     public override void Pickup(ent character, ent loot)
     {
       ref var cWeapon = ref character.Get<ComponentWeapon>();

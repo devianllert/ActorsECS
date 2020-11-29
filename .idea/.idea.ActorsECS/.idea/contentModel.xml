@@ -34,6 +34,13 @@
             </e>
             <e p="ElementalEffect.cs" t="Include" />
             <e p="EquipmentItem.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EventEditor.cs" t="Include" />
+              </e>
+              <e p="GameEvent.cs" t="Include" />
+              <e p="GameEventListener.cs" t="Include" />
+            </e>
             <e p="Item.cs" t="Include" />
             <e p="StatSystem.cs" t="Include" />
             <e p="WeaponItem.cs" t="Include" />
