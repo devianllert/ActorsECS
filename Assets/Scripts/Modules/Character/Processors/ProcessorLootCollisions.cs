@@ -1,5 +1,4 @@
 ﻿using ActorsECS.Modules.Character.Components;
-using ActorsECS.Modules.Loot.Components;
 using Pixeye.Actors;
 using UnityEngine;
 
@@ -7,11 +6,10 @@ namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorLootCollisions : Processor, ITickFixed
   {
-    private ent _lootEntity = new ent(-1);
-
-    private Collider[] _lootColliders = new Collider[1];
-
     private readonly Group<ComponentInput> _characters = default;
+
+    private readonly Collider[] _lootColliders = new Collider[1];
+    private ent _lootEntity = new ent(-1);
 
     public void TickFixed(float delta)
     {
@@ -41,11 +39,11 @@ namespace ActorsECS.Modules.Character.Processors
         if (!newEntity.Has(Tag.Lootable)) newEntity.Set(Tag.Lootable);
 
         if (_lootEntity.id != -1 && _lootEntity.Has(Tag.Lootable)) _lootEntity.RemoveAll(Tag.Lootable);
-        
+
         _lootEntity = newEntity;
-      }  
+      }
     }
-    
+
     private (Vector3, Vector3) GetCapsuleBounds(CapsuleCollider collider, Transform transform)
     {
       var center = transform.TransformPoint(collider.center);

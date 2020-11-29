@@ -23,7 +23,7 @@ namespace ActorsECS
       Add<ProcessorStats>();
 
       #endregion
-      
+
       #region Abilities
 
       Add<ProcessorRoll>();

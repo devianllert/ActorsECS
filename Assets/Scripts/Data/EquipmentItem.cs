@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Pixeye.Actors;
 using UnityEditor;
@@ -17,35 +18,35 @@ namespace ActorsECS.Data
       Feet,
       Accessory
     }
-    
-    public abstract class EquippedEffect : ScriptableObject
-    {
-      public string description;
-      
-      //return true if could be used, false otherwise.
-      public abstract void Equipped(ent character);
-      public abstract void Removed(ent character);
-  
-      public virtual string GetDescription()
-      {
-        return description;
-      }
-    }
-    
+
     public EquipmentSlot slot;
-    
+
     public List<EquippedEffect> equippedEffects;
-    
+
     public void EquippedBy(ent character)
     {
       foreach (var effect in equippedEffects)
         effect.Equipped(character);
     }
-    
+
     public void UnequippedBy(ent character)
     {
       foreach (var effect in equippedEffects)
         effect.Removed(character);
+    }
+
+    public abstract class EquippedEffect : ScriptableObject
+    {
+      public string description;
+
+      //return true if could be used, false otherwise.
+      public abstract void Equipped(ent character);
+      public abstract void Removed(ent character);
+
+      public virtual string GetDescription()
+      {
+        return description;
+      }
     }
   }
 
@@ -53,27 +54,26 @@ namespace ActorsECS.Data
   [CustomEditor(typeof(EquipmentItem))]
   public class EquipmentItemEditor : Editor
   {
-    EquipmentItem _target;
-    
-    ItemEditor _itemEditor;
+    private List<string> _availableEquipEffectType;
+    private SerializedProperty _equippedEffectListProperty;
 
-    List<string> _availableEquipEffectType;
-    SerializedProperty _equippedEffectListProperty;
+    private ItemEditor _itemEditor;
 
-    SerializedProperty _slotProperty;
+    private SerializedProperty _slotProperty;
+    private EquipmentItem _target;
 
-    void OnEnable()
+    private void OnEnable()
     {
       _target = target as EquipmentItem;
       _equippedEffectListProperty = serializedObject.FindProperty(nameof(EquipmentItem.equippedEffects));
 
       _slotProperty = serializedObject.FindProperty(nameof(EquipmentItem.slot));
-        
+
       _itemEditor = new ItemEditor();
       _itemEditor.Init(serializedObject);
 
       var lookup = typeof(EquipmentItem.EquippedEffect);
-      _availableEquipEffectType = System.AppDomain.CurrentDomain.GetAssemblies()
+      _availableEquipEffectType = AppDomain.CurrentDomain.GetAssemblies()
         .SelectMany(assembly => assembly.GetTypes())
         .Where(x => x.IsClass && !x.IsAbstract && x.IsSubclassOf(lookup))
         .Select(type => type.Name)
@@ -85,17 +85,18 @@ namespace ActorsECS.Data
       _itemEditor.GUI();
 
       EditorGUILayout.PropertyField(_slotProperty);
-        
-      int choice = EditorGUILayout.Popup("Add new Effect", -1, _availableEquipEffectType.ToArray());
+
+      var choice = EditorGUILayout.Popup("Add new Effect", -1, _availableEquipEffectType.ToArray());
 
       if (choice != -1)
       {
-        var newInstance = ScriptableObject.CreateInstance(_availableEquipEffectType[choice]);
-            
+        var newInstance = CreateInstance(_availableEquipEffectType[choice]);
+
         AssetDatabase.AddObjectToAsset(newInstance, target);
-            
+
         _equippedEffectListProperty.InsertArrayElementAtIndex(_equippedEffectListProperty.arraySize);
-        _equippedEffectListProperty.GetArrayElementAtIndex(_equippedEffectListProperty.arraySize - 1).objectReferenceValue = newInstance;
+        _equippedEffectListProperty.GetArrayElementAtIndex(_equippedEffectListProperty.arraySize - 1)
+          .objectReferenceValue = newInstance;
       }
 
       Editor ed = null;
@@ -104,18 +105,15 @@ namespace ActorsECS.Data
       {
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.BeginVertical();
-        var item = _equippedEffectListProperty.GetArrayElementAtIndex(i);           
+        var item = _equippedEffectListProperty.GetArrayElementAtIndex(i);
         var obj = new SerializedObject(item.objectReferenceValue);
 
-        Editor.CreateCachedEditor(item.objectReferenceValue, null, ref ed);
-            
+        CreateCachedEditor(item.objectReferenceValue, null, ref ed);
+
         ed.OnInspectorGUI();
         EditorGUILayout.EndVertical();
 
-        if (GUILayout.Button("-", GUILayout.Width(32)))
-        {
-          toDelete = i;
-        }
+        if (GUILayout.Button("-", GUILayout.Width(32))) toDelete = i;
         EditorGUILayout.EndHorizontal();
       }
 
@@ -123,7 +121,7 @@ namespace ActorsECS.Data
       {
         var item = _equippedEffectListProperty.GetArrayElementAtIndex(toDelete).objectReferenceValue;
         DestroyImmediate(item, true);
-            
+
         //need to do it twice, first time just nullify the entry, second actually remove it.
         _equippedEffectListProperty.DeleteArrayElementAtIndex(toDelete);
         _equippedEffectListProperty.DeleteArrayElementAtIndex(toDelete);

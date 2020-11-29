@@ -17,7 +17,7 @@ namespace ActorsECS.Modules.Loot.Components
   [Il2CppSetOption(Option.NullChecks, false)]
   [Il2CppSetOption(Option.ArrayBoundsChecks, false)]
   [Il2CppSetOption(Option.DivideByZeroChecks, false)]
-  internal static partial class Component
+  internal static class Component
   {
     public const string LootData = "ActorsECS.Modules.Loot.Components.ComponentLootData";
 

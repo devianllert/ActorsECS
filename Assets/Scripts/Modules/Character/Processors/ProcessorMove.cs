@@ -7,8 +7,7 @@ namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorMove : Processor, ITickFixed
   {
-    [ExcludeBy(Tag.Roll)]
-    private readonly Group<ComponentInput> _characters = default;
+    [ExcludeBy(Tag.Roll)] private readonly Group<ComponentInput> _characters = default;
 
     public void TickFixed(float delta)
     {

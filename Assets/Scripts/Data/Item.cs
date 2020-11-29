@@ -5,9 +5,8 @@ using UnityEngine;
 namespace ActorsECS.Data
 {
   /// <summary>
-  /// Base class of all items in the game. This is an abstract class and need to be inherited to specify behaviour.
+  ///   Base class of all items in the game. This is an abstract class and need to be inherited to specify behaviour.
   /// </summary>
-  
   public abstract class Item : ScriptableObject
   {
     public string itemName;
@@ -20,21 +19,25 @@ namespace ActorsECS.Data
       return description;
     }
 
-    public virtual void Pickup(ent character, ent loot) {}
-    
-    public virtual void Drop(ent character) {}
+    public virtual void Pickup(ent character, ent loot)
+    {
+    }
+
+    public virtual void Drop(ent character)
+    {
+    }
   }
 
 #if UNITY_EDITOR
   public class ItemEditor
   {
-    SerializedObject _target;
+    private SerializedProperty _descriptionProperty;
+    private SerializedProperty _iconProperty;
 
-    SerializedProperty _nameProperty;
-    SerializedProperty _iconProperty;
-    SerializedProperty _descriptionProperty;
-    SerializedProperty _worldObjectPrefabProperty;
-    
+    private SerializedProperty _nameProperty;
+    private SerializedObject _target;
+    private SerializedProperty _worldObjectPrefabProperty;
+
     public void Init(SerializedObject target)
     {
       _target = target;

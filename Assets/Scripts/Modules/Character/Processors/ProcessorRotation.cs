@@ -8,8 +8,7 @@ namespace ActorsECS.Modules.Character.Processors
 {
   internal sealed class ProcessorRotation : Processor, ITickFixed
   {
-    [ExcludeBy(Tag.Roll)]
-    private readonly Group<ComponentInput> _characters = default;
+    [ExcludeBy(Tag.Roll)] private readonly Group<ComponentInput> _characters = default;
 
     private static Camera Camera => Camera.main;
     private static Mouse Mouse => Mouse.current;
@@ -25,7 +24,7 @@ namespace ActorsECS.Modules.Character.Processors
       var screenRay = Camera.ScreenPointToRay(looking);
 
       var plane = new Plane(Vector3.up, 0);
-      
+
       plane.Raycast(screenRay, out var dist);
 
       foreach (var character in _characters)

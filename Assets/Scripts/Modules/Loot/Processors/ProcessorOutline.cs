@@ -7,12 +7,10 @@ namespace ActorsECS.Modules.Loot.Processors
 {
   internal sealed class ProcessorOutline : Processor, ITick
   {
-    private LootUI lootUi;
+    [ExcludeBy(Tag.Lootable)] private readonly Group<ComponentLootData> _allLoots = default;
 
-    [GroupBy(Tag.Lootable)]
-    private readonly Group<ComponentLootData> _loots = default;
-    [ExcludeBy(Tag.Lootable)]
-    private readonly Group<ComponentLootData> _allLoots = default;
+    [GroupBy(Tag.Lootable)] private readonly Group<ComponentLootData> _loots = default;
+    private readonly LootUI lootUi;
 
     public ProcessorOutline()
     {
@@ -36,7 +34,7 @@ namespace ActorsECS.Modules.Loot.Processors
 
         outline.enabled = false;
       }
-      
+
       if (_loots.length == 0 && lootUi.IsEnabled) lootUi.HideTooltip();
     }
   }

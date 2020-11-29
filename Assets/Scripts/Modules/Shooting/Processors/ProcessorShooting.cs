@@ -10,13 +10,12 @@ namespace ActorsECS.Modules.Shooting.Processors
 {
   internal sealed class ProcessorShooting : Processor, ITick
   {
-    private readonly CurrentAmmoUI _currentAmmoUI;
-    private readonly TotalAmmoUI _totalAmmoUI;
     private readonly GameObject _ammoUI;
 
-    [ExcludeBy(Tag.Reload, Tag.Roll)]
-    private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
-    
+    [ExcludeBy(Tag.Reload, Tag.Roll)] private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
+    private readonly CurrentAmmoUI _currentAmmoUI;
+    private readonly TotalAmmoUI _totalAmmoUI;
+
     private readonly Group<ComponentInput, ComponentWeapon> _weapon = default;
 
     public ProcessorShooting()
@@ -26,7 +25,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
       _ammoUI = _currentAmmoUI.transform.parent.gameObject;
     }
-    
+
     public void Tick(float delta)
     {
       _ammoUI.SetActive(_weapon.length > 0);
@@ -40,7 +39,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
         if (!cWeapon.equippedWeapon) return;
 
-        var bulletType = (int) cWeapon.equippedWeapon.bulletType;
+        var bulletType = cWeapon.equippedWeapon.bulletType;
 
         cWeapon.fireTime -= delta;
 
@@ -60,7 +59,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           cWeapon.currentAmmo -= 1;
         }
-        
+
         _currentAmmoUI.UpdateCurrentAmmo(cWeapon.currentAmmo);
         _totalAmmoUI.UpdateTotalAmmo(cWeapon.equippedWeapon.stats.ammo);
       }
@@ -69,7 +68,7 @@ namespace ActorsECS.Modules.Shooting.Processors
     private void CreateBullet(WeaponItem weapon, Transform transform, Quaternion rotation)
     {
       ref var bullet = ref Layer.GetBuffer<SegmentBullet>().Add();
-      
+
       bullet.position = transform.position + Vector3.up + transform.forward;
       bullet.speed = weapon.stats.speed;
       bullet.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, bullet.position);
@@ -81,7 +80,7 @@ namespace ActorsECS.Modules.Shooting.Processors
     private void CreateLaser(WeaponItem weapon, Transform transform, Quaternion rotation)
     {
       ref var laser = ref Layer.GetBuffer<SegmentLaser>().Add();
-      
+
       laser.position = transform.position + Vector3.up + transform.forward;
       laser.source = Obj.Create(Pool.Entities, weapon.projectilePrefab, laser.position);
       laser.direction = rotation;

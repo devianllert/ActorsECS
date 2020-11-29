@@ -4,13 +4,12 @@ using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
-using VFXManager = ActorsECS.VFX.VFXManager;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
   internal sealed class ProcessorBullets : Processor, ITick
   {
-    private Group<ComponentInput, ComponentWeapon> _characters = default;
+    private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
     private Buffer<SegmentBullet> _bullets => Layer.GetBuffer<SegmentBullet>();
 
     public void Tick(float delta)

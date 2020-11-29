@@ -8,8 +8,7 @@ namespace ActorsECS.Modules.Character.Processors
   {
     private readonly Group<ComponentInput> _characters = default;
 
-    [GroupBy(Tag.Lootable)]
-    private readonly Group<ComponentLootData> _loots = default;
+    [GroupBy(Tag.Lootable)] private readonly Group<ComponentLootData> _loots = default;
 
     public void Tick(float delta)
     {
@@ -24,7 +23,7 @@ namespace ActorsECS.Modules.Character.Processors
         ref var lootData = ref loot.ComponentLootData();
 
         lootData.item.Pickup(character, loot);
-        
+
         loot.Release();
       }
     }

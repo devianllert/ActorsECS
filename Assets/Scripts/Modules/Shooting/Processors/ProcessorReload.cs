@@ -9,18 +9,16 @@ namespace ActorsECS.Modules.Shooting.Processors
 {
   internal sealed class ProcessorReload : Processor, ITick
   {
-    private readonly ReloadUI _reloadUI;
-    
     private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
-    
-    [GroupBy(Tag.Reload)]
-    private readonly Group<ComponentWeapon> _reloadingCharacters = default;
+
+    [GroupBy(Tag.Reload)] private readonly Group<ComponentWeapon> _reloadingCharacters = default;
+    private readonly ReloadUI _reloadUI;
 
     public ProcessorReload()
     {
       _reloadUI = Object.FindObjectOfType<ReloadUI>();
     }
-    
+
     public void Tick(float delta)
     {
       foreach (var character in _characters)
@@ -33,20 +31,17 @@ namespace ActorsECS.Modules.Shooting.Processors
 
     public override void HandleEcsEvents()
     {
-      foreach (var character in _reloadingCharacters.added)
-      {
-        Layer.Run(StartReload(character));
-      }
+      foreach (var character in _reloadingCharacters.added) Layer.Run(StartReload(character));
     }
 
     private IEnumerator StartReload(ent character)
     {
       _reloadUI.StartReload(character.ComponentWeapon().equippedWeapon.stats.reloadTime);
-      
+
       yield return Layer.Wait(character.ComponentWeapon().equippedWeapon.stats.reloadTime);
 
       character.ComponentWeapon().currentAmmo = character.ComponentWeapon().equippedWeapon.stats.ammo;
-      
+
       character.Remove(Tag.Reload);
     }
   }

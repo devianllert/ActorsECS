@@ -1,5 +1,4 @@
 ﻿using ActorsECS.Modules.Character.Components;
-using Cinemachine.Utility;
 using Pixeye.Actors;
 using Unity.Mathematics;
 using UnityEngine;
@@ -12,26 +11,21 @@ namespace ActorsECS.Modules.Character.Processors
     private readonly Group<ComponentInput> _characters = default;
 
     private readonly InputActions _inputActions;
+    private bool _interact;
+    private bool _jump;
+    private Vector2 _look;
 
     private Vector2 _movement;
-    private Vector2 _look;
-    private float _shoot;
-    private bool _jump;
-    private bool _reload;
-    private bool _interact;
-    private bool _roll;
     private bool _pause;
+    private bool _reload;
+    private bool _roll;
+    private float _shoot;
 
     public ProcessorGatheringInput()
     {
       _inputActions = new InputActions();
       _inputActions.CharacterController.SetCallbacks(this);
       _inputActions.Enable();
-    }
-
-    protected override void OnDispose()
-    {
-      _inputActions.Disable();
     }
 
     void InputActions.ICharacterControllerActions.OnMove(InputAction.CallbackContext context)
@@ -54,7 +48,7 @@ namespace ActorsECS.Modules.Character.Processors
       if (context.started) _jump = true;
       if (context.canceled) _jump = false;
     }
-    
+
     void InputActions.ICharacterControllerActions.OnReload(InputAction.CallbackContext context)
     {
       if (context.started) _reload = true;
@@ -66,13 +60,13 @@ namespace ActorsECS.Modules.Character.Processors
       if (context.started) _interact = true;
       if (context.canceled) _interact = false;
     }
-    
+
     void InputActions.ICharacterControllerActions.OnRoll(InputAction.CallbackContext context)
     {
       if (context.started) _roll = true;
       if (context.canceled) _roll = false;
     }
-    
+
     void InputActions.ICharacterControllerActions.OnPause(InputAction.CallbackContext context)
     {
       if (context.started) _pause = true;
@@ -87,7 +81,7 @@ namespace ActorsECS.Modules.Character.Processors
 
         cInput.Movement.x = Accelerate(_movement.x, cInput.Movement.x, delta, 0.1f, 0.05f);
         cInput.Movement.y = Accelerate(_movement.y, cInput.Movement.y, delta, 0.1f, 0.05f);
-        
+
         cInput.Interact = _interact;
         cInput.Shoot = _shoot;
         cInput.Reload = _reload;
@@ -101,28 +95,28 @@ namespace ActorsECS.Modules.Character.Processors
       _pause = false;
     }
 
-    private float Accelerate(float actualInput, float acceleratedInput , float deltaTime, float acceleration, float deceleration)
+    protected override void OnDispose()
+    {
+      _inputActions.Disable();
+    }
+
+    private float Accelerate(float actualInput, float acceleratedInput, float deltaTime, float acceleration,
+      float deceleration)
     {
       // If the acceleration and deceleration values are negligible,
       // or a negative number, then no calculations need be done.
-      if (acceleration < math.EPSILON && deceleration < math.EPSILON)
-      {
-        return actualInput;
-      }
-            
+      if (acceleration < math.EPSILON && deceleration < math.EPSILON) return actualInput;
+
       if (Mathf.Abs(actualInput) < math.EPSILON
-          || (Mathf.Sign(acceleratedInput) == Mathf.Sign(actualInput)
-              && Mathf.Abs(actualInput) <  Mathf.Abs(acceleratedInput)))
+          || Mathf.Sign(acceleratedInput) == Mathf.Sign(actualInput)
+          && Mathf.Abs(actualInput) < Mathf.Abs(acceleratedInput))
       {
         // Need to decelerate
         var a = Mathf.Abs(actualInput - acceleratedInput) / Mathf.Max(math.EPSILON, deceleration);
         var delta = Mathf.Min(a * deltaTime, Mathf.Abs(acceleratedInput));
         acceleratedInput -= Mathf.Sign(acceleratedInput) * delta;
-    
-        if (Mathf.Abs(acceleratedInput) < math.EPSILON)
-        {
-          acceleratedInput = 0.0f;
-        }
+
+        if (Mathf.Abs(acceleratedInput) < math.EPSILON) acceleratedInput = 0.0f;
       }
       else
       {
@@ -131,11 +125,9 @@ namespace ActorsECS.Modules.Character.Processors
         acceleratedInput += Mathf.Sign(actualInput) * a * deltaTime;
         if (Mathf.Sign(acceleratedInput) == Mathf.Sign(actualInput)
             && Mathf.Abs(acceleratedInput) > Mathf.Abs(actualInput))
-        {
           acceleratedInput = actualInput;
-        }
       }
-          
+
       return acceleratedInput;
     }
   }

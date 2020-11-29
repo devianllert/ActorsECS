@@ -6,15 +6,13 @@ namespace ActorsECS.Modules.Character
 {
   public class ActorCharacter : Actor
   {
-    [FoldoutGroup("Components", true)]
-    private ComponentInput componentInput;
-    private ComponentRotation componentRotation;
-    private ComponentMovementDirection componentMovementDirection;
-    private ComponentAim componentAim;
-
     public ComponentMovement componentMovement;
     public ComponentRoll componentRoll;
     public ComponentStats componentStats;
+    private ComponentAim componentAim;
+    [FoldoutGroup("Components", true)] private ComponentInput componentInput;
+    private ComponentMovementDirection componentMovementDirection;
+    private ComponentRotation componentRotation;
 
     protected override void Setup()
     {

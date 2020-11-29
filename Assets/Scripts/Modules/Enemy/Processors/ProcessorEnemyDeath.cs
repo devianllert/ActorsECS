@@ -15,7 +15,7 @@ namespace ActorsECS.Modules.Enemy.Processors
         ref var cHealth = ref enemy.ComponentStats().StatSystem;
 
         if (!(cHealth.CurrentHealth <= 0)) continue;
-        
+
         enemy.Release();
       }
     }

@@ -6,8 +6,7 @@ namespace ActorsECS.Modules.Enemy
 {
   public class ActorEnemy : Actor
   {
-    [FoldoutGroup("Components", true)]
-    public ComponentEnemy componentEnemy;
+    [FoldoutGroup("Components", true)] public ComponentEnemy componentEnemy;
     public ComponentStats componentStats;
 
     protected override void Setup()
