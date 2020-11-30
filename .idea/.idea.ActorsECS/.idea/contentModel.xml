@@ -31,9 +31,8 @@
             <e p="Defense.cs" t="Include" />
             <e p="Effects" t="Include">
               <e p="ChillWeaponEffect.cs" t="Include" />
+              <e p="ElementalEffect.cs" t="Include" />
             </e>
-            <e p="ElementalEffect.cs" t="Include" />
-            <e p="EquipmentItem.cs" t="Include" />
             <e p="Events" t="Include">
               <e p="Editor" t="Include">
                 <e p="EventEditor.cs" t="Include" />
@@ -41,9 +40,16 @@
               <e p="GameEvent.cs" t="Include" />
               <e p="GameEventListener.cs" t="Include" />
             </e>
-            <e p="Item.cs" t="Include" />
-            <e p="StatSystem.cs" t="Include" />
-            <e p="WeaponItem.cs" t="Include" />
+            <e p="Items" t="Include">
+              <e p="EquipmentItem.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="UsableItem.cs" t="Include" />
+              <e p="WeaponItem.cs" t="Include" />
+            </e>
+            <e p="Systems" t="Include">
+              <e p="EquipmentSystem.cs" t="Include" />
+              <e p="StatSystem.cs" t="Include" />
+            </e>
           </e>
           <e p="LayerStarter.cs" t="Include" />
           <e p="Modules" t="Include">
@@ -69,6 +75,7 @@
               </e>
             </e>
             <e p="Common" t="Include">
+              <e p="ComponentEquipment.cs" t="Include" />
               <e p="ComponentMovement.cs" t="Include" />
               <e p="ComponentStats.cs" t="Include" />
               <e p="ComponentWeapon.cs" t="Include" />
@@ -103,7 +110,7 @@
                 <e p="SegmentLaser.cs" t="Include" />
               </e>
               <e p="Processors" t="Include">
-                <e p="ProcessorBullets.cs" t="Include" />
+                <e p="ProcessorProjectiles.cs" t="Include" />
                 <e p="ProcessorReload.cs" t="Include" />
                 <e p="ProcessorShooting.cs" t="Include" />
               </e>

@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
-  internal sealed class ProcessorBullets : Processor, ITick
+  internal sealed class ProcessorProjectiles : Processor, ITick
   {
     private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
     private Buffer<SegmentBullet> _bullets => Layer.GetBuffer<SegmentBullet>();
@@ -31,8 +31,8 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           if (actor)
           {
-            ref var cWeapon = ref _characters[0].ComponentWeapon();
-            cWeapon.equippedWeapon.Attack(_characters[0], actor.entity);
+            ref var cWeapon = ref _characters[0].ComponentEquipment();
+            cWeapon.equipmentSystem.Weapon.Attack(_characters[0], actor.entity);
 
             DestroyBullet(bullet, pointer);
 

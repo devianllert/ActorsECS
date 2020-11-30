@@ -5,7 +5,7 @@ using Pixeye.Actors;
 using UnityEditor;
 using UnityEngine;
 
-namespace ActorsECS.Data
+namespace ActorsECS.Data.Items
 {
   [CreateAssetMenu(fileName = "EquipmentItem", menuName = "Data/Create/Equipment", order = 0)]
   public class EquipmentItem : Item
@@ -16,7 +16,8 @@ namespace ActorsECS.Data
       Torso,
       Legs,
       Feet,
-      Accessory
+      Accessory,
+      Weapon
     }
 
     public EquipmentSlot slot;

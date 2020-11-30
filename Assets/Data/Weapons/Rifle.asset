@@ -16,7 +16,7 @@ MonoBehaviour:
   itemSprite: {fileID: 0}
   description: 
   worldObjectPrefab: {fileID: 82333611384371101, guid: 17841d522a9d83b42b06d280eb4d506b, type: 3}
-  slot: 0
+  slot: 5
   equippedEffects: []
   bulletType: 0
   stats:

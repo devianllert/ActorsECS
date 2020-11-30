@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using ActorsECS.Data;
+using ActorsECS.Data.Items;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 

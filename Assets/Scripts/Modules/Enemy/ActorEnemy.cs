@@ -11,7 +11,7 @@ namespace ActorsECS.Modules.Enemy
 
     protected override void Setup()
     {
-      componentStats.StatSystem.Init(entity);
+      componentStats.statSystem.Init(entity);
 
       entity.Set(componentEnemy);
       entity.Set(componentStats);

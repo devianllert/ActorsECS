@@ -36,11 +36,11 @@ namespace ActorsECS.Modules.Shooting.Processors
 
     private IEnumerator StartReload(ent character)
     {
-      _reloadUI.StartReload(character.ComponentWeapon().equippedWeapon.stats.reloadTime);
+      _reloadUI.StartReload(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
 
-      yield return Layer.Wait(character.ComponentWeapon().equippedWeapon.stats.reloadTime);
+      yield return Layer.Wait(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
 
-      character.ComponentWeapon().currentAmmo = character.ComponentWeapon().equippedWeapon.stats.ammo;
+      character.ComponentWeapon().currentAmmo = character.ComponentEquipment().equipmentSystem.Weapon.stats.ammo;
 
       character.Remove(Tag.Reload);
     }

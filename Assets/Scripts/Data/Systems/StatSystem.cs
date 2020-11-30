@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using ActorsECS.Data.Effects;
+using ActorsECS.Data.Items;
 using ActorsECS.Modules;
 using Pixeye.Actors;
 using TMPro;
@@ -7,7 +9,7 @@ using UnityEngine;
 using Random = Pixeye.Actors.Random;
 using Time = UnityEngine.Time;
 
-namespace ActorsECS.Data
+namespace ActorsECS.Data.Systems
 {
   /// <summary>
   ///   Handles the stats of a CharacterData. It stores the health and strength/agility/defense stats.

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using ActorsECS.Data;
+using ActorsECS.Data.Items;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
@@ -9,7 +10,6 @@ namespace ActorsECS.Modules.Common
   [Serializable]
   public struct ComponentWeapon
   {
-    public WeaponItem equippedWeapon;
     public float fireTime;
     public int currentAmmo;
   }

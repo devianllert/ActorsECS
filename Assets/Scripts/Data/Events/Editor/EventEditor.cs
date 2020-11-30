@@ -13,7 +13,7 @@ namespace ActorsECS.Data.Events.Editor
       GUI.enabled = Application.isPlaying;
 
       var e = target as GameEvent;
-      
+
       // ReSharper disable once PossibleNullReferenceException
       if (GUILayout.Button("Raise")) e.Raise();
     }

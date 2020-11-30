@@ -1,10 +1,12 @@
 ﻿using System;
+using ActorsECS.Data.Items;
+using ActorsECS.Data.Systems;
 using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Time = UnityEngine.Time;
 
-namespace ActorsECS.Data
+namespace ActorsECS.Data.Effects
 {
   /// <summary>
   ///   The base class to derive from to write you own custom Elemental effect that can be added to a StatsSystem. There
@@ -52,9 +54,9 @@ namespace ActorsECS.Data
   /// </summary>
   public class ElementalEffect : BaseElementalEffect
   {
-    private int _damage;
     private readonly float _damageSpeed;
     private readonly StatSystem.DamageType _damageType;
+    private readonly int _damage;
 
     private VFXManager.VFXInstance _fireInstance;
     private float _sinceLastDamage;

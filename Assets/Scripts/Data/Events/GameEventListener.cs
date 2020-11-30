@@ -6,8 +6,7 @@ namespace ActorsECS.Data.Events
 {
   public class GameEventListener : MonoCached
   {
-    [Tooltip("Event to register with.")]
-    public GameEvent Event;
+    [Tooltip("Event to register with.")] public GameEvent Event;
 
     [Tooltip("Response to invoke when Event is raised.")]
     public UnityEvent Response;

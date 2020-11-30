@@ -34,7 +34,7 @@ namespace ActorsECS
 
       Add<Buffer<SegmentBullet>>();
       Add<ProcessorShooting>();
-      Add<ProcessorBullets>();
+      Add<ProcessorProjectiles>();
       Add<ProcessorReload>();
 
       #endregion

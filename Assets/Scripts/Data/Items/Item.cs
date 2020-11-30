@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ActorsECS.Data
+namespace ActorsECS.Data.Items
 {
   /// <summary>
   ///   Base class of all items in the game. This is an abstract class and need to be inherited to specify behaviour.
@@ -19,10 +19,29 @@ namespace ActorsECS.Data
       return description;
     }
 
+    /// <summary>
+    ///   Called by the inventory system when the object is "used" (double clicked)
+    /// </summary>
+    /// <param name="user">The CharacterDate that used that item</param>
+    /// <returns>If it was actually used (allow the inventory to know if it can remove the object or not)</returns>
+    public virtual bool UsedBy(ent user)
+    {
+      return false;
+    }
+
+    /// <summary>
+    ///   Called by the pickup processor when the object is "picked up" (interaction button pressed)
+    /// </summary>
+    /// <param name="character">The character entity that picked up that item</param>
+    /// <param name="loot">The loot entity that picked up</param>
     public virtual void Pickup(ent character, ent loot)
     {
     }
 
+    /// <summary>
+    ///   Called by the pickup processor when the object is "picked up" and we drop the previous item
+    /// </summary>
+    /// <param name="character">The character entity that dropped that item</param>
     public virtual void Drop(ent character)
     {
     }

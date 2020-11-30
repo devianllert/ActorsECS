@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using ActorsECS.Data;
+using ActorsECS.Data.Systems;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
@@ -9,7 +9,7 @@ namespace ActorsECS.Modules.Common
   [Serializable]
   public struct ComponentStats
   {
-    public StatSystem StatSystem;
+    public StatSystem statSystem;
   }
 
   #region HELPERS

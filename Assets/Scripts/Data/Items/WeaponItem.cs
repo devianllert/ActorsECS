@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using ActorsECS.Data.Systems;
+using ActorsECS.Modules.Character;
 using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Loot.Components;
 using ActorsECS.VFX;
@@ -8,8 +10,14 @@ using Pixeye.Actors;
 using UnityEngine;
 using Random = Pixeye.Actors.Random;
 
-namespace ActorsECS.Data
+namespace ActorsECS.Data.Items
 {
+  /// <summary>
+  ///   Special case of EquipmentItem for weapon, as they have a whole attack system in addition. Like Equipment they
+  ///   can have minimum stats and equipped effect, but also have a list of WeaponAttackEffect that will have their
+  ///   OnAttack function called during a hit, and their OnPostAttack function called after all OnAttack of all effects
+  ///   are called.
+  /// </summary>
   [CreateAssetMenu(fileName = "Weapon", menuName = "Data/Create/Weapon", order = 0)]
   public class WeaponItem : EquipmentItem
   {
@@ -26,9 +34,8 @@ namespace ActorsECS.Data
       rateOfFire = 1
     };
 
-    [Header("Animations")]
-    public AnimationClip handGripAnimation;
-    
+    [Header("Animations")] public AnimationClip handGripAnimation;
+
     [Header("Sounds")] public AudioClip[] hitSounds;
     public AudioClip[] shootSounds;
 
@@ -37,52 +44,49 @@ namespace ActorsECS.Data
 
     [Space] [Header("Hit Effects")] public List<WeaponAttackEffect> attackEffects;
 
-    
-    
     public override void Pickup(ent character, ent loot)
     {
+      var hasAmmo = loot.Has<ComponentWeapon>();
+      
       ref var cWeapon = ref character.Get<ComponentWeapon>();
+      ref var cEquipment = ref character.ComponentEquipment();
       ref var lootItem = ref loot.ComponentLootData().item;
       ref var cLootWeapon = ref loot.Get<ComponentWeapon>();
-      var weaponController = character.GetMono<CharacterWeaponController>();
+      
+      if (cEquipment.equipmentSystem.Weapon) Drop(character);
 
-      weaponController.SetupWeaponModel((WeaponItem) lootItem);
-
-      if (cWeapon.equippedWeapon) DropWeapon(character);
-
-      ref var equippedWeapon = ref cWeapon.equippedWeapon;
-
-      var lootedWeapon = (WeaponItem) lootItem;
-
-      cWeapon.currentAmmo = cLootWeapon.equippedWeapon ? cLootWeapon.currentAmmo : lootedWeapon.stats.ammo;
-      equippedWeapon = lootedWeapon;
+      cEquipment.equipmentSystem.Equip(lootItem as EquipmentItem);
+      
+      cWeapon.currentAmmo = hasAmmo ? cLootWeapon.currentAmmo : (lootItem as WeaponItem).stats.ammo;
     }
 
-    public void DropWeapon(ent character)
+    public override void Drop(ent character)
     {
       var Layer = character.layer;
 
       ref var cWeapon = ref character.ComponentWeapon();
-      var weapon = cWeapon.equippedWeapon;
+      ref var cEquipment = ref character.ComponentEquipment();
+      var droppedWeapon = cEquipment.equipmentSystem.Weapon;
+
+      cEquipment.equipmentSystem.Unequip(EquipmentSlot.Weapon);
+      
       var weaponAmmo = cWeapon.currentAmmo;
 
-      cWeapon.equippedWeapon = null;
       cWeapon.currentAmmo = 0;
 
       var forward = character.transform.forward;
 
       var prevLoot = Layer.Actor.Create("Prefabs/Loot", character.transform.position + forward);
 
-      Layer.Obj.Create(weapon.worldObjectPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
+      Layer.Obj.Create(droppedWeapon.worldObjectPrefab, prevLoot.transform).gameObject.AddComponent<Outline>();
 
       ref var newLoot = ref prevLoot.entity.Get<ComponentLootData>();
       ref var cPrevWeapon = ref prevLoot.entity.Get<ComponentWeapon>();
 
       cPrevWeapon.currentAmmo = weaponAmmo;
-      cPrevWeapon.equippedWeapon = weapon;
 
-      newLoot.item = weapon;
-
+      newLoot.item = droppedWeapon;
+      
       prevLoot.GetComponent<Rigidbody>().AddForce((forward + Vector3.up) * 2f, ForceMode.Impulse);
     }
 
@@ -114,7 +118,7 @@ namespace ActorsECS.Data
       foreach (var wae in attackEffects)
         wae.OnAttack(target, attacker, ref attackData);
 
-      target.ComponentStats().StatSystem.Damage(attackData);
+      target.ComponentStats().statSystem.Damage(attackData);
 
       foreach (var wae in attackEffects)
         wae.OnPostAttack(target, attacker, attackData);
@@ -133,6 +137,12 @@ namespace ActorsECS.Data
       public float reloadTime;
     }
 
+    /// <summary>
+    ///   This class will store damage done to a target CharacterData by a source CharacterData. The function to add
+    ///   damage will take care of applied all the strength/boost of the source and remove defense/resistance of the
+    ///   target.
+    ///   The source can be null when its done by an non CharacterData source (elemental effect, environment etc.)
+    /// </summary>
     public class AttackData
     {
       public readonly int[] _damages = new int[Enum.GetValues(typeof(StatSystem.DamageType)).Length];
@@ -162,11 +172,11 @@ namespace ActorsECS.Data
       /// </summary>
       /// <param name="damageType">The type of damage</param>
       /// <param name="amount">The amount of damage</param>
-      /// <returns></returns>
+      /// <returns>The amount of *effective* damage</returns>
       public int AddDamage(StatSystem.DamageType damageType, int amount)
       {
-        ref var targetStatSystem = ref _target.ComponentStats().StatSystem;
-        ref var sourceStatSystem = ref _source.ComponentStats().StatSystem;
+        ref var targetStatSystem = ref _target.ComponentStats().statSystem;
+        ref var sourceStatSystem = ref _source.ComponentStats().statSystem;
 
         var addedAmount = amount;
 

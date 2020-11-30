@@ -7,14 +7,14 @@ namespace ActorsECS.Data.Events
   public class GameEvent : ScriptableObject
   {
     /// <summary>
-    /// The list of listeners that this event will notify if it is raised.
+    ///   The list of listeners that this event will notify if it is raised.
     /// </summary>
-    private readonly List<GameEventListener> _eventListeners = 
+    private readonly List<GameEventListener> _eventListeners =
       new List<GameEventListener>();
 
     public void Raise()
     {
-      for(var i = _eventListeners.Count -1; i >= 0; i--)
+      for (var i = _eventListeners.Count - 1; i >= 0; i--)
         _eventListeners[i].OnEventRaised();
     }
 

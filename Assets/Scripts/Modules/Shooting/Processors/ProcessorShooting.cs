@@ -1,4 +1,5 @@
 ﻿using ActorsECS.Data;
+using ActorsECS.Data.Items;
 using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Shooting.Components;
@@ -11,11 +12,12 @@ namespace ActorsECS.Modules.Shooting.Processors
   internal sealed class ProcessorShooting : Processor, ITick
   {
     private readonly GameObject _ammoUI;
-
-    [ExcludeBy(Tag.Reload, Tag.Roll)] private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
     private readonly CurrentAmmoUI _currentAmmoUI;
     private readonly TotalAmmoUI _totalAmmoUI;
-
+    
+    [ExcludeBy(Tag.Reload, Tag.Roll)]
+    private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
+    
     private readonly Group<ComponentInput, ComponentWeapon> _weapon = default;
 
     public ProcessorShooting()
@@ -33,27 +35,28 @@ namespace ActorsECS.Modules.Shooting.Processors
       foreach (var character in _characters)
       {
         ref var cInput = ref character.ComponentInput();
+        ref var cEquipment = ref character.ComponentEquipment().equipmentSystem;
         ref var cWeapon = ref character.ComponentWeapon();
         ref var cRotation = ref character.ComponentRotation();
         var transform = character.GetMono<Transform>();
 
-        if (!cWeapon.equippedWeapon) return;
+        if (!cEquipment.Weapon) return;
 
-        var bulletType = cWeapon.equippedWeapon.bulletType;
+        var bulletType = cEquipment.Weapon.bulletType;
 
         cWeapon.fireTime -= delta;
 
         if (cInput.Shoot > 0 && cWeapon.fireTime <= 0 && cWeapon.currentAmmo != 0)
         {
-          cWeapon.fireTime = 60 / cWeapon.equippedWeapon.stats.rateOfFire;
+          cWeapon.fireTime = 60 / cEquipment.Weapon.stats.rateOfFire;
 
           switch (bulletType)
           {
             case 0:
-              CreateBullet(cWeapon.equippedWeapon, transform, cRotation.rotation);
+              CreateBullet(cEquipment.Weapon, transform, cRotation.rotation);
               break;
             case 1:
-              CreateLaser(cWeapon.equippedWeapon, transform, cRotation.rotation);
+              CreateLaser(cEquipment.Weapon, transform, cRotation.rotation);
               break;
           }
 
@@ -61,7 +64,7 @@ namespace ActorsECS.Modules.Shooting.Processors
         }
 
         _currentAmmoUI.UpdateCurrentAmmo(cWeapon.currentAmmo);
-        _totalAmmoUI.UpdateTotalAmmo(cWeapon.equippedWeapon.stats.ammo);
+        _totalAmmoUI.UpdateTotalAmmo(cEquipment.Weapon.stats.ammo);
       }
     }
 

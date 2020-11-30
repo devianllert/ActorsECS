@@ -13,7 +13,7 @@ namespace ActorsECS.Modules.Character.Processors
       {
         ref var cStats = ref character.ComponentStats();
 
-        cStats.StatSystem.Tick(deltaTime);
+        cStats.statSystem.Tick(deltaTime);
       }
     }
   }
