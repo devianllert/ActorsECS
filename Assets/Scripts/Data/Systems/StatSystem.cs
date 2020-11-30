@@ -175,7 +175,7 @@ namespace ActorsECS.Data.Systems
       for (var i = 0; i < ElementalEffects.Count; ++i)
       {
         var effect = ElementalEffects[i];
-        effect.Update(this);
+        effect.Tick(this);
 
         if (effect.Done)
         {

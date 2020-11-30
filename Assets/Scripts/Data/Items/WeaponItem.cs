@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using ActorsECS.Data.Projectiles;
 using ActorsECS.Data.Systems;
 using ActorsECS.Modules.Character;
 using ActorsECS.Modules.Common;
@@ -39,8 +40,9 @@ namespace ActorsECS.Data.Items
     [Header("Sounds")] public AudioClip[] hitSounds;
     public AudioClip[] shootSounds;
 
-    [Space] [Header("Projectile Data")] public GameObject projectilePrefab;
-    public VFXType HitVFX;
+    [Space]
+    [Header("Projectile")]
+    public Projectile projectile;
 
     [Space] [Header("Hit Effects")] public List<WeaponAttackEffect> attackEffects;
 

@@ -2391,7 +2391,6 @@ GameObject:
   - component: {fileID: 1115642490}
   - component: {fileID: 1115642489}
   - component: {fileID: 1115642488}
-  - component: {fileID: 1115642487}
   m_Layer: 5
   m_Name: HealthUI
   m_TagString: Untagged
@@ -2399,23 +2398,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1115642487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115642486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &1115642488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3178,6 +3160,14 @@ PrefabInstance:
       propertyPath: componentStats.StatSystem.baseStats.defense
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -993890813062692073, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
+      propertyPath: componentStats.statSystem.baseStats.health
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: -993890813062692073, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
+      propertyPath: componentStats.statSystem.baseStats.defense
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1800283788220026773, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.96
@@ -3380,7 +3370,7 @@ MonoBehaviour:
     elapsedCooldown: 0
     elapsedDuration: 0
   componentStats:
-    StatSystem:
+    statSystem:
       baseStats:
         health: 100
         strength: 0
@@ -3388,6 +3378,7 @@ MonoBehaviour:
         agility: 0
         elementalProtection: 0000000000000000000000000000000000000000
         elementalBoosts: 0000000000000000000000000000000000000000
+  componentEquipment: {}
 --- !u!4 &1937133370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4035765028099436, guid: 5527826a6315a224d850675a730c4f62, type: 3}
@@ -3505,6 +3496,14 @@ PrefabInstance:
     - target: {fileID: -993890813062692073, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
       propertyPath: componentStats.StatSystem.baseStats.defense
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -993890813062692073, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
+      propertyPath: componentStats.statSystem.baseStats.health
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: -993890813062692073, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
+      propertyPath: componentStats.statSystem.baseStats.defense
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1800283788220026773, guid: 34ae08930faa69542b36e968ee9c6e12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4997,22 +4996,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4252492017430348100, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252492017430348100, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252492017430348100, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 4252492017430348100, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
-      propertyPath: m_ScreenMatchMode
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4252492017430348102, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
       propertyPath: m_Name
       value: AmmoUI
@@ -5101,10 +5084,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4252492017430348123, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
-      propertyPath: m_PixelPerfect
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
 --- !u!1001 &4341388404654216974
@@ -5118,10 +5097,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 920367800}
-    - target: {fileID: 4341388405516293050, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
-      propertyPath: m_RenderMode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4341388405516293051, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5205,18 +5180,6 @@ PrefabInstance:
     - target: {fileID: 4341388405516293051, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341388405516293051, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341388405516293051, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341388405516293051, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4341388405516293055, guid: 5cb1d483191701946a5d223a9e64a090, type: 3}
       propertyPath: m_Name

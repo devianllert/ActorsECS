@@ -16,48 +16,10 @@ namespace ActorsECS.Modules.Shooting.Processors
     {
       foreach (var pointer in _bullets)
       {
-        ref var bullet = ref _bullets[pointer];
-
-        bullet.distance += bullet.speed * delta;
-
-        bullet.source.rotation = bullet.direction;
-
-        var positionIncrement = bullet.source.forward * bullet.speed * delta;
-
-        if (Physics.Raycast(bullet.source.position, positionIncrement.normalized, out var hit,
-          positionIncrement.magnitude, LayerMask.GetMask("Enemy", "Environment")))
-        {
-          var actor = hit.transform.gameObject.GetComponent<Actor>();
-
-          if (actor)
-          {
-            ref var cWeapon = ref _characters[0].ComponentEquipment();
-            cWeapon.equipmentSystem.Weapon.Attack(_characters[0], actor.entity);
-
-            DestroyBullet(bullet, pointer);
-
-            continue;
-          }
-
-          DestroyBullet(bullet, pointer);
-
-          continue;
-        }
-
-        bullet.source.position += positionIncrement;
-
-        if (bullet.distance >= bullet.range) DestroyBullet(bullet, pointer);
+        ref var cEquipment = ref _characters[0].ComponentEquipment();
+        
+        cEquipment.equipmentSystem.Weapon.projectile.Tick(_characters[0], ref _bullets[pointer], pointer);
       }
-    }
-
-    private void DestroyBullet(SegmentBullet bullet, int pointer)
-    {
-      var vfx = VFXManager.PlayVFX(VFXType.BulletHit, bullet.source.position);
-
-      bullet.source.gameObject.Release(Pool.Entities);
-      _bullets.RemoveAt(pointer);
-
-      Layer.WaitFor(0.5f, () => vfx.Effect.gameObject.SetActive(false));
     }
   }
 }

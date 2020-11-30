@@ -42,7 +42,7 @@ namespace ActorsECS.Data.Effects
     {
     }
 
-    public virtual void Update(StatSystem statSystem)
+    public virtual void Tick(StatSystem statSystem)
     {
       _timer -= Time.deltaTime;
     }
@@ -69,9 +69,9 @@ namespace ActorsECS.Data.Effects
       _damageSpeed = speed;
     }
 
-    public override void Update(StatSystem statSystem)
+    public override void Tick(StatSystem statSystem)
     {
-      base.Update(statSystem);
+      base.Tick(statSystem);
 
       _sinceLastDamage += Time.deltaTime;
 
