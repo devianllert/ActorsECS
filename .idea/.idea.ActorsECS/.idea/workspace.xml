@@ -20,34 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Projectiles/SlowBulletsProjectileBehaviour.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Data/Projectiles/SlowBulletsProjectileBehaviour.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Projectiles/RedBullet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Projectiles/RedBullet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Projectiles/YellowBullet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Projectiles/YellowBullet.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Weapons/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Weapons/Pistol.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Weapons/Rifle.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Weapons/Rifle.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputActions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Items/WeaponItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Items/WeaponItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/ProjectileBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/Projectile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/ProjectileBehaviour.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorProjectiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorProjectiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +230,7 @@
       <workItem from="1606463824589" duration="26169000" />
       <workItem from="1606567669118" duration="22843000" />
       <workItem from="1606647341690" duration="14552000" />
-      <workItem from="1606808775573" duration="14170000" />
+      <workItem from="1606808775573" duration="14595000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>

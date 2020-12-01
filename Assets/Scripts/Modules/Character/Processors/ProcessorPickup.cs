@@ -1,6 +1,7 @@
 ﻿using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Loot.Components;
 using Pixeye.Actors;
+using UnityEngine;
 
 namespace ActorsECS.Modules.Character.Processors
 {
@@ -15,16 +16,17 @@ namespace ActorsECS.Modules.Character.Processors
       foreach (var character in _characters)
       {
         ref var cinput = ref character.ComponentInput();
+        
+        if (!cinput.Interact) continue;
+        
+        foreach (var loot in _loots)
+        {
+          ref var lootData = ref loot.ComponentLootData();
 
-        if (!cinput.Interact || !_loots[0].exist) continue;
+          lootData.item.Pickup(character, loot);
 
-        var loot = _loots[0];
-
-        ref var lootData = ref loot.ComponentLootData();
-
-        lootData.item.Pickup(character, loot);
-
-        loot.Release();
+          loot.Release(); 
+        }
       }
     }
   }
