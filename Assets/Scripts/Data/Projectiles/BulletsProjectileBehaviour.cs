@@ -8,8 +8,8 @@ using Time = UnityEngine.Time;
 
 namespace ActorsECS.Data.Projectiles
 {
-  [CreateAssetMenu(fileName = "BulletsProjectile", menuName = "Data/Create/Projectiles", order = 0)]
-  public class BulletsProjectile : Projectile
+  [CreateAssetMenu(fileName = "BulletsProjectileBehaviour", menuName = "Data/Create/Projectiles/BulletsProjectileBehaviour", order = 0)]
+  public class BulletsProjectileBehaviour : ProjectileBehaviour
   {
     public override void Launch(ent character)
     {
@@ -19,6 +19,8 @@ namespace ActorsECS.Data.Projectiles
 
       var transform = character.GetMono<Transform>();
 
+      bullet.owner = character;
+      bullet.weapon = cEquipment.Weapon;
       bullet.position = transform.position + Vector3.up + transform.forward;
       bullet.speed = cEquipment.Weapon.stats.speed;
       bullet.source = character.layer.Obj.Create(Pool.Entities, worldObjectPrefab, bullet.position);
@@ -27,9 +29,9 @@ namespace ActorsECS.Data.Projectiles
       bullet.range = cEquipment.Weapon.stats.range;
     }
 
-    public override void Destroy(ent character, int pointer)
+    public override void Destroy(int pointer)
     {
-      var bullets = character.layer.GetBuffer<SegmentBullet>();
+      var bullets = Layer<LayerStarter>.GetBuffer<SegmentBullet>();
       
       ref var bullet = ref bullets[pointer];
       
@@ -38,12 +40,12 @@ namespace ActorsECS.Data.Projectiles
       bullet.source.gameObject.Release(Pool.Entities);
       bullets.RemoveAt(pointer);
 
-      character.layer.WaitFor(0.5f, () => vfx.Effect.gameObject.SetActive(false));
+      Layer<LayerStarter>.WaitFor(0.5f, () => vfx.Effect.gameObject.SetActive(false));
     }
 
-    public override void Tick(ent character, ref SegmentBullet bullet, int pointer)
+    public override void Tick(ref SegmentBullet bullet, int pointer)
     {
-      ref var cEquipment = ref character.ComponentEquipment();
+      ref var cEquipment = ref bullet.owner.ComponentEquipment();
 
       bullet.distance += bullet.speed * Time.deltaTime;
 
@@ -58,21 +60,21 @@ namespace ActorsECS.Data.Projectiles
 
         if (actor)
         {
-          cEquipment.equipmentSystem.Weapon.Attack(character, actor.entity);
+          cEquipment.equipmentSystem.Weapon.Attack(bullet.owner, actor.entity);
 
-          cEquipment.equipmentSystem.Weapon.projectile.Destroy(character, pointer);
+          cEquipment.equipmentSystem.Weapon.projectileBehaviour.Destroy(pointer);
 
           return;
         }
 
-        cEquipment.equipmentSystem.Weapon.projectile.Destroy(character, pointer);
+        cEquipment.equipmentSystem.Weapon.projectileBehaviour.Destroy(pointer);
 
         return;
       }
 
       bullet.source.position += positionIncrement;
 
-      if (bullet.distance >= bullet.range) cEquipment.equipmentSystem.Weapon.projectile.Destroy(character, pointer);
+      if (bullet.distance >= bullet.range) cEquipment.equipmentSystem.Weapon.projectileBehaviour.Destroy(pointer);
     }
   }
 }

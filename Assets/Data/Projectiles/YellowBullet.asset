@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2810594be2e84ce69e54ce1c12fac06e, type: 3}
   m_Name: YellowBullet
   m_EditorClassIdentifier: 
-  worldObjectPrefab: {fileID: 6010139431648226660, guid: f33629610712c8f41895f4da989ee718, type: 3}
+  worldObjectPrefab: {fileID: 6010139431648226660, guid: f0f5b513872b13842896acae3ae7c386, type: 3}

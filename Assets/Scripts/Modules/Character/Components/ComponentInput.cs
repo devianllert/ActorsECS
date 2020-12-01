@@ -10,6 +10,7 @@ namespace ActorsECS.Modules.Character.Components
   public struct ComponentInput
   {
     public Vector2 Movement;
+    public Vector2 Look;
     public bool Interact;
     public float Shoot;
     public bool Reload;

@@ -42,7 +42,7 @@ namespace ActorsECS.Data.Items
 
     [Space]
     [Header("Projectile")]
-    public Projectile projectile;
+    public ProjectileBehaviour projectileBehaviour;
 
     [Space] [Header("Hit Effects")] public List<WeaponAttackEffect> attackEffects;
 

@@ -47,8 +47,9 @@
               <e p="WeaponItem.cs" t="Include" />
             </e>
             <e p="Projectiles" t="Include">
-              <e p="BulletsProjectile.cs" t="Include" />
-              <e p="Projectile.cs" t="Include" />
+              <e p="BulletsProjectileBehaviour.cs" t="Include" />
+              <e p="ProjectileBehaviour.cs" t="Include" />
+              <e p="SlowBulletsProjectileBehaviour.cs" t="Include" />
             </e>
             <e p="Systems" t="Include">
               <e p="EquipmentSystem.cs" t="Include" />

@@ -46,7 +46,7 @@ namespace ActorsECS.Modules.Shooting.Processors
         {
           cWeapon.fireTime = 60 / cEquipment.Weapon.stats.rateOfFire;
 
-          cEquipment.Weapon.projectile.Launch(character);
+          cEquipment.Weapon.projectileBehaviour.Launch(character);
 
           cWeapon.currentAmmo -= 1;
         }

@@ -1,9 +1,7 @@
 ﻿using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Shooting.Components;
-using ActorsECS.VFX;
 using Pixeye.Actors;
-using UnityEngine;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
@@ -16,9 +14,9 @@ namespace ActorsECS.Modules.Shooting.Processors
     {
       foreach (var pointer in _bullets)
       {
-        ref var cEquipment = ref _characters[0].ComponentEquipment();
+        ref var bullet = ref _bullets[pointer];
         
-        cEquipment.equipmentSystem.Weapon.projectile.Tick(_characters[0], ref _bullets[pointer], pointer);
+        bullet.weapon.projectileBehaviour.Tick(ref bullet, pointer);
       }
     }
   }

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2810594be2e84ce69e54ce1c12fac06e, type: 3}
-  m_Name: RedBullet
+  m_Script: {fileID: 11500000, guid: 1551568990754426bf4d2beffdc3ec0d, type: 3}
+  m_Name: SlowBulletsProjectileBehaviour
   m_EditorClassIdentifier: 
-  worldObjectPrefab: {fileID: 6010139431648226660, guid: f0f5b513872b13842896acae3ae7c386, type: 3}
+  worldObjectPrefab: {fileID: 6010139431648226660, guid: f33629610712c8f41895f4da989ee718, type: 3}

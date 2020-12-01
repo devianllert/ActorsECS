@@ -30,6 +30,5 @@ MonoBehaviour:
   handGripAnimation: {fileID: 7400000, guid: e5a5cbe40a543c1499fb683d273dcecd, type: 2}
   hitSounds: []
   shootSounds: []
-  projectile: {fileID: 11400000, guid: 0948751a954532147ad42e7f57abc64b, type: 2}
-  HitVFX: 0
+  projectileBehaviour: {fileID: 11400000, guid: 1130622cd0e29de46b3e1c89354b2d7d, type: 2}
   attackEffects: []
