@@ -82,6 +82,8 @@ namespace ActorsECS.Modules.Character.Processors
         cInput.Movement.x = Accelerate(_movement.x, cInput.Movement.x, delta, 0.1f, 0.05f);
         cInput.Movement.y = Accelerate(_movement.y, cInput.Movement.y, delta, 0.1f, 0.05f);
 
+        cInput.Look = _look;
+        
         cInput.Interact = _interact;
         cInput.Shoot = _shoot;
         cInput.Reload = _reload;

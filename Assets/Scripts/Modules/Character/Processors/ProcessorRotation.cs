@@ -10,23 +10,15 @@ namespace ActorsECS.Modules.Character.Processors
   {
     [ExcludeBy(Tag.Roll)] private readonly Group<ComponentInput> _characters = default;
 
-    private static Camera Camera => Camera.main;
-    private static Mouse Mouse => Mouse.current;
+    private static readonly Camera Camera = Camera.main;
 
     public void TickFixed(float delta)
     {
-      var looking = Mouse.position.ReadValue();
       var transform = Camera.transform;
 
       var cameraForward = transform.forward;
       var cameraRight = transform.right;
-
-      var screenRay = Camera.ScreenPointToRay(looking);
-
-      var plane = new Plane(Vector3.up, 0);
-
-      plane.Raycast(screenRay, out var dist);
-
+      
       foreach (var character in _characters)
       {
         ref var cInput = ref character.ComponentInput();
@@ -35,6 +27,12 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cMovementDirection = ref character.ComponentMovementDirection();
         var rigidbody = character.GetMono<Rigidbody>();
 
+        var screenRay = Camera.ScreenPointToRay(cInput.Look);
+
+        var plane = new Plane(Vector3.up, 0);
+
+        plane.Raycast(screenRay, out var dist);
+        
         var closestHitPosition = screenRay.GetPoint(dist) - rigidbody.transform.position;
         closestHitPosition.y = 0;
         var newRotation = quaternion.LookRotation(closestHitPosition, Vector3.up);
