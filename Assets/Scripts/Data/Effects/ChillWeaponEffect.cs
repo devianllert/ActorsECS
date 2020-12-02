@@ -13,7 +13,7 @@ namespace ActorsECS.Data.Effects
     public int Damage;
     public float Time;
 
-    public override void OnAttack(ent target, ent user, ref WeaponItem.AttackData attackData)
+    public override void OnAttack(ent target, ent user, ref AttackData attackData)
     {
       if (!(Random.value < PercentageChance / 100.0f)) return;
 

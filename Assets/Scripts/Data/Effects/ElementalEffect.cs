@@ -79,7 +79,7 @@ namespace ActorsECS.Data.Effects
       {
         _sinceLastDamage = 0;
 
-        var data = new WeaponItem.AttackData(_target);
+        var data = new AttackData(_target);
 
         data.AddDamage(_damageType, _damage);
 

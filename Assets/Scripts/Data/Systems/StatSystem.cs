@@ -233,7 +233,7 @@ namespace ActorsECS.Data.Systems
     ///   This will also notify the DamageUI so a damage number is displayed.
     /// </summary>
     /// <param name="attackData"></param>
-    public void Damage(WeaponItem.AttackData attackData)
+    public void Damage(AttackData attackData)
     {
       var totalDamage = attackData.GetFullDamage();
 
@@ -243,7 +243,7 @@ namespace ActorsECS.Data.Systems
       // DamageUI.Instance.NewDamage(totalDamage, m_Owner.transform.position);
     }
 
-    private void RenderDamages(WeaponItem.AttackData attackData)
+    private void RenderDamages(AttackData attackData)
     {
       var target = attackData.Target;
 
