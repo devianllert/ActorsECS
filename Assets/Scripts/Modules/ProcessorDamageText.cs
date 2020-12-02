@@ -5,8 +5,9 @@ namespace ActorsECS.Modules
 {
   internal sealed class ProcessorDamageText : Processor, ITick
   {
+    private readonly Camera _camera = Camera.main;
+  
     private Buffer<SegmentDamageText> _texts => Layer.GetBuffer<SegmentDamageText>();
-
 
     public void Tick(float delta)
     {
@@ -14,12 +15,9 @@ namespace ActorsECS.Modules
       {
         ref var text = ref _texts[pointer];
 
-        if (!(Camera.main is null))
-        {
-          var transform = text.source.transform;
-          transform.localRotation =
-            new Quaternion(Camera.main.transform.localRotation.x, 0, 0, transform.localRotation.w);
-        }
+        var transform = text.source.transform;
+        transform.localRotation =
+          new Quaternion(_camera.transform.localRotation.x, 0, 0, transform.localRotation.w);
 
         if (text.startTime + 0.4f < UnityEngine.Time.time)
         {
