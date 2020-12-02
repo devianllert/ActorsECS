@@ -24,25 +24,30 @@ namespace ActorsECS.Modules.Shooting.Processors
       foreach (var character in _characters)
       {
         ref var cInput = ref character.ComponentInput();
+        ref var cWeapon = ref character.ComponentWeapon();
 
-        if (cInput.Reload && !character.Has(Tag.Reload)) character.Set(Tag.Reload);
+        if (cInput.Reload && !character.Has(Tag.Reload))
+        {
+          cWeapon.reloadStartTime = UnityEngine.Time.time;
+
+          character.Set(Tag.Reload);
+
+          _reloadUI.StartReload(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
+        }
       }
-    }
 
-    public override void HandleEcsEvents()
-    {
-      foreach (var character in _reloadingCharacters.added) Layer.Run(StartReload(character));
-    }
+      foreach (var character in _reloadingCharacters)
+      {
+        ref var cWeapon = ref character.ComponentWeapon();
+        ref var cEquipment = ref character.ComponentEquipment();
 
-    private IEnumerator StartReload(ent character)
-    {
-      _reloadUI.StartReload(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
-
-      yield return Layer.Wait(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
-
-      character.ComponentWeapon().currentAmmo = character.ComponentEquipment().equipmentSystem.Weapon.stats.ammo;
-
-      character.Remove(Tag.Reload);
+        if (cWeapon.reloadStartTime + cEquipment.equipmentSystem.Weapon.stats.reloadTime <= UnityEngine.Time.time)
+        {
+          character.ComponentWeapon().currentAmmo = character.ComponentEquipment().equipmentSystem.Weapon.stats.ammo;
+          
+          character.Remove(Tag.Reload);
+        }
+      }
     }
   }
 }
