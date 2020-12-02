@@ -12,6 +12,7 @@ namespace ActorsECS.Modules.Common
   {
     public float fireTime;
     public int currentAmmo;
+    public float reloadStartTime;
   }
 
   #region HELPERS
