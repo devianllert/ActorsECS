@@ -20,7 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c6fbb3-e4ae-46c5-b4a2-743659834ebb" name="Default Changelist" comment="feat: add loot ui">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActorsECS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Pistol/Pistol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Weapons/Pistol/Pistol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene Starter.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Systems/EquipmentSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Systems/EquipmentSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/LootUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/SegmentDamageText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Loot/Components/ComponentLootData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/ProcessorDamageText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SFXManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentAim.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Effects/ChillWeaponEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/LootableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/StatSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/ElementalEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Events/GameEventListener.cs" />
@@ -110,30 +112,43 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentEquipment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VFX/VFXManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorBullets.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Systems/EquipmentSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/ActorCharacter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Effects/ElementalEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Items/WeaponItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Components/ComponentInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorGatheringInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/BaseBulletSegment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentLaser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Behaviours/BasicBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Behaviours/ShootingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/ProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorProjectiles.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/ProcessorDamageText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Components/SegmentBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Shooting/Processors/ProcessorReload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Systems/AttackSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Systems/EquipmentSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Items/WeaponItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Items/AttackData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Systems/StatSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Effects/ChillWeaponEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Effects/ElementalEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/EnemySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Components/ComponentEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Common/ComponentWeapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/CharacterWeaponController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/SlowBulletsProjectileBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/Processors/ProcessorEnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Projectiles/BulletsProjectileBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorLootCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Character/Processors/ProcessorRoll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Modules/Enemy/ActorEnemy.cs" />
       </list>
     </option>
   </component>
@@ -230,7 +245,9 @@
       <workItem from="1606463824589" duration="26169000" />
       <workItem from="1606567669118" duration="22843000" />
       <workItem from="1606647341690" duration="14552000" />
-      <workItem from="1606808775573" duration="14595000" />
+      <workItem from="1606808775573" duration="18659000" />
+      <workItem from="1606907247289" duration="15462000" />
+      <workItem from="1607000616739" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add loot ui">
       <created>1603297327807</created>

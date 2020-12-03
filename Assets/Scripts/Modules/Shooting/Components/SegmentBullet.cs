@@ -16,6 +16,5 @@ namespace ActorsECS.Modules.Shooting.Components
     public float distance;
     public Quaternion direction;
     public float range;
-    public float damage;
   }
 }

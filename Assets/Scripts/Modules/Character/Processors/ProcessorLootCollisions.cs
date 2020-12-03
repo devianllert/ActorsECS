@@ -16,7 +16,7 @@ namespace ActorsECS.Modules.Character.Processors
       foreach (var character in _characters)
       {
         var col = character.GetMono<CapsuleCollider>();
-        var transform = character.GetMono<Rigidbody>().transform;
+        var transform = character.transform;
 
         var (top, bottom) = GetCapsuleBounds(col, transform);
 

@@ -3,6 +3,7 @@ using ActorsECS.Modules.Common;
 using ActorsECS.Modules.Shooting.Components;
 using ActorsECS.VFX;
 using Pixeye.Actors;
+using Unity.Mathematics;
 using UnityEngine;
 using Time = UnityEngine.Time;
 
@@ -15,17 +16,16 @@ namespace ActorsECS.Data.Projectiles
     {
       ref var bullet = ref character.layer.GetBuffer<SegmentBullet>().Add();
       ref var cEquipment = ref character.ComponentEquipment().equipmentSystem;
-      ref var cRotation = ref character.ComponentRotation();
-
-      var transform = character.GetMono<Transform>();
+      ref var aimPoint = ref character.ComponentAim().point;
+      ref var projectilePoint = ref character.ComponentWeapon().projectilePoint;
 
       bullet.owner = character;
       bullet.weapon = cEquipment.Weapon;
-      bullet.position = transform.position + Vector3.up + transform.forward;
+      bullet.position = projectilePoint.position;
       bullet.speed = cEquipment.Weapon.stats.speed;
       bullet.source = character.layer.Obj.Create(Pool.Entities, worldObjectPrefab, bullet.position);
       bullet.distance = 0f;
-      bullet.direction = cRotation.rotation;
+      bullet.direction = quaternion.LookRotation(aimPoint, Vector3.up);
       bullet.range = cEquipment.Weapon.stats.range;
     }
 

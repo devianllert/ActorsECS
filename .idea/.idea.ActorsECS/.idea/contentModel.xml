@@ -33,6 +33,7 @@
               <e p="ChillWeaponEffect.cs" t="Include" />
               <e p="ElementalEffect.cs" t="Include" />
             </e>
+            <e p="Enemy.cs" t="Include" />
             <e p="Events" t="Include">
               <e p="Editor" t="Include">
                 <e p="EventEditor.cs" t="Include" />
@@ -41,6 +42,7 @@
               <e p="GameEventListener.cs" t="Include" />
             </e>
             <e p="Items" t="Include">
+              <e p="AttackData.cs" t="Include" />
               <e p="EquipmentItem.cs" t="Include" />
               <e p="Item.cs" t="Include" />
               <e p="UsableItem.cs" t="Include" />
@@ -128,6 +130,7 @@
             <e p="LootUI.cs" t="Include" />
             <e p="ReloadUI.cs" t="Include" />
             <e p="TotalAmmoUI.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
           <e p="VFX" t="Include">
             <e p="Editor" t="Include">

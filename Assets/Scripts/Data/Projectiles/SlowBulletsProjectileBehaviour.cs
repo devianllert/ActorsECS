@@ -16,12 +16,11 @@ namespace ActorsECS.Data.Projectiles
       ref var bullet = ref character.layer.GetBuffer<SegmentBullet>().Add();
       ref var cEquipment = ref character.ComponentEquipment().equipmentSystem;
       ref var cRotation = ref character.ComponentRotation();
-
-      var transform = character.GetMono<Transform>();
+      ref var projectilePoint = ref character.ComponentWeapon().projectilePoint;
 
       bullet.owner = character;
       bullet.weapon = cEquipment.Weapon;
-      bullet.position = transform.position + Vector3.up + transform.forward;
+      bullet.position = projectilePoint.position;
       bullet.speed = cEquipment.Weapon.stats.speed;
       bullet.source = character.layer.Obj.Create(Pool.Entities, worldObjectPrefab, bullet.position);
       bullet.distance = 0f;

@@ -13,7 +13,6 @@
       <Path>../../../Users/Professional/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.visualeffectgraph@8.2.0</Path>
     </attachedFolders>
     <explicitIncludes>
-      <Path>Assets</Path>
       <Path>Library/PackageCache/com.pixeye.ecs@33af006c18</Path>
       <Path>Library/PackageCache/com.unity.animation.rigging@0.3.4-preview</Path>
       <Path>Library/PackageCache/com.unity.burst@1.3.9</Path>

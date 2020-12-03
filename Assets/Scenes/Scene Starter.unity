@@ -5086,7 +5086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252492017430348123, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 135b8d178eec57b4d8711a1f9e1ab72f, type: 3}
@@ -6930,6 +6930,10 @@ PrefabInstance:
     - target: {fileID: 8582016750944340136, guid: bc1bddecba192a3428693ba4175aec25, type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582016750944340139, guid: bc1bddecba192a3428693ba4175aec25, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc1bddecba192a3428693ba4175aec25, type: 3}

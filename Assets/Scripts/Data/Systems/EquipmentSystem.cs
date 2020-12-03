@@ -100,11 +100,13 @@ namespace ActorsECS.Data.Systems
                 }
                     break;
                 case EquipmentItem.EquipmentSlot.Weapon:
+                {
                     var weaponController = _owner.GetMono<CharacterWeaponController>();
                     weaponController.SetupWeaponModel(item as WeaponItem);
                     
                     Weapon = item as WeaponItem;
                     Weapon.EquippedBy(_owner);
+                }
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

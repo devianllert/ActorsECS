@@ -26,11 +26,16 @@ namespace ActorsECS.Modules.Character
       return weaponHolder.transform.GetChild(2);
     }
 
+    public Transform FindProjectilePoint(Transform weaponObject)
+    {
+      return weaponObject.Find("ProjectilePoint");
+    }
+
     public void SetupWeaponModel(WeaponItem weapon)
     {
       if (HasSetupedWeapon()) Destroy(GetWeaponObject().gameObject);
 
-      Obj.Create(weapon.worldObjectPrefab, weaponHolder.transform);
+      var weaponObject = Obj.Create(weapon.worldObjectPrefab, weaponHolder.transform);
 
       weaponHolder.transform.localPosition = Vector3.zero;
       weaponHolder.transform.localRotation = Quaternion.identity;
@@ -41,6 +46,23 @@ namespace ActorsECS.Modules.Character
       animatorController.SetLayerWeight(1, 1f);
 
       overrides["EmptyWeaponAnimation"] = weapon.handGripAnimation;
+
+      GetComponent<Actor>().entity.ComponentWeapon().projectilePoint = FindProjectilePoint(weaponObject);
+    }
+    
+    public void SetupWeaponModel()
+    {
+      if (HasSetupedWeapon()) Destroy(GetWeaponObject().gameObject);
+
+      weaponHolder.transform.localPosition = Vector3.zero;
+      weaponHolder.transform.localRotation = Quaternion.identity;
+
+      handsIK.weight = 0f;
+      var animatorController = GetComponent<Animator>();
+      var overrides = animatorController.runtimeAnimatorController as AnimatorOverrideController;
+      animatorController.SetLayerWeight(1, 0);
+
+      overrides["EmptyWeaponAnimation"] = null;
     }
 
 #if UNITY_EDITOR

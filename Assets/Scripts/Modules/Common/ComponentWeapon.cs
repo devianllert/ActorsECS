@@ -4,6 +4,7 @@ using ActorsECS.Data;
 using ActorsECS.Data.Items;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
+using UnityEngine;
 
 namespace ActorsECS.Modules.Common
 {
@@ -13,6 +14,7 @@ namespace ActorsECS.Modules.Common
     public float fireTime;
     public int currentAmmo;
     public float reloadStartTime;
+    public Transform projectilePoint;
   }
 
   #region HELPERS

@@ -49,8 +49,6 @@ namespace ActorsECS.Modules.Character.Processors
 
           rolledCharacter.Remove(Tag.Roll);
         }
-
-        ;
       }
     }
 

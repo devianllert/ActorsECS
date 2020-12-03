@@ -1,6 +1,9 @@
-﻿using ActorsECS.Modules.Character.Components;
+﻿using System;
+using ActorsECS.Data;
+using ActorsECS.Modules.Character.Components;
 using ActorsECS.Modules.Enemy.Components;
 using Pixeye.Actors;
+using UnityEngine;
 
 namespace ActorsECS.Modules.Enemy.Processors
 {
@@ -13,15 +16,26 @@ namespace ActorsECS.Modules.Enemy.Processors
     public void Tick(float delta)
     {
       foreach (var enemy in _enemies)
-      foreach (var character in _characters)
       {
-        // var characterTransform = character.GetMono<Transform>();
-        // var enemyTransform = enemy.GetMono<Transform>();
+        ref var enemyState = ref enemy.ComponentEnemy().state;
         //
-        // var position = characterTransform.position;
-        // enemyTransform.LookAt(math.distance(enemyTransform.position, position) <= 10f
-        //   ? position
-        //   : Vector3.forward);
+        // switch (enemyState)
+        // {
+        //   case EnemyState.Idle:
+        //     Debug.Log("Enemy in idle state");
+        //     break;
+        //   case EnemyState.Attack:
+        //     Debug.Log("Enemy in attack state");
+        //     break;
+        //   case EnemyState.Patrol:
+        //     Debug.Log("Enemy in patrol state");
+        //     break;
+        //   case EnemyState.Chase:
+        //     Debug.Log("Enemy in chase state");
+        //     break;
+        //   default:
+        //     throw new ArgumentOutOfRangeException();
+        // }
       }
     }
   }

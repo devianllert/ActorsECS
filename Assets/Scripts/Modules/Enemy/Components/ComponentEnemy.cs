@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
+using ActorsECS.Data;
 using Pixeye.Actors;
 using Unity.IL2CPP.CompilerServices;
 
@@ -9,6 +10,7 @@ namespace ActorsECS.Modules.Enemy.Components
   public struct ComponentEnemy
   {
     public string name;
+    public EnemyState state;
   }
 
   #region HELPERS
