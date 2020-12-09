@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemSprite: {fileID: 0}
+  description: 
+  worldObjectPrefab: {fileID: 0}
+  slot: 0
+  equippedEffects: []
+  bulletType: 0
+  stats:
+    rateOfFire: 1
+    range: 1
+    speed: 1
+    minimumDamage: 1
+    maximumDamage: 1
+    ammo: 1
+    reloadTime: 1
+  handGripAnimation: {fileID: 0}
+  hitSounds: []
+  shootSounds: []
+  projectileBehaviour: {fileID: 0}
+  attackEffects: []

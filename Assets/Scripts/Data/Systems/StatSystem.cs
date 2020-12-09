@@ -29,7 +29,6 @@ namespace ActorsECS.Data.Systems
       Fire,
       Cold,
       Lightning,
-
       Chaos
       //ADD YOUR CUSTOM TYPE AFTER
     }

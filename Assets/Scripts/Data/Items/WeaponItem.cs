@@ -21,9 +21,8 @@ namespace ActorsECS.Data.Items
   [CreateAssetMenu(fileName = "Weapon", menuName = "Data/Create/Weapon", order = 0)]
   public class WeaponItem : EquipmentItem
   {
-    [Header("Bullet Type")] public int bulletType;
-
-    [Header("Stats")] public Stat stats = new Stat
+    [Header("Stats")]
+    public Stat stats = new Stat
     {
       speed = 1.0f,
       maximumDamage = 1,
@@ -34,16 +33,20 @@ namespace ActorsECS.Data.Items
       rateOfFire = 1
     };
 
-    [Header("Animations")] public AnimationClip handGripAnimation;
+    [Header("Animations")]
+    public AnimationClip handGripAnimation;
 
-    [Header("Sounds")] public AudioClip[] hitSounds;
+    [Header("Sounds")]
+    public AudioClip[] hitSounds;
     public AudioClip[] shootSounds;
 
     [Space]
     [Header("Projectile")]
     public ProjectileBehaviour projectileBehaviour;
 
-    [Space] [Header("Hit Effects")] public List<WeaponAttackEffect> attackEffects;
+    [Space]
+    [Header("Hit Effects")]
+    public List<WeaponAttackEffect> attackEffects;
 
     public override void Pickup(ent character, ent loot)
     {

@@ -40,9 +40,9 @@ namespace ActorsECS.Modules.Character.Processors
         var desiredDirection = cameraForward * cInput.Movement.y + cameraRight * cInput.Movement.x;
 
         var movement = new Vector3(desiredDirection.x, 0f, desiredDirection.z);
-
-        var forw = math.dot(movement, math.mul(cRotation.rotation, math.forward()));
-        var stra = math.dot(movement, math.mul(cRotation.rotation, math.right()));
+        
+        var forw = Vector3.Dot(movement, character.transform.forward);
+        var stra = Vector3.Dot(movement, character.transform.right);
 
         cMovementDirection.direction = new Vector2(forw, stra);
 

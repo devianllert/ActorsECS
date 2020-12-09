@@ -13,7 +13,8 @@ namespace ActorsECS.Modules.Loot
 
       if (entity.transform.childCount > 0)
       {
-        var outline = entity.transform.GetChild(0).gameObject.AddComponent<Outline>();
+        var outline = transform.GetChild(0).AddGet<Outline>();
+
         outline.enabled = false;
       }
     }
