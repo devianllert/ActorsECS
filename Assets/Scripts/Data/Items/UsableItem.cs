@@ -13,7 +13,7 @@ namespace ActorsECS.Data.Items
   ///   When it is used, all the stored UsageEffects will be run, allowing to specify what that item does.
   ///   (e.g. a AddHealth effect will give health point back to the user)
   /// </summary>
-  [CreateAssetMenu(fileName = "UsableItem", menuName = "Data/Create/UsableItem", order = -999)]
+  [CreateAssetMenu(menuName = "Game/Create/UsableItem")]
   public class UsableItem : Item
   {
     public List<UsageEffect> UsageEffects;

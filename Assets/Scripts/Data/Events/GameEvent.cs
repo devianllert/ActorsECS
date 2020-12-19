@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace ActorsECS.Data.Events
 {
-  [CreateAssetMenu(fileName = "FILENAME", menuName = "MENUNAME", order = 0)]
+  [CreateAssetMenu(menuName = "Game/Events/GameEvent")]
   public class GameEvent : ScriptableObject
   {
     /// <summary>

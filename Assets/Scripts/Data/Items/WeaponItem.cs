@@ -16,7 +16,7 @@ namespace ActorsECS.Data.Items
   ///   OnAttack function called during a hit, and their OnPostAttack function called after all OnAttack of all effects
   ///   are called.
   /// </summary>
-  [CreateAssetMenu(fileName = "Weapon", menuName = "Data/Create/Weapon", order = 0)]
+  [CreateAssetMenu(menuName = "Game/Create/Weapon")]
   public class WeaponItem : EquipmentItem
   {
     [Header("Stats")]

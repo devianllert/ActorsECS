@@ -140,6 +140,7 @@
               </e>
               <e p="GameEvent.cs" t="Include" />
               <e p="GameEventListener.cs" t="Include" />
+              <e p="VoidEventChannel.cs" t="Include" />
             </e>
             <e p="Items" t="Include">
               <e p="AttackData.cs" t="Include" />
