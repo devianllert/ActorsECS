@@ -1,5 +1,4 @@
 ﻿using System;
-using ActorsECS.Core.Modules.Character.Mono;
 using ActorsECS.Data.Items;
 using Pixeye.Actors;
 

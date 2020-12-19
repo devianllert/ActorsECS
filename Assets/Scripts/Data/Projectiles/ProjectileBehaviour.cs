@@ -1,4 +1,4 @@
-﻿using ActorsECS.Core.Modules.Shooting.Components;
+﻿using ActorsECS.Modules.Shooting.Components;
 using Pixeye.Actors;
 using UnityEngine;
 

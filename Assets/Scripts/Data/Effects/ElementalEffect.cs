@@ -1,7 +1,7 @@
 ﻿using System;
-using ActorsECS.Core.VFX;
 using ActorsECS.Data.Items;
 using ActorsECS.Data.Systems;
+using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Time = UnityEngine.Time;

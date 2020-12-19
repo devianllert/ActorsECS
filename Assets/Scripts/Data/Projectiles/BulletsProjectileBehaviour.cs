@@ -1,8 +1,6 @@
-﻿using ActorsECS.Core;
-using ActorsECS.Core.Modules.Character.Components;
-using ActorsECS.Core.Modules.Common;
-using ActorsECS.Core.Modules.Shooting.Components;
-using ActorsECS.Core.VFX;
+﻿using ActorsECS.Modules.Common;
+using ActorsECS.Modules.Shooting.Components;
+using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Random = Pixeye.Actors.Random;

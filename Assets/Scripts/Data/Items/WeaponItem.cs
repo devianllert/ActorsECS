@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ActorsECS.Core.Modules.Common;
-using ActorsECS.Core.Modules.Loot.Components;
 using ActorsECS.Data.Projectiles;
 using ActorsECS.Data.Systems;
+using ActorsECS.Modules.Common;
+using ActorsECS.Modules.Loot.Components;
 using Pixeye.Actors;
 using UnityEngine;
 using Random = Pixeye.Actors.Random;

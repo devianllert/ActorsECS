@@ -1,5 +1,4 @@
-﻿using ActorsECS.Core;
-using Pixeye.Actors;
+﻿using Pixeye.Actors;
 using UnityEditor;
 using UnityEngine;
 

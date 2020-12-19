@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="InputActions.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Kevin Iglesias" t="Include">
             <e p="SheathScript" t="Include">
@@ -121,107 +120,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Core" t="Include">
-            <e p="AI" t="Include">
-              <e p="EnemyShooter" t="Include">
-                <e p="FindPlayer.cs" t="Include" />
-                <e p="ShooterAgent.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Modules" t="Include">
-              <e p="Character" t="Include">
-                <e p="ActorCharacter.cs" t="Include" />
-                <e p="Components" t="Include">
-                  <e p="ComponentAim.cs" t="Include" />
-                  <e p="ComponentInput.cs" t="Include" />
-                  <e p="ComponentMovementDirection.cs" t="Include" />
-                  <e p="ComponentRoll.cs" t="Include" />
-                  <e p="ComponentRotation.cs" t="Include" />
-                </e>
-                <e p="Mono" t="Include">
-                  <e p="CharacterWeaponController.cs" t="Include" />
-                </e>
-                <e p="Processors" t="Include">
-                  <e p="ProcessorAnimation.cs" t="Include" />
-                  <e p="ProcessorGatheringInput.cs" t="Include" />
-                  <e p="ProcessorLootCollisions.cs" t="Include" />
-                  <e p="ProcessorMove.cs" t="Include" />
-                  <e p="ProcessorPickup.cs" t="Include" />
-                  <e p="ProcessorRoll.cs" t="Include" />
-                  <e p="ProcessorRotation.cs" t="Include" />
-                  <e p="ProcessorStats.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Common" t="Include">
-                <e p="ComponentEquipment.cs" t="Include" />
-                <e p="ComponentMovement.cs" t="Include" />
-                <e p="ComponentStats.cs" t="Include" />
-                <e p="ComponentWeapon.cs" t="Include" />
-              </e>
-              <e p="Enemy" t="Include">
-                <e p="ActorEnemy.cs" t="Include" />
-                <e p="Components" t="Include">
-                  <e p="ComponentAI.cs" t="Include" />
-                  <e p="ComponentAttack.cs" t="Include" />
-                  <e p="ComponentChase.cs" t="Include" />
-                  <e p="ComponentEnemy.cs" t="Include" />
-                  <e p="ComponentPatrol.cs" t="Include" />
-                </e>
-                <e p="Processors" t="Include">
-                  <e p="ProcessorEnemyAI.cs" t="Include" />
-                  <e p="ProcessorEnemyDeath.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Loot" t="Include">
-                <e p="ActorLoot.cs" t="Include" />
-                <e p="Components" t="Include">
-                  <e p="ComponentLootData.cs" t="Include" />
-                </e>
-                <e p="Processors" t="Include">
-                  <e p="ProcessorOutline.cs" t="Include" />
-                </e>
-              </e>
-              <e p="ProcessorDamageText.cs" t="Include" />
-              <e p="SegmentDamageText.cs" t="Include" />
-              <e p="Shooting" t="Include">
-                <e p="Components" t="Include">
-                  <e p="SegmentBullet.cs" t="Include" />
-                  <e p="SegmentLaser.cs" t="Include" />
-                </e>
-                <e p="Processors" t="Include">
-                  <e p="ProcessorProjectiles.cs" t="Include" />
-                  <e p="ProcessorReload.cs" t="Include" />
-                  <e p="ProcessorShooting.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="SFXManager.cs" t="Include" />
-            <e p="Tag.cs" t="Include" />
-            <e p="UI" t="Include">
-              <e p="CurrentAmmoUI.cs" t="Include" />
-              <e p="InteractUI.cs" t="Include" />
-              <e p="Menus" t="Include">
-                <e p="GameMenu.cs" t="Include" />
-                <e p="MainMenu.cs" t="Include" />
-                <e p="PauseMenu.cs" t="Include" />
-              </e>
-              <e p="MenuSystem" t="Include">
-                <e p="Menu.cs" t="Include" />
-                <e p="MenuManager.cs" t="Include" />
-                <e p="SimpleMenu.cs" t="Include" />
-              </e>
-              <e p="ReloadUI.cs" t="Include" />
-              <e p="TotalAmmoUI.cs" t="Include" />
-              <e p="UIManager.cs" t="Include" />
-            </e>
-            <e p="VFX" t="Include">
-              <e p="Editor" t="Include">
-                <e p="VFXDBEditor.cs" t="Include" />
-              </e>
-              <e p="ProcessorVFX.cs" t="Include" />
-              <e p="VFXDatabase.cs" t="Include" />
-              <e p="VFXManager.cs" t="Include" />
-              <e p="VFXType.cs" t="Include" />
+          <e p="AI" t="Include">
+            <e p="EnemyShooter" t="Include">
+              <e p="FindPlayer.cs" t="Include" />
+              <e p="ShooterAgent.cs" t="Include" />
             </e>
           </e>
           <e p="Data" t="Include">
@@ -256,8 +158,106 @@
               <e p="StatSystem.cs" t="Include" />
             </e>
           </e>
+          <e p="Input" t="Include">
+            <e p="InputActions.cs" t="Include" />
+          </e>
           <e p="LayerStarter.cs" t="Include" />
+          <e p="Modules" t="Include">
+            <e p="Character" t="Include">
+              <e p="ActorCharacter.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="ComponentAim.cs" t="Include" />
+                <e p="ComponentInput.cs" t="Include" />
+                <e p="ComponentMovementDirection.cs" t="Include" />
+                <e p="ComponentRoll.cs" t="Include" />
+                <e p="ComponentRotation.cs" t="Include" />
+              </e>
+              <e p="Mono" t="Include">
+                <e p="CharacterWeaponController.cs" t="Include" />
+              </e>
+              <e p="Processors" t="Include">
+                <e p="ProcessorAnimation.cs" t="Include" />
+                <e p="ProcessorGatheringInput.cs" t="Include" />
+                <e p="ProcessorLootCollisions.cs" t="Include" />
+                <e p="ProcessorMove.cs" t="Include" />
+                <e p="ProcessorPickup.cs" t="Include" />
+                <e p="ProcessorRoll.cs" t="Include" />
+                <e p="ProcessorRotation.cs" t="Include" />
+                <e p="ProcessorStats.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Common" t="Include">
+              <e p="ComponentEquipment.cs" t="Include" />
+              <e p="ComponentMovement.cs" t="Include" />
+              <e p="ComponentStats.cs" t="Include" />
+              <e p="ComponentWeapon.cs" t="Include" />
+            </e>
+            <e p="Enemy" t="Include">
+              <e p="ActorEnemy.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="ComponentAI.cs" t="Include" />
+                <e p="ComponentAttack.cs" t="Include" />
+                <e p="ComponentChase.cs" t="Include" />
+                <e p="ComponentEnemy.cs" t="Include" />
+                <e p="ComponentPatrol.cs" t="Include" />
+              </e>
+              <e p="Processors" t="Include">
+                <e p="ProcessorEnemyAI.cs" t="Include" />
+                <e p="ProcessorEnemyDeath.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Loot" t="Include">
+              <e p="ActorLoot.cs" t="Include" />
+              <e p="Components" t="Include">
+                <e p="ComponentLootData.cs" t="Include" />
+              </e>
+              <e p="Processors" t="Include">
+                <e p="ProcessorOutline.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ProcessorDamageText.cs" t="Include" />
+            <e p="SegmentDamageText.cs" t="Include" />
+            <e p="Shooting" t="Include">
+              <e p="Components" t="Include">
+                <e p="SegmentBullet.cs" t="Include" />
+                <e p="SegmentLaser.cs" t="Include" />
+              </e>
+              <e p="Processors" t="Include">
+                <e p="ProcessorProjectiles.cs" t="Include" />
+                <e p="ProcessorReload.cs" t="Include" />
+                <e p="ProcessorShooting.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="SFXManager.cs" t="Include" />
           <e p="Singleton.cs" t="Include" />
+          <e p="Tag.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="CurrentAmmoUI.cs" t="Include" />
+            <e p="InteractUI.cs" t="Include" />
+            <e p="Menus" t="Include">
+              <e p="GameMenu.cs" t="Include" />
+              <e p="MainMenu.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+            </e>
+            <e p="MenuSystem" t="Include">
+              <e p="Menu.cs" t="Include" />
+              <e p="MenuManager.cs" t="Include" />
+              <e p="SimpleMenu.cs" t="Include" />
+            </e>
+            <e p="ReloadUI.cs" t="Include" />
+            <e p="TotalAmmoUI.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+          <e p="VFX" t="Include">
+            <e p="Editor" t="Include">
+              <e p="VFXDBEditor.cs" t="Include" />
+            </e>
+            <e p="ProcessorVFX.cs" t="Include" />
+            <e p="VFXDatabase.cs" t="Include" />
+            <e p="VFXManager.cs" t="Include" />
+            <e p="VFXType.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

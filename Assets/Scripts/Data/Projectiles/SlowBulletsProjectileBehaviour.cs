@@ -1,7 +1,7 @@
-﻿using ActorsECS.Core.Modules.Character.Components;
-using ActorsECS.Core.Modules.Common;
-using ActorsECS.Core.Modules.Shooting.Components;
-using ActorsECS.Core.VFX;
+﻿using ActorsECS.Modules.Character.Components;
+using ActorsECS.Modules.Common;
+using ActorsECS.Modules.Shooting.Components;
+using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Time = UnityEngine.Time;
