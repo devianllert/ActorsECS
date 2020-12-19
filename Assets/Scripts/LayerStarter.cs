@@ -1,9 +1,9 @@
-﻿using ActorsECS.Modules;
-using ActorsECS.Modules.Character.Processors;
-using ActorsECS.Modules.Enemy.Processors;
-using ActorsECS.Modules.Loot.Processors;
-using ActorsECS.Modules.Shooting.Components;
-using ActorsECS.Modules.Shooting.Processors;
+﻿using ActorsECS.Core.Modules;
+using ActorsECS.Core.Modules.Character.Processors;
+using ActorsECS.Core.Modules.Enemy.Processors;
+using ActorsECS.Core.Modules.Loot.Processors;
+using ActorsECS.Core.Modules.Shooting.Components;
+using ActorsECS.Core.Modules.Shooting.Processors;
 using Pixeye.Actors;
 
 namespace ActorsECS

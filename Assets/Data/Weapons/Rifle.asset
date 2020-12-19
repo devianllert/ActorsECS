@@ -18,17 +18,19 @@ MonoBehaviour:
   worldObjectPrefab: {fileID: 82333611384371101, guid: 17841d522a9d83b42b06d280eb4d506b, type: 3}
   slot: 5
   equippedEffects: []
-  bulletType: 0
   stats:
     rateOfFire: 400
     range: 15
-    speed: 25
+    speed: 40
     minimumDamage: 12
     maximumDamage: 17
     ammo: 24
     reloadTime: 1.5
   handGripAnimation: {fileID: 7400000, guid: f932a5d789078f448be83c49df71c8d3, type: 2}
   hitSounds: []
-  shootSounds: []
+  shootSounds:
+  - {fileID: 8300000, guid: f310c4275c4a29c4395ab918aac34bbb, type: 3}
+  - {fileID: 8300000, guid: c35407837ab202c49a3a941eecf0fbe1, type: 3}
+  - {fileID: 8300000, guid: 607db0fb0ea77fb4cb04f699e4b31bb2, type: 3}
   projectileBehaviour: {fileID: 11400000, guid: 0948751a954532147ad42e7f57abc64b, type: 2}
   attackEffects: []

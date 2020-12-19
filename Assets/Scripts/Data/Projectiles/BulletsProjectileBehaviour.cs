@@ -1,9 +1,11 @@
-﻿using ActorsECS.Modules.Character.Components;
-using ActorsECS.Modules.Common;
-using ActorsECS.Modules.Shooting.Components;
-using ActorsECS.VFX;
+﻿using ActorsECS.Core;
+using ActorsECS.Core.Modules.Character.Components;
+using ActorsECS.Core.Modules.Common;
+using ActorsECS.Core.Modules.Shooting.Components;
+using ActorsECS.Core.VFX;
 using Pixeye.Actors;
 using UnityEngine;
+using Random = Pixeye.Actors.Random;
 using Time = UnityEngine.Time;
 
 namespace ActorsECS.Data.Projectiles
@@ -13,19 +15,33 @@ namespace ActorsECS.Data.Projectiles
   {
     public override void Launch(ent character)
     {
-      ref var bullet = ref character.layer.GetBuffer<SegmentBullet>().Add();
       ref var cEquipment = ref character.ComponentEquipment().equipmentSystem;
-      ref var cRotation = ref character.ComponentRotation();
+      ref var cWeapon = ref character.ComponentWeapon();
       ref var projectilePoint = ref character.ComponentWeapon().projectilePoint;
 
-      bullet.owner = character;
-      bullet.weapon = cEquipment.Weapon;
-      bullet.position = projectilePoint.position;
-      bullet.speed = cEquipment.Weapon.stats.speed;
-      bullet.source = Layer<LayerStarter>.Obj.Create(Pool.Entities, worldObjectPrefab, bullet.position);
-      bullet.distance = 0f;
-      bullet.direction = cRotation.rotation;
-      bullet.range = cEquipment.Weapon.stats.range;
+      if (cWeapon.fireTime <= 0 && cWeapon.currentAmmo != 0)
+      {
+        cWeapon.fireTime = 60 / cEquipment.Weapon.stats.rateOfFire;
+
+        SFXManager.PlaySound(SFXManager.Use.Player, new SFXManager.PlayData()
+        {
+          Clip = cEquipment.Weapon.shootSounds[Random.Range(0, cEquipment.Weapon.shootSounds.Length)], 
+          Position = character.transform.position,
+        });
+        
+        cWeapon.currentAmmo -= 1;
+
+        ref var bullet = ref character.layer.GetBuffer<SegmentBullet>().Add();
+
+        bullet.owner = character;
+        bullet.weapon = cEquipment.Weapon;
+        bullet.position = projectilePoint.position;
+        bullet.speed = cEquipment.Weapon.stats.speed;
+        bullet.source = Layer<LayerStarter>.Obj.Create(Pool.Entities, worldObjectPrefab, bullet.position);
+        bullet.distance = 0f;
+        bullet.direction = character.transform.rotation;
+        bullet.range = cEquipment.Weapon.stats.range;
+      }
     }
 
     public override void Destroy(int pointer)
@@ -51,7 +67,7 @@ namespace ActorsECS.Data.Projectiles
       var positionIncrement = bullet.source.forward * bullet.speed * Time.deltaTime;
 
       if (Physics.Raycast(bullet.source.position, positionIncrement.normalized, out var hit,
-        positionIncrement.magnitude, LayerMask.GetMask("Enemy", "Environment")))
+        positionIncrement.magnitude, LayerMask.GetMask("Player", "Enemy", "Environment")))
       {
         var actor = hit.transform.gameObject.GetComponent<Actor>();
 

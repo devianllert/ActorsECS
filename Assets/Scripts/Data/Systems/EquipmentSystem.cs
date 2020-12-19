@@ -1,7 +1,6 @@
 ﻿using System;
+using ActorsECS.Core.Modules.Character.Mono;
 using ActorsECS.Data.Items;
-using ActorsECS.Modules.Character;
-using ActorsECS.Modules.Character.Mono;
 using Pixeye.Actors;
 
 namespace ActorsECS.Data.Systems
@@ -102,9 +101,6 @@ namespace ActorsECS.Data.Systems
                     break;
                 case EquipmentItem.EquipmentSlot.Weapon:
                 {
-                    var weaponController = _owner.GetMono<CharacterWeaponController>();
-                    weaponController.SetupWeaponModel(item as WeaponItem);
-                    
                     Weapon = item as WeaponItem;
                     Weapon.EquippedBy(_owner);
                 }

@@ -1,4 +1,5 @@
-﻿using Pixeye.Actors;
+﻿using ActorsECS.Core;
+using Pixeye.Actors;
 using UnityEditor;
 using UnityEngine;
 
@@ -36,6 +37,7 @@ namespace ActorsECS.Data.Items
     /// <param name="loot">The loot entity that picked up</param>
     public virtual void Pickup(ent character, ent loot)
     {
+      SFXManager.PlaySound(SFXManager.Use.Sound2D, new SFXManager.PlayData(){Clip = SFXManager.PickupSound});
     }
 
     /// <summary>

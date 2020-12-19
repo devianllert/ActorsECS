@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using ActorsECS.Core.Modules.Common;
+using ActorsECS.Core.Modules.Loot.Components;
 using ActorsECS.Data.Projectiles;
 using ActorsECS.Data.Systems;
-using ActorsECS.Modules.Character;
-using ActorsECS.Modules.Common;
-using ActorsECS.Modules.Loot.Components;
-using ActorsECS.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Random = Pixeye.Actors.Random;
@@ -50,6 +48,8 @@ namespace ActorsECS.Data.Items
 
     public override void Pickup(ent character, ent loot)
     {
+      base.Pickup(character, loot);
+      
       var hasAmmo = loot.Has<ComponentWeapon>();
       
       ref var cWeapon = ref character.Get<ComponentWeapon>();

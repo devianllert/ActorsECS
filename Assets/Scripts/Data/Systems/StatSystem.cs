@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ActorsECS.Core.Modules;
 using ActorsECS.Data.Effects;
 using ActorsECS.Data.Items;
-using ActorsECS.Modules;
 using Pixeye.Actors;
 using TMPro;
 using UnityEngine;

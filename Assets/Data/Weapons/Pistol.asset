@@ -18,7 +18,6 @@ MonoBehaviour:
   worldObjectPrefab: {fileID: 1121525155587680, guid: c6865c562fd3f2841a92dc0cbbd6b4b4, type: 3}
   slot: 5
   equippedEffects: []
-  bulletType: 0
   stats:
     rateOfFire: 200
     range: 10
@@ -29,6 +28,9 @@ MonoBehaviour:
     reloadTime: 1
   handGripAnimation: {fileID: 7400000, guid: e5a5cbe40a543c1499fb683d273dcecd, type: 2}
   hitSounds: []
-  shootSounds: []
+  shootSounds:
+  - {fileID: 8300000, guid: f310c4275c4a29c4395ab918aac34bbb, type: 3}
+  - {fileID: 8300000, guid: c35407837ab202c49a3a941eecf0fbe1, type: 3}
+  - {fileID: 8300000, guid: 607db0fb0ea77fb4cb04f699e4b31bb2, type: 3}
   projectileBehaviour: {fileID: 11400000, guid: 1130622cd0e29de46b3e1c89354b2d7d, type: 2}
   attackEffects: []

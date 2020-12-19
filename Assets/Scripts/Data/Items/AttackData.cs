@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
+using ActorsECS.Core.Modules.Common;
 using ActorsECS.Data.Systems;
-using ActorsECS.Modules.Common;
 using Pixeye.Actors;
 
 namespace ActorsECS.Data.Items

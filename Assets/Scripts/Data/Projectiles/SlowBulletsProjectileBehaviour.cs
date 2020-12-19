@@ -1,7 +1,7 @@
-﻿using ActorsECS.Modules.Character.Components;
-using ActorsECS.Modules.Common;
-using ActorsECS.Modules.Shooting.Components;
-using ActorsECS.VFX;
+﻿using ActorsECS.Core.Modules.Character.Components;
+using ActorsECS.Core.Modules.Common;
+using ActorsECS.Core.Modules.Shooting.Components;
+using ActorsECS.Core.VFX;
 using Pixeye.Actors;
 using UnityEngine;
 using Time = UnityEngine.Time;
@@ -51,7 +51,7 @@ namespace ActorsECS.Data.Projectiles
       var positionIncrement = bullet.source.forward * (bullet.speed / 5f) * Time.deltaTime;
 
       if (Physics.Raycast(bullet.source.position, positionIncrement.normalized, out var hit,
-        positionIncrement.magnitude, LayerMask.GetMask("Enemy", "Environment")))
+        positionIncrement.magnitude, LayerMask.GetMask("Player", "Enemy", "Environment")))
       {
         var actor = hit.transform.gameObject.GetComponent<Actor>();
 

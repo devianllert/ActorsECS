@@ -13,6 +13,7 @@
       <Path>../../../Users/Professional/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.visualeffectgraph@8.2.0</Path>
     </attachedFolders>
     <explicitIncludes>
+      <Path>Library/PackageCache/com.fluid.behavior-tree@2.2.2</Path>
       <Path>Library/PackageCache/com.pixeye.ecs@33af006c18</Path>
       <Path>Library/PackageCache/com.unity.animation.rigging@0.3.4-preview</Path>
       <Path>Library/PackageCache/com.unity.burst@1.3.9</Path>
@@ -44,8 +45,6 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
-      <Path>Temp</Path>
-      <Path>UIElementsSchema</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>

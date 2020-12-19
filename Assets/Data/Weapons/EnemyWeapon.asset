@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e6f0e8f792454c8bdaea8eb2fd3241, type: 3}
+  m_Name: EnemyWeapon
+  m_EditorClassIdentifier: 
+  itemName: Rifle
+  itemSprite: {fileID: 0}
+  description: 
+  worldObjectPrefab: {fileID: 82333611384371101, guid: 17841d522a9d83b42b06d280eb4d506b, type: 3}
+  slot: 5
+  equippedEffects: []
+  stats:
+    rateOfFire: 200
+    range: 20
+    speed: 40
+    minimumDamage: 5
+    maximumDamage: 10
+    ammo: 1
+    reloadTime: 1
+  handGripAnimation: {fileID: 7400000, guid: f932a5d789078f448be83c49df71c8d3, type: 2}
+  hitSounds: []
+  shootSounds:
+  - {fileID: 8300000, guid: f310c4275c4a29c4395ab918aac34bbb, type: 3}
+  - {fileID: 8300000, guid: c35407837ab202c49a3a941eecf0fbe1, type: 3}
+  - {fileID: 8300000, guid: 607db0fb0ea77fb4cb04f699e4b31bb2, type: 3}
+  projectileBehaviour: {fileID: 11400000, guid: 0948751a954532147ad42e7f57abc64b, type: 2}
+  attackEffects: []
