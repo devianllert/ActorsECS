@@ -256,7 +256,7 @@ namespace ActorsECS.Data.Systems
         ref var text = ref target.layer.GetBuffer<SegmentDamageText>().Add();
 
         var randomRange = Random.Range(-0.5f, 0.5f);
-        text.source = target.layer.Obj.Create(Pool.Entities, "Prefabs/DamageText",
+        text.source = target.layer.Obj.Create(Pool.Entities, "Prefabs/UI/DamageText",
           new Vector3(randomRange, 0, 0) + target.transform.position + Vector3.up * 2);
         text.source.GetComponentInChildren<TextMeshPro>().text = damage.ToString();
         text.source.GetComponentInChildren<TextMeshPro>().color = DamageTypeColor[(int) damageType];

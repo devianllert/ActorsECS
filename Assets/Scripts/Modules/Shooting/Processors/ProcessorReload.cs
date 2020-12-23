@@ -2,7 +2,6 @@
 using ActorsECS.Modules.Common;
 using ActorsECS.UI;
 using Pixeye.Actors;
-using UnityEngine;
 
 namespace ActorsECS.Modules.Shooting.Processors
 {
@@ -11,12 +10,6 @@ namespace ActorsECS.Modules.Shooting.Processors
     private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
 
     [GroupBy(Tag.Reload)] private readonly Group<ComponentWeapon> _reloadingCharacters = default;
-    private readonly ReloadUI _reloadUI;
-
-    public ProcessorReload()
-    {
-      _reloadUI = Object.FindObjectOfType<ReloadUI>();
-    }
 
     public void Tick(float delta)
     {
@@ -31,7 +24,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
           character.Set(Tag.Reload);
 
-          _reloadUI.StartReload(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
+          ReloadUI.Instance.StartReload(character.ComponentEquipment().equipmentSystem.Weapon.stats.reloadTime);
         }
       }
 

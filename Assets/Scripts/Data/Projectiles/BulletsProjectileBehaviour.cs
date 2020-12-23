@@ -73,19 +73,19 @@ namespace ActorsECS.Data.Projectiles
         {
           bullet.weapon.Attack(bullet.owner, actor.entity);
 
-          bullet.weapon.projectileBehaviour.Destroy(pointer);
+          Destroy(pointer);
 
           return;
         }
 
-        bullet.weapon.projectileBehaviour.Destroy(pointer);
+        Destroy(pointer);
 
         return;
       }
 
       bullet.source.position += positionIncrement;
 
-      if (bullet.distance >= bullet.range) bullet.weapon.projectileBehaviour.Destroy(pointer);
+      if (bullet.distance >= bullet.range) Destroy(pointer);
     }
   }
 }

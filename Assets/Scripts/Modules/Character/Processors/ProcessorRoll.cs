@@ -19,7 +19,7 @@ namespace ActorsECS.Modules.Character.Processors
         ref var cInput = ref character.ComponentInput();
         ref var cRoll = ref character.ComponentRoll();
 
-        if (!character.Has(Tag.Roll) && cInput.Roll && cRoll.elapsedCooldown <= 0f) character.Set(Tag.Roll);
+        if (cInput.Roll && !character.Has(Tag.Roll) && cRoll.elapsedCooldown <= 0f) character.Set(Tag.Roll);
 
         if (cRoll.elapsedCooldown > 0) cRoll.elapsedCooldown -= delta;
       }

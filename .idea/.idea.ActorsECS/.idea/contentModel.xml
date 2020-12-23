@@ -178,7 +178,7 @@
               </e>
               <e p="Processors" t="Include">
                 <e p="ProcessorAnimation.cs" t="Include" />
-                <e p="ProcessorGatheringInput.cs" t="Include" />
+                <e p="ProcessorInput.cs" t="Include" />
                 <e p="ProcessorLootCollisions.cs" t="Include" />
                 <e p="ProcessorMove.cs" t="Include" />
                 <e p="ProcessorPickup.cs" t="Include" />

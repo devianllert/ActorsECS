@@ -3,7 +3,7 @@ using TMPro;
 
 namespace ActorsECS.UI
 {
-  public class CurrentAmmoUI : MonoCached
+  public class CurrentAmmoUI : Singleton<CurrentAmmoUI>
   {
     private TMP_Text _currentAmmo;
 

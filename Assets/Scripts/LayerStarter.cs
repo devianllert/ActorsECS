@@ -14,7 +14,7 @@ namespace ActorsECS
     {
       #region Character
 
-      Add<ProcessorGatheringInput>();
+      Add<ProcessorInput>();
       Add<ProcessorMove>();
       Add<ProcessorRotation>();
       Add<ProcessorAnimation>();

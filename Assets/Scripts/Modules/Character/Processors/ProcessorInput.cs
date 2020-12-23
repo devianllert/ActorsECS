@@ -6,11 +6,11 @@ using UnityEngine.InputSystem;
 
 namespace ActorsECS.Modules.Character.Processors
 {
-  internal sealed class ProcessorGatheringInput : Processor, ITick, InputActions.ICharacterControllerActions
+  internal sealed class ProcessorInput : Processor, ITick, InputActions.IGameplayActions, InputActions.IUIActions
   {
     private readonly Group<ComponentInput> _characters = default;
 
-    private readonly InputActions _inputActions;
+    private static InputActions _inputActions;
     private bool _interact;
     private bool _jump;
     private Vector2 _look;
@@ -21,53 +21,54 @@ namespace ActorsECS.Modules.Character.Processors
     private bool _roll;
     private float _shoot;
 
-    public ProcessorGatheringInput()
+    public ProcessorInput()
     {
       _inputActions = new InputActions();
-      _inputActions.CharacterController.SetCallbacks(this);
+      _inputActions.Gameplay.SetCallbacks(this);
+      _inputActions.UI.SetCallbacks(this);
       _inputActions.Enable();
     }
 
-    void InputActions.ICharacterControllerActions.OnMove(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnMove(InputAction.CallbackContext context)
     {
       _movement = context.ReadValue<Vector2>();
     }
 
-    void InputActions.ICharacterControllerActions.OnLook(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnLook(InputAction.CallbackContext context)
     {
       _look = context.ReadValue<Vector2>();
     }
 
-    void InputActions.ICharacterControllerActions.OnFire(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnFire(InputAction.CallbackContext context)
     {
       _shoot = context.ReadValue<float>();
     }
 
-    void InputActions.ICharacterControllerActions.OnJump(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnJump(InputAction.CallbackContext context)
     {
       if (context.started) _jump = true;
       if (context.canceled) _jump = false;
     }
 
-    void InputActions.ICharacterControllerActions.OnReload(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnReload(InputAction.CallbackContext context)
     {
       if (context.started) _reload = true;
       if (context.canceled) _reload = false;
     }
 
-    void InputActions.ICharacterControllerActions.OnInteract(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnInteract(InputAction.CallbackContext context)
     {
       if (context.started) _interact = true;
       if (context.canceled) _interact = false;
     }
 
-    void InputActions.ICharacterControllerActions.OnRoll(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnRoll(InputAction.CallbackContext context)
     {
       if (context.started) _roll = true;
       if (context.canceled) _roll = false;
     }
 
-    void InputActions.ICharacterControllerActions.OnPause(InputAction.CallbackContext context)
+    void InputActions.IGameplayActions.OnPause(InputAction.CallbackContext context)
     {
       if (context.started) _pause = true;
       if (context.canceled) _pause = false;
@@ -100,6 +101,30 @@ namespace ActorsECS.Modules.Character.Processors
     protected override void OnDispose()
     {
       _inputActions.Disable();
+    }
+    
+    public static void EnableDialogueInput()
+    {
+      _inputActions.Gameplay.Disable();
+      _inputActions.UI.Disable();
+    }
+
+    public static void EnableGameplayInput()
+    {
+      _inputActions.Gameplay.Enable();
+      _inputActions.UI.Disable();
+    }
+
+    public static void EnableUIInput()
+    {
+      _inputActions.Gameplay.Disable();
+      _inputActions.UI.Enable();
+    }
+
+    public static void DisableAllInput()
+    {
+      _inputActions.Gameplay.Disable();
+      _inputActions.UI.Disable();
     }
 
     private float Accelerate(float actualInput, float acceleratedInput, float deltaTime, float acceleration,

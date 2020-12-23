@@ -9,8 +9,6 @@ namespace ActorsECS.Modules.Shooting.Processors
   internal sealed class ProcessorShooting : Processor, ITick
   {
     private readonly GameObject _ammoUI;
-    private readonly CurrentAmmoUI _currentAmmoUI;
-    private readonly TotalAmmoUI _totalAmmoUI;
     
     [ExcludeBy(Tag.Reload, Tag.Roll)]
     private readonly Group<ComponentInput, ComponentWeapon> _characters = default;
@@ -22,10 +20,7 @@ namespace ActorsECS.Modules.Shooting.Processors
 
     public ProcessorShooting()
     {
-      _currentAmmoUI = Object.FindObjectOfType<CurrentAmmoUI>();
-      _totalAmmoUI = Object.FindObjectOfType<TotalAmmoUI>();
-
-      _ammoUI = _currentAmmoUI.transform.parent.gameObject;
+      _ammoUI = CurrentAmmoUI.Instance.transform.parent.gameObject;
     }
 
     public void Tick(float delta)
@@ -52,8 +47,8 @@ namespace ActorsECS.Modules.Shooting.Processors
           cEquipment.Weapon.projectileBehaviour.Launch(character);
         }
 
-        _currentAmmoUI.UpdateCurrentAmmo(cWeapon.currentAmmo);
-        _totalAmmoUI.UpdateTotalAmmo(cEquipment.Weapon.stats.ammo);
+        CurrentAmmoUI.Instance.UpdateCurrentAmmo(cWeapon.currentAmmo);
+        TotalAmmoUI.Instance.UpdateTotalAmmo(cEquipment.Weapon.stats.ammo);
       }
     }
   }

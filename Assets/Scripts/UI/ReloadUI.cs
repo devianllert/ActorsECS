@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace ActorsECS.UI
 {
-  public class ReloadUI : MonoCached
+  public class ReloadUI : Singleton<ReloadUI>
   {
     private Image _filledImage;
 
